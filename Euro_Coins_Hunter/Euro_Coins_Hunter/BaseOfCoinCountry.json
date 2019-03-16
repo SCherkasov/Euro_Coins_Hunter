@@ -1,80 +1,878 @@
 {
-	"Countries": [
-		{
-			"name": "Belgium",
-			"flagImageName":"Belgium.jpg",
-			"Coins":[
-				{
-					"name": "1 euro cent",
-					"image": "bel1ec.jpg"
-				},
-				{
-					"name": "2 euro cent",
-					"image": "bel2ec.jpg"
-				},
-				{
-					"name": "5 euro cent",
-					"image": "bel5ec.jpg"
-				},
+  "Countries": [
+    {
+      "name": "Andorra",
+      "flagImageName":"AndorraF.jpg",
+      "Coins":[
         {
-          "name": "10 euro cent",
-          "image": "bel10ec.jpg"
+          "name": "1 euro cent",
+          "image": "and_1.jpg"
         },
         {
-          "name": "20 euro cent",
-          "image": "bel20ec.jpg"
+          "name": "2 euro cent",
+          "image": "and_2.jpg"
         },
-        {
-          "name": "50 euro cent",
-          "image": "bel50ec.jpg"
-        },
-        {
-          "name": "1 euro",
-          "image": "bel1e.jpg"
-        },
-        {
-          "name": "2 euro",
-          "image": "bel2e.jpg"
-        }
-			]
-		},
-		{
-			"name": "Germany",
-			"flagImageName": "Germany.jpg",
-			"Coins": [
-				{
-					"name": "1 euro cent",
-					"image": "ger1ec.jpg"
-				},
-				{
-					"name": "2 euro cent",
-					"image": "ger2ec.jpg"
-				},
         {
           "name": "5 euro cent",
-          "image": "ger5ec.jpg"
+          "image": "and_5.jpg"
         },
         {
           "name": "10 euro cent",
-          "image": "ger10ec.jpg"
+          "image": "and_10.jpg"
         },
         {
           "name": "20 euro cent",
-          "image": "ger20ec.jpg"
+          "image": "and_20.jpg"
         },
         {
           "name": "50 euro cent",
-          "image": "ger50ec.jpg"
+          "image": "and_50.jpg"
         },
         {
           "name": "1 euro",
-          "image": "ger1e.jpg"
+          "image": "and_1e.jpg"
         },
         {
           "name": "2 euro",
-          "image": "ger2e.jpg"
+          "image": "and_2e.jpg"
         }
-			]
-		}	
-	]
+      ]
+    },
+    {
+      "name": "Austria",
+      "flagImageName": "AustriaF.jpg",
+      "Coins": [
+        {
+          "name": "1 euro cent",
+          "image": "aus_1.jpg"
+        },
+        {
+          "name": "2 euro cent",
+          "image": "aus_2.jpg"
+        },
+        {
+          "name": "5 euro cent",
+          "image": "aus_5.jpg"
+        },
+        {
+          "name": "10 euro cent",
+          "image": "aus_10.jpg"
+        },
+        {
+          "name": "20 euro cent",
+          "image": "aus_20.jpg"
+        },
+        {
+          "name": "50 euro cent",
+          "image": "aus_50.jpg"
+        },
+        {
+          "name": "1 euro",
+          "image": "aus_1e.jpg"
+        },
+        {
+          "name": "2 euro",
+          "image": "aus_2e.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Belgium",
+      "flagImageName":"BelgiumF.jpg",
+      "Coins":[
+        {
+          "name": "1 euro cent",
+          "image": "belg_1.jpg"
+        },
+        {
+          "name": "2 euro cent",
+          "image": "belg_2.jpg"
+        },
+        {
+          "name": "5 euro cent",
+          "image": "belg_5.jpg"
+        },
+        {
+          "name": "10 euro cent",
+          "image": "belg_10.jpg"
+        },
+        {
+          "name": "20 euro cent",
+          "image": "belg_20.jpg"
+        },
+        {
+          "name": "50 euro cent",
+          "image": "belg_50.jpg"
+        },
+        {
+          "name": "1 euro",
+          "image": "belg_1e.jpg"
+        },
+        {
+          "name": "2 euro",
+          "image": "belg_2e.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Cyprus",
+      "flagImageName": "CyprusF.jpg",
+      "Coins": [
+        {
+          "name": "1 euro cent",
+          "image": "cyp_1.jpg"
+        },
+        {
+          "name": "2 euro cent",
+          "image": "cyp_2.jpg"
+        },
+        {
+          "name": "5 euro cent",
+          "image": "cyp_5.jpg"
+        },
+        {
+          "name": "10 euro cent",
+          "image": "cyp_10.jpg"
+        },
+        {
+          "name": "20 euro cent",
+          "image": "cyp_20.jpg"
+        },
+        {
+          "name": "50 euro cent",
+          "image": "cyp_50.jpg"
+        },
+        {
+          "name": "1 euro",
+          "image": "cyp_1e.jpg"
+        },
+        {
+          "name": "2 euro",
+          "image": "cyp_2e.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Estonia",
+      "flagImageName": "EstoniaF.jpg",
+      "Coins": [
+        {
+          "name": "1 euro cent",
+          "image": "est_1.jpg"
+        },
+        {
+          "name": "2 euro cent",
+          "image": "est_2.jpg"
+        },
+        {
+          "name": "5 euro cent",
+          "image": "est_5.jpg"
+        },
+        {
+          "name": "10 euro cent",
+          "image": "est_10.jpg"
+        },
+        {
+          "name": "20 euro cent",
+          "image": "est_20.jpg"
+        },
+        {
+          "name": "50 euro cent",
+          "image": "est_50.jpg"
+        },
+        {
+          "name": "1 euro",
+          "image": "est_1e.jpg"
+        },
+        {
+          "name": "2 euro",
+          "image": "est_2e.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Finland",
+      "flagImageName": "FinlandF.jpg",
+      "Coins": [
+        {
+          "name": "1 euro cent",
+          "image": "fin_1.jpg"
+        },
+        {
+          "name": "2 euro cent",
+          "image": "fin_2.jpg"
+        },
+        {
+          "name": "5 euro cent",
+          "image": "fin_5.jpg"
+        },
+        {
+          "name": "10 euro cent",
+          "image": "fin_10.jpg"
+        },
+        {
+          "name": "20 euro cent",
+          "image": "fin_20.jpg"
+        },
+        {
+          "name": "50 euro cent",
+          "image": "fin_50.jpg"
+        },
+        {
+          "name": "1 euro",
+          "image": "fin_1e.jpg"
+        },
+        {
+          "name": "2 euro",
+          "image": "fin_2e.jpg"
+        }
+      ]
+    },
+    {
+      "name": "France",
+      "flagImageName": "FranceF.jpg",
+      "Coins": [
+        {
+          "name": "1 euro cent",
+          "image": "fran_1.jpg"
+        },
+        {
+          "name": "2 euro cent",
+          "image": "fran_2.jpg"
+        },
+        {
+          "name": "5 euro cent",
+          "image": "fran_5.jpg"
+        },
+        {
+          "name": "10 euro cent",
+          "image": "fran_10.jpg"
+        },
+        {
+          "name": "20 euro cent",
+          "image": "fran_20.jpg"
+        },
+        {
+          "name": "50 euro cent",
+          "image": "fran_50.jpg"
+        },
+        {
+          "name": "1 euro",
+          "image": "fran_1e.jpg"
+        },
+        {
+          "name": "2 euro",
+          "image": "fran_2e.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Germany",
+      "flagImageName": "GermanyF.jpg",
+      "Coins": [
+        {
+          "name": "1 euro cent",
+          "image": "ger_1.jpg"
+        },
+        {
+          "name": "2 euro cent",
+          "image": "ger_2.jpg"
+        },
+        {
+          "name": "5 euro cent",
+          "image": "ger_5.jpg"
+        },
+        {
+          "name": "10 euro cent",
+          "image": "ger_10.jpg"
+        },
+        {
+          "name": "20 euro cent",
+          "image": "ger_20.jpg"
+        },
+        {
+          "name": "50 euro cent",
+          "image": "ger_50.jpg"
+        },
+        {
+          "name": "1 euro",
+          "image": "ger_1e.jpg"
+        },
+        {
+          "name": "2 euro",
+          "image": "ger_2e.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Greece",
+      "flagImageName": "GreeceF.jpg",
+      "Coins": [
+        {
+          "name": "1 euro cent",
+          "image": "gree_1.jpg"
+        },
+        {
+          "name": "2 euro cent",
+          "image": "gree_2.jpg"
+        },
+        {
+          "name": "5 euro cent",
+          "image": "gree_5.jpg"
+        },
+        {
+          "name": "10 euro cent",
+          "image": "gree_10.jpg"
+        },
+        {
+          "name": "20 euro cent",
+          "image": "gree_20.jpg"
+        },
+        {
+          "name": "50 euro cent",
+          "image": "gree_50.jpg"
+        },
+        {
+          "name": "1 euro",
+          "image": "gree_1e.jpg"
+        },
+        {
+          "name": "2 euro",
+          "image": "gree_2e.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Ireland",
+      "flagImageName": "IrelandF.jpg",
+      "Coins": [
+        {
+          "name": "1 euro cent",
+          "image": "ire_1.jpg"
+        },
+        {
+          "name": "2 euro cent",
+          "image": "ire_2.jpg"
+        },
+        {
+          "name": "5 euro cent",
+          "image": "ire_5.jpg"
+        },
+        {
+          "name": "10 euro cent",
+          "image": "ire_10.jpg"
+        },
+        {
+          "name": "20 euro cent",
+          "image": "ire_20.jpg"
+        },
+        {
+          "name": "50 euro cent",
+          "image": "ire_50.jpg"
+        },
+        {
+          "name": "1 euro",
+          "image": "ire_1e.jpg"
+        },
+        {
+          "name": "2 euro",
+          "image": "ire_2e.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Italy",
+      "flagImageName": "ItalyF.jpg",
+      "Coins": [
+        {
+          "name": "1 euro cent",
+          "image": "ita_1.jpg"
+        },
+        {
+          "name": "2 euro cent",
+          "image": "ita_2.jpg"
+        },
+        {
+          "name": "5 euro cent",
+          "image": "ita_5.jpg"
+        },
+        {
+          "name": "10 euro cent",
+          "image": "ita_10.jpg"
+        },
+        {
+          "name": "20 euro cent",
+          "image": "ita_20.jpg"
+        },
+        {
+          "name": "50 euro cent",
+          "image": "ita_50.jpg"
+        },
+        {
+          "name": "1 euro",
+          "image": "ita_1e.jpg"
+        },
+        {
+          "name": "2 euro",
+          "image": "ita_2e.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Latvia",
+      "flagImageName": "LatviaF.jpg",
+      "Coins": [
+        {
+          "name": "1 euro cent",
+          "image": "lat_1.jpg"
+        },
+        {
+          "name": "2 euro cent",
+          "image": "lat_2.jpg"
+        },
+        {
+          "name": "5 euro cent",
+          "image": "lat_5.jpg"
+        },
+        {
+          "name": "10 euro cent",
+          "image": "lat_10.jpg"
+        },
+        {
+          "name": "20 euro cent",
+          "image": "lat_20.jpg"
+        },
+        {
+          "name": "50 euro cent",
+          "image": "lat_50.jpg"
+        },
+        {
+          "name": "1 euro",
+          "image": "lat_1e.jpg"
+        },
+        {
+          "name": "2 euro",
+          "image": "lat_2e.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Lithuania",
+      "flagImageName": "LithuaniaF.jpg",
+      "Coins": [
+        {
+          "name": "1 euro cent",
+          "image": "lith_1.jpg"
+        },
+        {
+          "name": "2 euro cent",
+          "image": "lith_2.jpg"
+        },
+        {
+          "name": "5 euro cent",
+          "image": "lith_5.jpg"
+        },
+        {
+          "name": "10 euro cent",
+          "image": "lith_10.jpg"
+        },
+        {
+          "name": "20 euro cent",
+          "image": "lith_20.jpg"
+        },
+        {
+          "name": "50 euro cent",
+          "image": "lith_50.jpg"
+        },
+        {
+          "name": "1 euro",
+          "image": "lith_1e.jpg"
+        },
+        {
+          "name": "2 euro",
+          "image": "lith_2e.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Luxembourg",
+      "flagImageName": "LuxembourgF.jpg",
+      "Coins": [
+        {
+          "name": "1 euro cent",
+          "image": "lux_1.jpg"
+        },
+        {
+          "name": "2 euro cent",
+          "image": "lux_2.jpg"
+        },
+        {
+          "name": "5 euro cent",
+          "image": "lux_5.jpg"
+        },
+        {
+          "name": "10 euro cent",
+          "image": "lux_10.jpg"
+        },
+        {
+          "name": "20 euro cent",
+          "image": "lux_20.jpg"
+        },
+        {
+          "name": "50 euro cent",
+          "image": "lux_50.jpg"
+        },
+        {
+          "name": "1 euro",
+          "image": "lux_1e.jpg"
+        },
+        {
+          "name": "2 euro",
+          "image": "lux_2e.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Malta",
+      "flagImageName": "MaltaF.jpg",
+      "Coins": [
+        {
+          "name": "1 euro cent",
+          "image": "mal_1.jpg"
+        },
+        {
+          "name": "2 euro cent",
+          "image": "mal_2.jpg"
+        },
+        {
+          "name": "5 euro cent",
+          "image": "mal_5.jpg"
+        },
+        {
+          "name": "10 euro cent",
+          "image": "mal_10.jpg"
+        },
+        {
+          "name": "20 euro cent",
+          "image": "mal_20.jpg"
+        },
+        {
+          "name": "50 euro cent",
+          "image": "mal_50.jpg"
+        },
+        {
+          "name": "1 euro",
+          "image": "mal_1e.jpg"
+        },
+        {
+          "name": "2 euro",
+          "image": "mal_2e.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Monaco",
+      "flagImageName": "MonacoF.jpg",
+      "Coins": [
+        {
+          "name": "1 euro cent",
+          "image": "mon_1.jpg"
+        },
+        {
+          "name": "2 euro cent",
+          "image": "mon_2.jpg"
+        },
+        {
+          "name": "5 euro cent",
+          "image": "mon_5.jpg"
+        },
+        {
+          "name": "10 euro cent",
+          "image": "mon_10.jpg"
+        },
+        {
+          "name": "20 euro cent",
+          "image": "mon_20.jpg"
+        },
+        {
+          "name": "50 euro cent",
+          "image": "mon_50.jpg"
+        },
+        {
+          "name": "1 euro",
+          "image": "mon_1e.jpg"
+        },
+        {
+          "name": "2 euro",
+          "image": "mon_2e.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Netherlands",
+      "flagImageName": "NetherlandsF.jpg",
+      "Coins": [
+        {
+          "name": "1 euro cent",
+          "image": "neth_1.jpg"
+        },
+        {
+          "name": "2 euro cent",
+          "image": "neth_2.jpg"
+        },
+        {
+          "name": "5 euro cent",
+          "image": "neth_5.jpg"
+        },
+        {
+          "name": "10 euro cent",
+          "image": "neth_10.jpg"
+        },
+        {
+          "name": "20 euro cent",
+          "image": "neth_20.jpg"
+        },
+        {
+          "name": "50 euro cent",
+          "image": "neth_50.jpg"
+        },
+        {
+          "name": "1 euro",
+          "image": "neth_1e.jpg"
+        },
+        {
+          "name": "2 euro",
+          "image": "neth_2e.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Portugal",
+      "flagImageName": "PortugalF.jpg",
+      "Coins": [
+        {
+          "name": "1 euro cent",
+          "image": "port_1.jpg"
+        },
+        {
+          "name": "2 euro cent",
+          "image": "port_2.jpg"
+        },
+        {
+          "name": "5 euro cent",
+          "image": "port_5.jpg"
+        },
+        {
+          "name": "10 euro cent",
+          "image": "port_10.jpg"
+        },
+        {
+          "name": "20 euro cent",
+          "image": "port_20.jpg"
+        },
+        {
+          "name": "50 euro cent",
+          "image": "port_50.jpg"
+        },
+        {
+          "name": "1 euro",
+          "image": "port_1e.jpg"
+        },
+        {
+          "name": "2 euro",
+          "image": "port_2e.jpg"
+        }
+      ]
+    },
+    {
+      "name": "San Marino",
+      "flagImageName": "San_MarinoF.jpg",
+      "Coins": [
+        {
+          "name": "1 euro cent",
+          "image": "san_1.jpg"
+        },
+        {
+          "name": "2 euro cent",
+          "image": "san_2.jpg"
+        },
+        {
+          "name": "5 euro cent",
+          "image": "san_5.jpg"
+        },
+        {
+          "name": "10 euro cent",
+          "image": "san_10.jpg"
+        },
+        {
+          "name": "20 euro cent",
+          "image": "san_20.jpg"
+        },
+        {
+          "name": "50 euro cent",
+          "image": "san_50.jpg"
+        },
+        {
+          "name": "1 euro",
+          "image": "san_1e.jpg"
+        },
+        {
+          "name": "2 euro",
+          "image": "san_2e.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Slovakia",
+      "flagImageName": "SlovakiaF.jpg",
+      "Coins": [
+        {
+          "name": "1 euro cent",
+          "image": "slovak_1.jpg"
+        },
+        {
+          "name": "2 euro cent",
+          "image": "slovak_2.jpg"
+        },
+        {
+          "name": "5 euro cent",
+          "image": "slovak_5.jpg"
+        },
+        {
+          "name": "10 euro cent",
+          "image": "slovak_10.jpg"
+        },
+        {
+          "name": "20 euro cent",
+          "image": "slovak_20.jpg"
+        },
+        {
+          "name": "50 euro cent",
+          "image": "slovak_50.jpg"
+        },
+        {
+          "name": "1 euro",
+          "image": "slovak_1e.jpg"
+        },
+        {
+          "name": "2 euro",
+          "image": "slovak_2e.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Slovenia",
+      "flagImageName": "SloveniaF.jpg",
+      "Coins": [
+        {
+          "name": "1 euro cent",
+          "image": "sloven_1.jpg"
+        },
+        {
+          "name": "2 euro cent",
+          "image": "sloven_2.jpg"
+        },
+        {
+          "name": "5 euro cent",
+          "image": "sloven_5.jpg"
+        },
+        {
+          "name": "10 euro cent",
+          "image": "sloven_10.jpg"
+        },
+        {
+          "name": "20 euro cent",
+          "image": "sloven_20.jpg"
+        },
+        {
+          "name": "50 euro cent",
+          "image": "sloven_50.jpg"
+        },
+        {
+          "name": "1 euro",
+          "image": "sloven_1e.jpg"
+        },
+        {
+          "name": "2 euro",
+          "image": "sloven_2e.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Spain",
+      "flagImageName": "SpainF.jpg",
+      "Coins": [
+        {
+          "name": "1 euro cent",
+          "image": "spa_1.jpg"
+        },
+        {
+          "name": "2 euro cent",
+          "image": "spa_2.jpg"
+        },
+        {
+          "name": "5 euro cent",
+          "image": "spa_5.jpg"
+        },
+        {
+          "name": "10 euro cent",
+          "image": "spa_10.jpg"
+        },
+        {
+          "name": "20 euro cent",
+          "image": "spa_20.jpg"
+        },
+        {
+          "name": "50 euro cent",
+          "image": "spa_50.jpg"
+        },
+        {
+          "name": "1 euro",
+          "image": "spa_1e.jpg"
+        },
+        {
+          "name": "2 euro",
+          "image": "spa_2e.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Vatican",
+      "flagImageName": "VaticanF.jpg",
+      "Coins": [
+        {
+          "name": "1 euro cent",
+          "image": "vat_1.jpg"
+        },
+        {
+          "name": "2 euro cent",
+          "image": "vat_2.jpg"
+        },
+        {
+          "name": "5 euro cent",
+          "image": "vat_5.jpg"
+        },
+        {
+          "name": "10 euro cent",
+          "image": "vat_10.jpg"
+        },
+        {
+          "name": "20 euro cent",
+          "image": "vat_20.jpg"
+        },
+        {
+          "name": "50 euro cent",
+          "image": "vat_50.jpg"
+        },
+        {
+          "name": "1 euro",
+          "image": "vat_1e.jpg"
+        },
+        {
+          "name": "2 euro",
+          "image": "vat_2e.jpg"
+        }
+      ]
+    }
+  ]
 }

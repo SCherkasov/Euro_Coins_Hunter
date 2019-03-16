@@ -1,0 +1,80 @@
+{
+	"Countries": [
+		{
+			"name": "Belgium",
+			"flagImageName":"Belgium.jpg",
+			"Coins":[
+				{
+					"name": "1 euro cent",
+					"image": "bel1ec.jpg"
+				},
+				{
+					"name": "2 euro cent",
+					"image": "bel2ec.jpg"
+				},
+				{
+					"name": "5 euro cent",
+					"image": "bel5ec.jpg"
+				},
+        {
+          "name": "10 euro cent",
+          "image": "bel10ec.jpg"
+        },
+        {
+          "name": "20 euro cent",
+          "image": "bel20ec.jpg"
+        },
+        {
+          "name": "50 euro cent",
+          "image": "bel50ec.jpg"
+        },
+        {
+          "name": "1 euro",
+          "image": "bel1e.jpg"
+        },
+        {
+          "name": "2 euro",
+          "image": "bel2e.jpg"
+        }
+			]
+		},
+		{
+			"name": "Germany",
+			"flagImageName": "Germany.jpg",
+			"Coins": [
+				{
+					"name": "1 euro cent",
+					"image": "ger1ec.jpg"
+				},
+				{
+					"name": "2 euro cent",
+					"image": "ger2ec.jpg"
+				},
+        {
+          "name": "5 euro cent",
+          "image": "ger5ec.jpg"
+        },
+        {
+          "name": "10 euro cent",
+          "image": "ger10ec.jpg"
+        },
+        {
+          "name": "20 euro cent",
+          "image": "ger20ec.jpg"
+        },
+        {
+          "name": "50 euro cent",
+          "image": "ger50ec.jpg"
+        },
+        {
+          "name": "1 euro",
+          "image": "ger1e.jpg"
+        },
+        {
+          "name": "2 euro",
+          "image": "ger2e.jpg"
+        }
+			]
+		}	
+	]
+}

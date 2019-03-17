@@ -20,9 +20,7 @@ class FlagsViewController: UIViewController {
     self.coinStore.loadCoins()
     
     let nib = UINib(nibName: "FlagsCollectionViewCell", bundle: nil)
-    flagCollectionView.register(nib,
-                                forCellWithReuseIdentifier:
-      "FlagsCollectionViewCell")
+    flagCollectionView.register(nib, forCellWithReuseIdentifier: "FlagsCollectionViewCell")
     
     setupLayoutToCollectionView()
   }
@@ -47,27 +45,15 @@ extension FlagsViewController: UICollectionViewDataSource {
     return 1
   }
   
-  func collectionView(_ collectionView: UICollectionView,
-                      numberOfItemsInSection section: Int) -> Int {
+  func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
     return self.coinStore.countries.count
-  }
-  
-  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-
-    if segue.identifier == "showCoins" {
-
-      let coinsVC = segue.destination as! CoinsViewController
-      let cell = sender as! FlagsCollectionViewCell
-      let indexPath = self.flagCollectionView.indexPath(for: cell)
-      let countryPost = self.coinStore.countries[(indexPath?.row)!] as Country
-      coinsVC.selectedCountry = countryPost
-    }
   }
   
   func collectionView(_ collectionView: UICollectionView, cellForItemAt
     indexPath: IndexPath) -> UICollectionViewCell {
     
-    let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FlagsCollectionViewCell", for: indexPath) as! FlagsCollectionViewCell
+    let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FlagsCollectionViewCell", for: indexPath)
+      as! FlagsCollectionViewCell
     
     cell.flagNameLabel.text = self.coinStore.countries[indexPath.row].name
     cell.flagImage.image = UIImage(named: self.coinStore.countries[indexPath.row].flagImageName)
@@ -76,3 +62,16 @@ extension FlagsViewController: UICollectionViewDataSource {
   }
 }
 
+extension FlagsViewController: UICollectionViewDelegate {
+  
+  func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+    if let coinsVC = storyboard.instantiateViewController(withIdentifier: "CoinsViewController")
+      as? CoinsViewController
+    {
+      let countryPost = self.coinStore.countries[indexPath.row] as Country
+      coinsVC.selectedCountry = countryPost
+      self.navigationController?.pushViewController(coinsVC, animated: true)
+    }
+  }
+}

@@ -183,15 +183,15 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MgP-HA-4zh">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+                                            <rect key="frame" x="37" y="0.0" width="300" height="300"/>
                                         </imageView>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
-                                        <constraint firstAttribute="bottom" secondItem="MgP-HA-4zh" secondAttribute="bottom" id="AC1-1V-eCp"/>
-                                        <constraint firstAttribute="trailing" secondItem="MgP-HA-4zh" secondAttribute="trailing" id="AOx-xk-M15"/>
-                                        <constraint firstItem="MgP-HA-4zh" firstAttribute="leading" secondItem="pRV-n1-vgf" secondAttribute="leading" id="Fw8-HI-Jcy"/>
-                                        <constraint firstItem="MgP-HA-4zh" firstAttribute="top" secondItem="pRV-n1-vgf" secondAttribute="top" id="feM-2c-408"/>
+                                        <constraint firstAttribute="trailing" secondItem="MgP-HA-4zh" secondAttribute="trailing" constant="38" id="5E4-sn-r8y"/>
+                                        <constraint firstAttribute="bottom" secondItem="MgP-HA-4zh" secondAttribute="bottom" id="aS4-6y-nTc"/>
+                                        <constraint firstItem="MgP-HA-4zh" firstAttribute="leading" secondItem="pRV-n1-vgf" secondAttribute="leading" constant="37" id="mPP-FS-e38"/>
+                                        <constraint firstItem="MgP-HA-4zh" firstAttribute="top" secondItem="pRV-n1-vgf" secondAttribute="top" id="y7o-9g-EPa"/>
                                     </constraints>
                                     <connections>
                                         <outlet property="detailCoinImage" destination="MgP-HA-4zh" id="Fgn-zD-jbn"/>

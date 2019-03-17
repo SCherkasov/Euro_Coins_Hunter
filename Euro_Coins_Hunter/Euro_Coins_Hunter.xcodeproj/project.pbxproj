@@ -11,14 +11,10 @@
 		8A669FC7223D3D3A005423EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A669FC5223D3D3A005423EB /* Main.storyboard */; };
 		8A669FC9223D3D3C005423EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A669FC8223D3D3C005423EB /* Assets.xcassets */; };
 		8A669FCC223D3D3D005423EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A669FCA223D3D3D005423EB /* LaunchScreen.storyboard */; };
-		8A669FD4223D3FD7005423EB /* CountriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A669FD3223D3FD7005423EB /* CountriesController.swift */; };
 		8A669FD7223D41CC005423EB /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A669FD6223D41CC005423EB /* Country.swift */; };
 		8A669FDA223D4208005423EB /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A669FD9223D4208005423EB /* Coin.swift */; };
 		8A669FDC223D4234005423EB /* CoinStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A669FDB223D4234005423EB /* CoinStore.swift */; };
 		8A669FDE223D4271005423EB /* BaseOfCoinCountry.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A669FDD223D4271005423EB /* BaseOfCoinCountry.json */; };
-		8A669FE0223D4310005423EB /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A669FDF223D4310005423EB /* CountryCell.swift */; };
-		8A669FE3223D44D2005423EB /* CoinsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A669FE2223D44D2005423EB /* CoinsController.swift */; };
-		8A669FE5223D452D005423EB /* CoinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A669FE4223D452D005423EB /* CoinCell.swift */; };
 		8A669FEE223E64BA005423EB /* CoinsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A669FEA223E64BA005423EB /* CoinsCollectionViewCell.swift */; };
 		8A669FEF223E64BA005423EB /* FlagsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A669FEB223E64BA005423EB /* FlagsCollectionViewCell.swift */; };
 		8A669FF0223E64BA005423EB /* CoinsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A669FEC223E64BA005423EB /* CoinsCollectionViewCell.xib */; };
@@ -35,14 +31,10 @@
 		8A669FC8223D3D3C005423EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A669FCB223D3D3D005423EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A669FCD223D3D3D005423EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A669FD3223D3FD7005423EB /* CountriesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesController.swift; sourceTree = "<group>"; };
 		8A669FD6223D41CC005423EB /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		8A669FD9223D4208005423EB /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 		8A669FDB223D4234005423EB /* CoinStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinStore.swift; sourceTree = "<group>"; };
 		8A669FDD223D4271005423EB /* BaseOfCoinCountry.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BaseOfCoinCountry.json; sourceTree = "<group>"; };
-		8A669FDF223D4310005423EB /* CountryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
-		8A669FE2223D44D2005423EB /* CoinsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsController.swift; sourceTree = "<group>"; };
-		8A669FE4223D452D005423EB /* CoinCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCell.swift; sourceTree = "<group>"; };
 		8A669FEA223E64BA005423EB /* CoinsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinsCollectionViewCell.swift; sourceTree = "<group>"; };
 		8A669FEB223E64BA005423EB /* FlagsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagsCollectionViewCell.swift; sourceTree = "<group>"; };
 		8A669FEC223E64BA005423EB /* CoinsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoinsCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -98,8 +90,6 @@
 		8A669FD5223D3FE3005423EB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				8A669FD3223D3FD7005423EB /* CountriesController.swift */,
-				8A669FE2223D44D2005423EB /* CoinsController.swift */,
 				8A669FF3223E64E7005423EB /* CoinsViewController.swift */,
 				8A669FF2223E64E7005423EB /* FlagsViewController.swift */,
 				8A669FF6223E7171005423EB /* BlackNavigationController.swift */,
@@ -120,8 +110,6 @@
 		8A669FE1223D431A005423EB /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8A669FDF223D4310005423EB /* CountryCell.swift */,
-				8A669FE4223D452D005423EB /* CoinCell.swift */,
 				8A669FEA223E64BA005423EB /* CoinsCollectionViewCell.swift */,
 				8A669FEC223E64BA005423EB /* CoinsCollectionViewCell.xib */,
 				8A669FEB223E64BA005423EB /* FlagsCollectionViewCell.swift */,
@@ -205,18 +193,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A669FEE223E64BA005423EB /* CoinsCollectionViewCell.swift in Sources */,
-				8A669FE3223D44D2005423EB /* CoinsController.swift in Sources */,
-				8A669FE5223D452D005423EB /* CoinCell.swift in Sources */,
 				8A669FF5223E64E7005423EB /* CoinsViewController.swift in Sources */,
 				8A669FDC223D4234005423EB /* CoinStore.swift in Sources */,
 				8A669FD7223D41CC005423EB /* Country.swift in Sources */,
 				8A669FF7223E7171005423EB /* BlackNavigationController.swift in Sources */,
-				8A669FD4223D3FD7005423EB /* CountriesController.swift in Sources */,
 				8A669FF4223E64E7005423EB /* FlagsViewController.swift in Sources */,
 				8A669FDA223D4208005423EB /* Coin.swift in Sources */,
 				8A669FC2223D3D3A005423EB /* AppDelegate.swift in Sources */,
 				8A669FEF223E64BA005423EB /* FlagsCollectionViewCell.swift in Sources */,
-				8A669FE0223D4310005423EB /* CountryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

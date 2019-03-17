@@ -63,11 +63,19 @@ extension CoinsViewController: UICollectionViewDataSource {
       
       if indexPath.row < self.coinStore.coins.count {
         cell.coinNameLabel.text = self.coinStore.coins[indexPath.row].name
-        cell.coinImage.image = UIImage(named: self.coinStore.coins[indexPath.row].image)
+        
+        let image = UIImage(named: self.coinStore.coins[indexPath.row].image)
+        cell.coinImage.image = image
+        cell.coinImage.layer.cornerRadius = cell.coinImage.frame.size.height / 2
+        cell.coinImage.clipsToBounds = true
       } else {
         if indexPath.row == self.coinStore.coins.count {
           cell.coinNameLabel.text = selectedCountry?.name
-          cell.coinImage.image = UIImage(named: (selectedCountry?.flagImageName)!)
+          
+          let image = UIImage(named: (selectedCountry?.flagImageName)!)
+          cell.coinImage.image = image
+          cell.coinImage.layer.cornerRadius = cell.coinImage.frame.size.height / 2
+          cell.coinImage.clipsToBounds = true
         }
       }
       return cell

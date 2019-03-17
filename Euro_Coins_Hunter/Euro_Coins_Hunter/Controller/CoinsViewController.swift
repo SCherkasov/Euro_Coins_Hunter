@@ -80,5 +80,18 @@ extension CoinsViewController: UICollectionViewDataSource {
       }
       return cell
   }
+}
+
+extension CoinsViewController: UICollectionViewDelegate {
   
+  func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+    if let detailVC = storyboard.instantiateViewController(withIdentifier: "DetailViewController")
+      as? DetailViewController
+    {
+      let coinDetailPost = self.coinStore.coins[indexPath.row] as Coin
+      detailVC.selectedCoin = coinDetailPost
+      self.navigationController?.pushViewController(detailVC, animated: true)
+    }
+  }
 }

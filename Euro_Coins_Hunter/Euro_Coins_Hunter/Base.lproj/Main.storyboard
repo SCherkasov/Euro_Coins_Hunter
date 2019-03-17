@@ -160,17 +160,17 @@
                     <navigationItem key="navigationItem" id="is2-zU-BKr"/>
                     <connections>
                         <outlet property="coinCollectionView" destination="ydg-25-EY7" id="pdc-QU-0eP"/>
-                        <segue destination="CNJ-8K-z2v" kind="show" id="WgF-Ho-WU0"/>
+                        <segue destination="CNJ-8K-z2v" kind="show" identifier="goToDetail" id="WgF-Ho-WU0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="50b-yc-P4k" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1660" y="913"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="zkQ-nc-6ze">
             <objects>
-                <viewController id="CNJ-8K-z2v" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailViewController" id="CNJ-8K-z2v" customClass="DetailViewController" customModule="Euro_Coins_Hunter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4SA-3w-L17">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1100"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -178,7 +178,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lMv-7i-MHU">
                                 <rect key="frame" x="0.0" y="64" width="375" height="1036"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <view key="tableHeaderView" contentMode="scaleToFill" id="pRV-n1-vgf">
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="pRV-n1-vgf" customClass="DetailHeaderView" customModule="Euro_Coins_Hunter" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
@@ -193,9 +193,12 @@
                                         <constraint firstItem="MgP-HA-4zh" firstAttribute="leading" secondItem="pRV-n1-vgf" secondAttribute="leading" id="Fw8-HI-Jcy"/>
                                         <constraint firstItem="MgP-HA-4zh" firstAttribute="top" secondItem="pRV-n1-vgf" secondAttribute="top" id="feM-2c-408"/>
                                     </constraints>
+                                    <connections>
+                                        <outlet property="detailCoinImage" destination="MgP-HA-4zh" id="Fgn-zD-jbn"/>
+                                    </connections>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="dnr-vE-YlP">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell0" id="dnr-vE-YlP" customClass="DetailCountryNameTableViewCell" customModule="Euro_Coins_Hunter" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="328" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dnr-vE-YlP" id="DHJ-t3-EkL">
@@ -230,6 +233,9 @@
                                                 <constraint firstAttribute="bottom" secondItem="UGb-hP-R0G" secondAttribute="bottom" id="ssq-f7-9tV"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="nameCountry" destination="4sc-gF-IHt" id="kxv-f5-BXe"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Ftz-Ky-e2p">
                                         <rect key="frame" x="0.0" y="372" width="375" height="44"/>
@@ -543,9 +549,13 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="CNJ-8K-z2v" id="Rw0-SD-ENx"/>
+                                    <outlet property="delegate" destination="CNJ-8K-z2v" id="0DQ-3A-Zfp"/>
+                                </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Ogp-kw-Sx1" firstAttribute="trailing" secondItem="lMv-7i-MHU" secondAttribute="trailing" id="KYg-Py-knO"/>
                             <constraint firstItem="lMv-7i-MHU" firstAttribute="top" secondItem="Ogp-kw-Sx1" secondAttribute="top" id="KfR-2q-iez"/>
@@ -555,6 +565,10 @@
                         <viewLayoutGuide key="safeArea" id="Ogp-kw-Sx1"/>
                     </view>
                     <size key="freeformSize" width="375" height="1100"/>
+                    <connections>
+                        <outlet property="detailTableView" destination="lMv-7i-MHU" id="tWE-r3-1NN"/>
+                        <outlet property="headerView" destination="pRV-n1-vgf" id="JkF-Cq-8e7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fIY-qG-EL4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

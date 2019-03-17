@@ -24,6 +24,9 @@
 		8A669FF7223E7171005423EB /* BlackNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A669FF6223E7171005423EB /* BlackNavigationController.swift */; };
 		8A669FF9223EBDBB005423EB /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A669FF8223EBDBB005423EB /* LogInViewController.swift */; };
 		8A669FFB223EBDC7005423EB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A669FFA223EBDC7005423EB /* RegisterViewController.swift */; };
+		8A669FFF223EE42C005423EB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A669FFE223EE42C005423EB /* DetailViewController.swift */; };
+		8A66A003223EE9EE005423EB /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A66A002223EE9EE005423EB /* DetailHeaderView.swift */; };
+		8A66A005223EEDC9005423EB /* DetailCountryNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A66A004223EEDC9005423EB /* DetailCountryNameTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		8A669FF6223E7171005423EB /* BlackNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackNavigationController.swift; sourceTree = "<group>"; };
 		8A669FF8223EBDBB005423EB /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		8A669FFA223EBDC7005423EB /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		8A669FFE223EE42C005423EB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8A66A002223EE9EE005423EB /* DetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeaderView.swift; sourceTree = "<group>"; };
+		8A66A004223EEDC9005423EB /* DetailCountryNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCountryNameTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 				8A669FF6223E7171005423EB /* BlackNavigationController.swift */,
 				8A669FF8223EBDBB005423EB /* LogInViewController.swift */,
 				8A669FFA223EBDC7005423EB /* RegisterViewController.swift */,
+				8A669FFE223EE42C005423EB /* DetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -120,6 +127,8 @@
 				8A669FEC223E64BA005423EB /* CoinsCollectionViewCell.xib */,
 				8A669FEB223E64BA005423EB /* FlagsCollectionViewCell.swift */,
 				8A669FED223E64BA005423EB /* FlagsCollectionViewCell.xib */,
+				8A66A002223EE9EE005423EB /* DetailHeaderView.swift */,
+				8A66A004223EEDC9005423EB /* DetailCountryNameTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -201,12 +210,15 @@
 				8A669FEE223E64BA005423EB /* CoinsCollectionViewCell.swift in Sources */,
 				8A669FFB223EBDC7005423EB /* RegisterViewController.swift in Sources */,
 				8A669FF5223E64E7005423EB /* CoinsViewController.swift in Sources */,
+				8A669FFF223EE42C005423EB /* DetailViewController.swift in Sources */,
 				8A669FDC223D4234005423EB /* CoinStore.swift in Sources */,
 				8A669FD7223D41CC005423EB /* Country.swift in Sources */,
+				8A66A005223EEDC9005423EB /* DetailCountryNameTableViewCell.swift in Sources */,
 				8A669FF7223E7171005423EB /* BlackNavigationController.swift in Sources */,
 				8A669FF4223E64E7005423EB /* FlagsViewController.swift in Sources */,
 				8A669FDA223D4208005423EB /* Coin.swift in Sources */,
 				8A669FC2223D3D3A005423EB /* AppDelegate.swift in Sources */,
+				8A66A003223EE9EE005423EB /* DetailHeaderView.swift in Sources */,
 				8A669FF9223EBDBB005423EB /* LogInViewController.swift in Sources */,
 				8A669FEF223E64BA005423EB /* FlagsCollectionViewCell.swift in Sources */,
 			);

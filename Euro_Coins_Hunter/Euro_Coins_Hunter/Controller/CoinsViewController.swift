@@ -85,6 +85,9 @@ extension CoinsViewController: UICollectionViewDataSource {
 extension CoinsViewController: UICollectionViewDelegate {
   
   func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    if indexPath.item == 8 {
+      return
+    } else {
     let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
     if let detailVC = storyboard.instantiateViewController(withIdentifier: "DetailViewController")
       as? DetailViewController
@@ -93,5 +96,6 @@ extension CoinsViewController: UICollectionViewDelegate {
       detailVC.selectedCoin = coinDetailPost
       self.navigationController?.pushViewController(detailVC, animated: true)
     }
+  }
   }
 }

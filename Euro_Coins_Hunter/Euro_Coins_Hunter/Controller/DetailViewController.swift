@@ -18,7 +18,11 @@ class DetailViewController: UIViewController {
   
   override func viewDidLoad() {
         super.viewDidLoad()
-   headerView.detailCoinImage.image = UIImage(named: (selectedCoin?.image)!)
+    let image = UIImage(named: (selectedCoin?.image)!)
+    headerView.detailCoinImage.image = image
+    headerView.detailCoinImage.layer.cornerRadius = headerView.detailCoinImage.frame.size.height / 1.8
+    headerView.detailCoinImage.clipsToBounds = true
+   //headerView.detailCoinImage.image = UIImage(named: (selectedCoin?.image)!)
     }
 }
 

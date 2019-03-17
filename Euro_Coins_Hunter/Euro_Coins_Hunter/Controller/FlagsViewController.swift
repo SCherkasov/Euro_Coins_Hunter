@@ -37,6 +37,13 @@ class FlagsViewController: UIViewController {
     
     flagCollectionView.collectionViewLayout = layout
   }
+  
+  @IBAction func logOutBarButtonItem(_ sender: UIBarButtonItem) {
+    UserDefaults.standard.set(true, forKey: "isUserLoggedIn")
+    UserDefaults.standard.synchronize()
+    
+    self.performSegue(withIdentifier: "goToLogInView", sender: self)
+  }
 }
 
 extension FlagsViewController: UICollectionViewDataSource {

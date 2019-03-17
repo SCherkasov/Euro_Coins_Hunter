@@ -22,6 +22,8 @@
 		8A669FF4223E64E7005423EB /* FlagsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A669FF2223E64E7005423EB /* FlagsViewController.swift */; };
 		8A669FF5223E64E7005423EB /* CoinsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A669FF3223E64E7005423EB /* CoinsViewController.swift */; };
 		8A669FF7223E7171005423EB /* BlackNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A669FF6223E7171005423EB /* BlackNavigationController.swift */; };
+		8A669FF9223EBDBB005423EB /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A669FF8223EBDBB005423EB /* LogInViewController.swift */; };
+		8A669FFB223EBDC7005423EB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A669FFA223EBDC7005423EB /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		8A669FF2223E64E7005423EB /* FlagsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagsViewController.swift; sourceTree = "<group>"; };
 		8A669FF3223E64E7005423EB /* CoinsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinsViewController.swift; sourceTree = "<group>"; };
 		8A669FF6223E7171005423EB /* BlackNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackNavigationController.swift; sourceTree = "<group>"; };
+		8A669FF8223EBDBB005423EB /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		8A669FFA223EBDC7005423EB /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 				8A669FF3223E64E7005423EB /* CoinsViewController.swift */,
 				8A669FF2223E64E7005423EB /* FlagsViewController.swift */,
 				8A669FF6223E7171005423EB /* BlackNavigationController.swift */,
+				8A669FF8223EBDBB005423EB /* LogInViewController.swift */,
+				8A669FFA223EBDC7005423EB /* RegisterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -193,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A669FEE223E64BA005423EB /* CoinsCollectionViewCell.swift in Sources */,
+				8A669FFB223EBDC7005423EB /* RegisterViewController.swift in Sources */,
 				8A669FF5223E64E7005423EB /* CoinsViewController.swift in Sources */,
 				8A669FDC223D4234005423EB /* CoinStore.swift in Sources */,
 				8A669FD7223D41CC005423EB /* Country.swift in Sources */,
@@ -200,6 +207,7 @@
 				8A669FF4223E64E7005423EB /* FlagsViewController.swift in Sources */,
 				8A669FDA223D4208005423EB /* Coin.swift in Sources */,
 				8A669FC2223D3D3A005423EB /* AppDelegate.swift in Sources */,
+				8A669FF9223EBDBB005423EB /* LogInViewController.swift in Sources */,
 				8A669FEF223E64BA005423EB /* FlagsCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

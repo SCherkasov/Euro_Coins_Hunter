@@ -33,7 +33,7 @@ class CountriesController: UICollectionViewController {
   
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     
-    if segue.identifier == "showCoins" {
+    if segue.identifier == "showCoins1" {
       
       let coinsVC = segue.destination as! CoinsController
       let cell = sender as! CountryCell

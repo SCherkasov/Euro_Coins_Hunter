@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FlagsCollectionViewCell" id="gTV-IL-0wX" customClass="FlagsCollectionViewCell" customModule="Euro_Coins_Hunter" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="110"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="110"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DEV-nW-2d4">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="110"/>
+                    </button>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Ll8-zM-wRW">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="110"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QZc-AF-XxV">
+                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="YHH-6L-I1e"/>
+                                    <constraint firstAttribute="width" constant="100" id="oiJ-be-J3C"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kxn-IR-4zF">
+                                <rect key="frame" x="0.0" y="100" width="100" height="10"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icm-2n-bA3">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="10"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="ZGj-8d-Xez"/>
+                                            <constraint firstAttribute="height" constant="10" id="oO4-Sl-chd"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="icm-2n-bA3" firstAttribute="centerX" secondItem="kxn-IR-4zF" secondAttribute="centerX" id="HHZ-4g-bTb"/>
+                                    <constraint firstAttribute="height" constant="10" id="HWv-oa-hxq"/>
+                                    <constraint firstItem="icm-2n-bA3" firstAttribute="centerY" secondItem="kxn-IR-4zF" secondAttribute="centerY" id="OZQ-vA-FM0"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                    </stackView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="DEV-nW-2d4" secondAttribute="bottom" id="6Ud-7U-KCd"/>
+                <constraint firstItem="DEV-nW-2d4" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="GDC-z2-7yK"/>
+                <constraint firstItem="Ll8-zM-wRW" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="aa7-Kz-7EW"/>
+                <constraint firstAttribute="trailing" secondItem="DEV-nW-2d4" secondAttribute="trailing" id="hd5-5D-9Od"/>
+                <constraint firstItem="DEV-nW-2d4" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="pvQ-gU-gS4"/>
+                <constraint firstItem="Ll8-zM-wRW" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="zeU-97-y9M"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="142" height="135"/>
+            <connections>
+                <outlet property="flagImage" destination="QZc-AF-XxV" id="52h-g1-rOP"/>
+                <outlet property="flagNameLabel" destination="icm-2n-bA3" id="03t-aR-wGs"/>
+            </connections>
+            <point key="canvasLocation" x="-40" y="74"/>
+        </collectionViewCell>
+    </objects>
+</document>

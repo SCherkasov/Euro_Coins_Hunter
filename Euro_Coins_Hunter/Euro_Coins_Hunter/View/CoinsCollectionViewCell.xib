@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CoinsCollectionViewCell" id="w6T-Ha-3NY" customClass="CoinsCollectionViewCell" customModule="Euro_Coins_Hunter" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="110"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="110"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rGe-d8-KNt">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="110"/>
+                    </button>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="KU8-5x-f80">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="110"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zVj-nk-JEA">
+                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="ExB-wW-mzB"/>
+                                    <constraint firstAttribute="height" constant="100" id="XQC-vC-2dH"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uu0-2u-abc">
+                                <rect key="frame" x="0.0" y="100" width="100" height="10"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vaw-BH-uj1">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="10"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="10" id="42K-cx-b7r"/>
+                                            <constraint firstAttribute="width" constant="100" id="D1R-Hh-Emm"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="vaw-BH-uj1" firstAttribute="centerX" secondItem="uu0-2u-abc" secondAttribute="centerX" id="0li-ij-4Uc"/>
+                                    <constraint firstItem="vaw-BH-uj1" firstAttribute="centerY" secondItem="uu0-2u-abc" secondAttribute="centerY" id="5Ck-mG-8pE"/>
+                                    <constraint firstAttribute="height" constant="10" id="QpD-ic-H3t"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                    </stackView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="rGe-d8-KNt" secondAttribute="bottom" id="5dE-MO-VFg"/>
+                <constraint firstItem="KU8-5x-f80" firstAttribute="centerY" secondItem="w6T-Ha-3NY" secondAttribute="centerY" id="FRb-d3-ZKy"/>
+                <constraint firstItem="rGe-d8-KNt" firstAttribute="top" secondItem="w6T-Ha-3NY" secondAttribute="top" id="eId-ms-D3Q"/>
+                <constraint firstItem="KU8-5x-f80" firstAttribute="centerX" secondItem="w6T-Ha-3NY" secondAttribute="centerX" id="i9u-bt-Ugv"/>
+                <constraint firstAttribute="trailing" secondItem="rGe-d8-KNt" secondAttribute="trailing" id="pOe-AB-0bx"/>
+                <constraint firstItem="rGe-d8-KNt" firstAttribute="leading" secondItem="w6T-Ha-3NY" secondAttribute="leading" id="xAb-ms-SVv"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="w2q-Rd-g5E"/>
+            <size key="customSize" width="142" height="135"/>
+            <connections>
+                <outlet property="coinImage" destination="zVj-nk-JEA" id="zaI-tC-HMI"/>
+                <outlet property="coinNameLabel" destination="vaw-BH-uj1" id="ydA-MR-h3E"/>
+            </connections>
+            <point key="canvasLocation" x="-7" y="40"/>
+        </collectionViewCell>
+    </objects>
+</document>

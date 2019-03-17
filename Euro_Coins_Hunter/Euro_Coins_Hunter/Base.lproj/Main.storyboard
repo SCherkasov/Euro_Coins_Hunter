@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="H8R-Gc-J7M">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JiL-vC-b1a">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -68,7 +69,7 @@
                                 <connections>
                                     <outlet property="nameLabel" destination="fPZ-NW-gjZ" id="Etb-p9-Zhl"/>
                                     <outlet property="thumb" destination="o2e-E0-tc4" id="Cnb-Xb-zfv"/>
-                                    <segue destination="HPd-Mo-kZ7" kind="show" identifier="showCoins" id="eA1-Lg-f6b"/>
+                                    <segue destination="HPd-Mo-kZ7" kind="show" identifier="showCoins1" id="eA1-Lg-f6b"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -171,6 +172,173 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uqn-dw-ygT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="45.600000000000001" y="160.56971514242881"/>
+        </scene>
+        <!--Flags View Controller-->
+        <scene sceneID="BnD-CE-st6">
+            <objects>
+                <viewController id="5Op-TF-80N" customClass="FlagsViewController" customModule="Euro_Coins_Hunter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l0b-tD-PhY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5mI-ez-7aM">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="167"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Euro Coins Hunter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sY0-el-Qz7">
+                                        <rect key="frame" x="90" y="69.5" width="195.5" height="28"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="sY0-el-Qz7" firstAttribute="centerX" secondItem="5mI-ez-7aM" secondAttribute="centerX" id="hMm-15-bEj"/>
+                                    <constraint firstItem="sY0-el-Qz7" firstAttribute="centerY" secondItem="5mI-ez-7aM" secondAttribute="centerY" id="jK3-Xr-l0S"/>
+                                </constraints>
+                            </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="zd5-To-qbN">
+                                <rect key="frame" x="0.0" y="167" width="375" height="500"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="4pH-FR-Ge9">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="LYM-zw-Ptf" customClass="FlagsCollectionViewCell" customModule="Euro_Coins_Hunter" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="110"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="100" height="110"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                        <size key="customSize" width="100" height="110"/>
+                                        <connections>
+                                            <segue destination="jdR-NY-kT5" kind="show" identifier="showCoins" id="BIN-ZP-jaS"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="5Op-TF-80N" id="6Nx-8I-aun"/>
+                                    <outlet property="delegate" destination="5Op-TF-80N" id="OM5-bn-8Ub"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zd5-To-qbN" firstAttribute="height" secondItem="5mI-ez-7aM" secondAttribute="height" multiplier="3" id="B9t-Y5-eTM"/>
+                            <constraint firstItem="zd5-To-qbN" firstAttribute="bottom" secondItem="8oH-58-A26" secondAttribute="bottom" id="CqB-Xw-mpU"/>
+                            <constraint firstItem="zd5-To-qbN" firstAttribute="trailing" secondItem="8oH-58-A26" secondAttribute="trailing" id="S2N-1p-6RE"/>
+                            <constraint firstItem="zd5-To-qbN" firstAttribute="top" secondItem="5mI-ez-7aM" secondAttribute="bottom" id="WOv-em-5Dc"/>
+                            <constraint firstItem="5mI-ez-7aM" firstAttribute="top" secondItem="l0b-tD-PhY" secondAttribute="top" id="Y6m-zd-rwQ"/>
+                            <constraint firstItem="zd5-To-qbN" firstAttribute="top" secondItem="5mI-ez-7aM" secondAttribute="bottom" id="c0F-AF-taY"/>
+                            <constraint firstItem="zd5-To-qbN" firstAttribute="leading" secondItem="8oH-58-A26" secondAttribute="leading" id="jde-ZB-Kp2"/>
+                            <constraint firstItem="5mI-ez-7aM" firstAttribute="leading" secondItem="8oH-58-A26" secondAttribute="leading" id="l41-pC-xRA"/>
+                            <constraint firstItem="5mI-ez-7aM" firstAttribute="trailing" secondItem="8oH-58-A26" secondAttribute="trailing" id="rly-Xm-dnL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8oH-58-A26"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="A5J-Ec-JbY"/>
+                    <connections>
+                        <outlet property="flagCollectionView" destination="zd5-To-qbN" id="T3M-aL-WTv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Umj-G7-VYn" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="841" y="913"/>
+        </scene>
+        <!--Coins View Controller-->
+        <scene sceneID="WJX-ms-zuy">
+            <objects>
+                <viewController id="jdR-NY-kT5" customClass="CoinsViewController" customModule="Euro_Coins_Hunter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dle-Xb-eQC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W8V-zF-LaG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="167"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Euro Coins Hunter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kip-XK-nIN">
+                                        <rect key="frame" x="90" y="69.5" width="195.5" height="28"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="kip-XK-nIN" firstAttribute="centerX" secondItem="W8V-zF-LaG" secondAttribute="centerX" id="JL9-ef-VMo"/>
+                                    <constraint firstItem="kip-XK-nIN" firstAttribute="centerY" secondItem="W8V-zF-LaG" secondAttribute="centerY" id="QF7-4y-G45"/>
+                                </constraints>
+                            </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ydg-25-EY7">
+                                <rect key="frame" x="0.0" y="167" width="375" height="500"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="0WS-gt-s1f">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CoinsCollectionViewCell" id="Yap-1j-zqc" customClass="CoinsCollectionViewCell" customModule="Euro_Coins_Hunter" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="110"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="100" height="110"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                        <size key="customSize" width="100" height="110"/>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="jdR-NY-kT5" id="hXv-qT-Hdv"/>
+                                    <outlet property="delegate" destination="jdR-NY-kT5" id="1RM-co-Jnr"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ydg-25-EY7" firstAttribute="trailing" secondItem="TOQ-p8-0VQ" secondAttribute="trailing" id="Bob-wJ-bP9"/>
+                            <constraint firstItem="ydg-25-EY7" firstAttribute="bottom" secondItem="TOQ-p8-0VQ" secondAttribute="bottom" id="Hew-hh-UBK"/>
+                            <constraint firstItem="ydg-25-EY7" firstAttribute="leading" secondItem="TOQ-p8-0VQ" secondAttribute="leading" id="I6D-s9-6nL"/>
+                            <constraint firstItem="ydg-25-EY7" firstAttribute="top" secondItem="W8V-zF-LaG" secondAttribute="bottom" id="MEt-ea-crV"/>
+                            <constraint firstItem="W8V-zF-LaG" firstAttribute="top" secondItem="Dle-Xb-eQC" secondAttribute="top" id="N9h-re-ukV"/>
+                            <constraint firstItem="W8V-zF-LaG" firstAttribute="trailing" secondItem="TOQ-p8-0VQ" secondAttribute="trailing" id="e7L-C1-woe"/>
+                            <constraint firstItem="ydg-25-EY7" firstAttribute="top" secondItem="W8V-zF-LaG" secondAttribute="bottom" id="eUz-nt-9WD"/>
+                            <constraint firstItem="ydg-25-EY7" firstAttribute="height" secondItem="W8V-zF-LaG" secondAttribute="height" multiplier="3" id="gOK-4C-dcv"/>
+                            <constraint firstItem="W8V-zF-LaG" firstAttribute="leading" secondItem="TOQ-p8-0VQ" secondAttribute="leading" id="jE9-Ke-8gu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="TOQ-p8-0VQ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="is2-zU-BKr"/>
+                    <connections>
+                        <outlet property="coinCollectionView" destination="ydg-25-EY7" id="pdc-QU-0eP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="50b-yc-P4k" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1660" y="913"/>
+        </scene>
+        <!--Black Navigation Controller-->
+        <scene sceneID="bhu-Yb-Av6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JiL-vC-b1a" customClass="BlackNavigationController" customModule="Euro_Coins_Hunter" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="w0W-RC-guH">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="5Op-TF-80N" kind="relationship" relationship="rootViewController" id="Iff-do-DAP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ixb-Un-FUE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46" y="913"/>
         </scene>
     </scenes>
 </document>

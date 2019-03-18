@@ -26,7 +26,16 @@
 		8A669FFB223EBDC7005423EB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A669FFA223EBDC7005423EB /* RegisterViewController.swift */; };
 		8A669FFF223EE42C005423EB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A669FFE223EE42C005423EB /* DetailViewController.swift */; };
 		8A66A003223EE9EE005423EB /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A66A002223EE9EE005423EB /* DetailHeaderView.swift */; };
-		8A66A005223EEDC9005423EB /* DetailCountryNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A66A004223EEDC9005423EB /* DetailCountryNameTableViewCell.swift */; };
+		8A66A005223EEDC9005423EB /* NameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A66A004223EEDC9005423EB /* NameCell.swift */; };
+		8A8939AC22403E23008F5A2D /* YearCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8939AB22403E23008F5A2D /* YearCell.swift */; };
+		8A8939AE22403FE0008F5A2D /* DesignerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8939AD22403FE0008F5A2D /* DesignerCell.swift */; };
+		8A8939B1224041F8008F5A2D /* MintCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8939B0224041F8008F5A2D /* MintCell.swift */; };
+		8A8939B32240424F008F5A2D /* MaterialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8939B22240424F008F5A2D /* MaterialCell.swift */; };
+		8A8939B5224042A1008F5A2D /* WeightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8939B4224042A1008F5A2D /* WeightCell.swift */; };
+		8A8939B7224042FB008F5A2D /* DiameterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8939B6224042FB008F5A2D /* DiameterCell.swift */; };
+		8A8939B922404361008F5A2D /* ThicknessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8939B822404361008F5A2D /* ThicknessCell.swift */; };
+		8A8939BB224043B3008F5A2D /* HerdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8939BA224043B3008F5A2D /* HerdCell.swift */; };
+		8A8939BD2240440A008F5A2D /* DescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8939BC2240440A008F5A2D /* DescriptionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +60,16 @@
 		8A669FFA223EBDC7005423EB /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		8A669FFE223EE42C005423EB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		8A66A002223EE9EE005423EB /* DetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeaderView.swift; sourceTree = "<group>"; };
-		8A66A004223EEDC9005423EB /* DetailCountryNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCountryNameTableViewCell.swift; sourceTree = "<group>"; };
+		8A66A004223EEDC9005423EB /* NameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameCell.swift; sourceTree = "<group>"; };
+		8A8939AB22403E23008F5A2D /* YearCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearCell.swift; sourceTree = "<group>"; };
+		8A8939AD22403FE0008F5A2D /* DesignerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignerCell.swift; sourceTree = "<group>"; };
+		8A8939B0224041F8008F5A2D /* MintCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintCell.swift; sourceTree = "<group>"; };
+		8A8939B22240424F008F5A2D /* MaterialCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialCell.swift; sourceTree = "<group>"; };
+		8A8939B4224042A1008F5A2D /* WeightCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightCell.swift; sourceTree = "<group>"; };
+		8A8939B6224042FB008F5A2D /* DiameterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiameterCell.swift; sourceTree = "<group>"; };
+		8A8939B822404361008F5A2D /* ThicknessCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThicknessCell.swift; sourceTree = "<group>"; };
+		8A8939BA224043B3008F5A2D /* HerdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerdCell.swift; sourceTree = "<group>"; };
+		8A8939BC2240440A008F5A2D /* DescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,10 +145,27 @@
 				8A669FEC223E64BA005423EB /* CoinsCollectionViewCell.xib */,
 				8A669FEB223E64BA005423EB /* FlagsCollectionViewCell.swift */,
 				8A669FED223E64BA005423EB /* FlagsCollectionViewCell.xib */,
-				8A66A002223EE9EE005423EB /* DetailHeaderView.swift */,
-				8A66A004223EEDC9005423EB /* DetailCountryNameTableViewCell.swift */,
+				8A8939AF22403FF1008F5A2D /* Detail */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		8A8939AF22403FF1008F5A2D /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				8A66A002223EE9EE005423EB /* DetailHeaderView.swift */,
+				8A66A004223EEDC9005423EB /* NameCell.swift */,
+				8A8939AB22403E23008F5A2D /* YearCell.swift */,
+				8A8939AD22403FE0008F5A2D /* DesignerCell.swift */,
+				8A8939B0224041F8008F5A2D /* MintCell.swift */,
+				8A8939B22240424F008F5A2D /* MaterialCell.swift */,
+				8A8939B4224042A1008F5A2D /* WeightCell.swift */,
+				8A8939B6224042FB008F5A2D /* DiameterCell.swift */,
+				8A8939B822404361008F5A2D /* ThicknessCell.swift */,
+				8A8939BA224043B3008F5A2D /* HerdCell.swift */,
+				8A8939BC2240440A008F5A2D /* DescriptionCell.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,20 +242,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A8939B7224042FB008F5A2D /* DiameterCell.swift in Sources */,
 				8A669FEE223E64BA005423EB /* CoinsCollectionViewCell.swift in Sources */,
+				8A8939B5224042A1008F5A2D /* WeightCell.swift in Sources */,
 				8A669FFB223EBDC7005423EB /* RegisterViewController.swift in Sources */,
+				8A8939B32240424F008F5A2D /* MaterialCell.swift in Sources */,
+				8A8939B922404361008F5A2D /* ThicknessCell.swift in Sources */,
 				8A669FF5223E64E7005423EB /* CoinsViewController.swift in Sources */,
 				8A669FFF223EE42C005423EB /* DetailViewController.swift in Sources */,
+				8A8939BD2240440A008F5A2D /* DescriptionCell.swift in Sources */,
 				8A669FDC223D4234005423EB /* CoinStore.swift in Sources */,
 				8A669FD7223D41CC005423EB /* Country.swift in Sources */,
-				8A66A005223EEDC9005423EB /* DetailCountryNameTableViewCell.swift in Sources */,
+				8A8939B1224041F8008F5A2D /* MintCell.swift in Sources */,
+				8A66A005223EEDC9005423EB /* NameCell.swift in Sources */,
 				8A669FF7223E7171005423EB /* BlackNavigationController.swift in Sources */,
 				8A669FF4223E64E7005423EB /* FlagsViewController.swift in Sources */,
 				8A669FDA223D4208005423EB /* Coin.swift in Sources */,
 				8A669FC2223D3D3A005423EB /* AppDelegate.swift in Sources */,
+				8A8939BB224043B3008F5A2D /* HerdCell.swift in Sources */,
 				8A66A003223EE9EE005423EB /* DetailHeaderView.swift in Sources */,
 				8A669FF9223EBDBB005423EB /* LogInViewController.swift in Sources */,
 				8A669FEF223E64BA005423EB /* FlagsCollectionViewCell.swift in Sources */,
+				8A8939AE22403FE0008F5A2D /* DesignerCell.swift in Sources */,
+				8A8939AC22403E23008F5A2D /* YearCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

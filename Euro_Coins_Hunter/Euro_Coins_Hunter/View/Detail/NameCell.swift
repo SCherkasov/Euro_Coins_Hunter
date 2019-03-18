@@ -1,5 +1,5 @@
 //
-//  DetailCountryNameTableViewCell.swift
+//  NameCell.swift
 //  Euro_Coins_Hunter
 //
 //  Created by Stanislav Cherkasov on 3/17/19.
@@ -8,14 +8,11 @@
 
 import UIKit
 
-class DetailCountryNameTableViewCell: UITableViewCell {
+class NameCell: UITableViewCell {
   
   @IBOutlet var nameCountry: UILabel!
   
-
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
-
 }

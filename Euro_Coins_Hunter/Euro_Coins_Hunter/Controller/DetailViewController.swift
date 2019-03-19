@@ -15,7 +15,6 @@ class DetailViewController: UIViewController {
   
   var coinStore = CoinStore()
   var selectedCoin: Coin?
-  var desc = DescriptionCell()
   
   override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,14 +22,9 @@ class DetailViewController: UIViewController {
     headerView.detailCoinImage.image = image
     headerView.detailCoinImage.layer.cornerRadius = headerView.detailCoinImage.frame.size.height / 2
     headerView.detailCoinImage.clipsToBounds = true
-  
+    
+    self.detailTableView.separatorStyle = .none
     }
-  
-  func adjustUITextViewHeight(arg: UITextView) {
-    arg.translatesAutoresizingMaskIntoConstraints = true
-    arg.sizeToFit()
-    arg.isScrollEnabled = false
-  }
 }
 
 extension DetailViewController: UITableViewDataSource {

@@ -15,6 +15,7 @@ class DetailViewController: UIViewController {
   
   var coinStore = CoinStore()
   var selectedCoin: Coin?
+  var desc = DescriptionCell()
   
   override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,8 +23,14 @@ class DetailViewController: UIViewController {
     headerView.detailCoinImage.image = image
     headerView.detailCoinImage.layer.cornerRadius = headerView.detailCoinImage.frame.size.height / 2
     headerView.detailCoinImage.clipsToBounds = true
-   //headerView.detailCoinImage.image = UIImage(named: (selectedCoin?.image)!)
+  
     }
+  
+  func adjustUITextViewHeight(arg: UITextView) {
+    arg.translatesAutoresizingMaskIntoConstraints = true
+    arg.sizeToFit()
+    arg.isScrollEnabled = false
+  }
 }
 
 extension DetailViewController: UITableViewDataSource {
@@ -107,8 +114,14 @@ extension DetailViewController: UITableViewDataSource {
                                                for: indexPath) as! DescriptionCell
       cell.descriptionAboutCoin.text = "Coat of arms of the Cardinal Camelot, temporary head of the Vatican. Text around the coat of arms: SEDE VACANTE MMV. Between the emblem and the year of issue of the coin (MMV) there is a mint mark (letter “R”). To the left of the emblem there is the artist's designation “D.LONGO”, to the right - the engraver “M.A.C. INC.  Along the flange, 12 stars are depicted (above) and the name of the issuing state “CITTA` DEL VATICANO” (below) is indicated."
       
-      return cell
+      cell.descriptionAboutCoin.translatesAutoresizingMaskIntoConstraints = true
+      cell.descriptionAboutCoin.sizeToFit()
+      cell.descriptionAboutCoin.isScrollEnabled = false
+      cell.descriptionAboutCoin.backgroundColor = UIColor.black
+      cell.descriptionAboutCoin.textColor = UIColor.white
    
+      return cell
+      
     default:
       fatalError("Failed")
     }

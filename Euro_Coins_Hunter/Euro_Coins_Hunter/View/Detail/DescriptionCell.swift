@@ -14,9 +14,5 @@ class DescriptionCell: UITableViewCell {
   
   override func awakeFromNib() {
         super.awakeFromNib()
-    
-    let fixedWidth = descriptionAboutCoin.frame.size.width
-    let newSize = descriptionAboutCoin.sizeThatFits(CGSize(width: fixedWidth, height: CGFloat.greatestFiniteMagnitude))
-    descriptionAboutCoin.frame.size = CGSize(width: max(newSize.width, fixedWidth), height: newSize.height)
     }
 }

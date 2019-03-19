@@ -172,11 +172,11 @@
             <objects>
                 <viewController storyboardIdentifier="DetailViewController" id="CNJ-8K-z2v" customClass="DetailViewController" customModule="Euro_Coins_Hunter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4SA-3w-L17">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1100"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1050"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lMv-7i-MHU">
-                                <rect key="frame" x="0.0" y="64" width="375" height="1036"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="986"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <view key="tableHeaderView" contentMode="scaleToFill" id="pRV-n1-vgf" customClass="DetailHeaderView" customModule="Euro_Coins_Hunter" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
@@ -198,7 +198,7 @@
                                     </connections>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell0" id="dnr-vE-YlP" customClass="NameCell" customModule="Euro_Coins_Hunter" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell0" id="dnr-vE-YlP" customClass="NameCell" customModule="Euro_Coins_Hunter" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="328" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dnr-vE-YlP" id="DHJ-t3-EkL">
@@ -209,16 +209,16 @@
                                                     <rect key="frame" x="8" y="0.0" width="367" height="43.5"/>
                                                     <subviews>
                                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Country:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NnV-Hs-FGd">
-                                                            <rect key="frame" x="0.0" y="0.0" width="70" height="43.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="73" height="43.5"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="width" constant="70" id="RY4-Cm-Kcx"/>
+                                                                <constraint firstAttribute="width" constant="73" id="RY4-Cm-Kcx"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4sc-gF-IHt">
-                                                            <rect key="frame" x="75" y="0.0" width="292" height="43.5"/>
+                                                            <rect key="frame" x="78" y="0.0" width="289" height="43.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
@@ -238,7 +238,7 @@
                                             <outlet property="nameCountry" destination="4sc-gF-IHt" id="10j-YM-wSU"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell1" id="Ftz-Ky-e2p" customClass="YearCell" customModule="Euro_Coins_Hunter" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell1" id="Ftz-Ky-e2p" customClass="YearCell" customModule="Euro_Coins_Hunter" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="372" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ftz-Ky-e2p" id="wwh-4p-Gsx">
@@ -249,16 +249,16 @@
                                                     <rect key="frame" x="8" y="0.0" width="367" height="43.5"/>
                                                     <subviews>
                                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Year of issue:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k9f-q6-ymp">
-                                                            <rect key="frame" x="0.0" y="0.0" width="108" height="43.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="110" height="43.5"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="width" constant="108" id="AC9-AC-bc0"/>
+                                                                <constraint firstAttribute="width" constant="110" id="AC9-AC-bc0"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uwj-gT-0YY">
-                                                            <rect key="frame" x="113" y="0.0" width="254" height="43.5"/>
+                                                            <rect key="frame" x="115" y="0.0" width="252" height="43.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
@@ -278,7 +278,7 @@
                                             <outlet property="yearCoins" destination="uwj-gT-0YY" id="3IB-JK-eu7"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell2" id="q6k-GI-m3Z" customClass="DesignerCell" customModule="Euro_Coins_Hunter" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell2" id="q6k-GI-m3Z" customClass="DesignerCell" customModule="Euro_Coins_Hunter" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="416" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="q6k-GI-m3Z" id="pDa-Lb-PmA">
@@ -289,16 +289,16 @@
                                                     <rect key="frame" x="8" y="0.0" width="367" height="43.5"/>
                                                     <subviews>
                                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Designer:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wh5-qA-AGH">
-                                                            <rect key="frame" x="0.0" y="0.0" width="75" height="43.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="80" height="43.5"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="width" constant="75" id="vo7-GP-jgk"/>
+                                                                <constraint firstAttribute="width" constant="80" id="vo7-GP-jgk"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zog-L3-oIj">
-                                                            <rect key="frame" x="80" y="0.0" width="287" height="43.5"/>
+                                                            <rect key="frame" x="85" y="0.0" width="282" height="43.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
@@ -318,7 +318,7 @@
                                             <outlet property="designerCoin" destination="zog-L3-oIj" id="a5n-xs-SOG"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell3" id="JGH-FA-xX4" customClass="MintCell" customModule="Euro_Coins_Hunter" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell3" id="JGH-FA-xX4" customClass="MintCell" customModule="Euro_Coins_Hunter" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="460" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JGH-FA-xX4" id="AjL-bx-Azu">
@@ -329,16 +329,16 @@
                                                     <rect key="frame" x="8" y="0.0" width="367" height="43.5"/>
                                                     <subviews>
                                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Mint:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KUT-Ai-zrt">
-                                                            <rect key="frame" x="0.0" y="0.0" width="40" height="43.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="43" height="43.5"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="width" constant="40" id="rCw-NS-yTr"/>
+                                                                <constraint firstAttribute="width" constant="43" id="rCw-NS-yTr"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jaZ-g3-Gzt">
-                                                            <rect key="frame" x="45" y="0.0" width="322" height="43.5"/>
+                                                            <rect key="frame" x="48" y="0.0" width="319" height="43.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
@@ -358,7 +358,7 @@
                                             <outlet property="mintCoin" destination="jaZ-g3-Gzt" id="7hw-gB-63o"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell4" id="Bic-aW-w4N" customClass="MaterialCell" customModule="Euro_Coins_Hunter" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell4" id="Bic-aW-w4N" customClass="MaterialCell" customModule="Euro_Coins_Hunter" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="504" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Bic-aW-w4N" id="4Ih-0u-QVg">
@@ -369,16 +369,16 @@
                                                     <rect key="frame" x="8" y="0.0" width="367" height="43.5"/>
                                                     <subviews>
                                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Material:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I58-iu-PtG">
-                                                            <rect key="frame" x="0.0" y="0.0" width="70" height="43.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="73" height="43.5"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="width" constant="70" id="6OJ-TG-KKT"/>
+                                                                <constraint firstAttribute="width" constant="73" id="6OJ-TG-KKT"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QPb-3T-tTa">
-                                                            <rect key="frame" x="75" y="0.0" width="292" height="43.5"/>
+                                                            <rect key="frame" x="78" y="0.0" width="289" height="43.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
@@ -398,7 +398,7 @@
                                             <outlet property="materialCoin" destination="QPb-3T-tTa" id="ZDl-3o-hYu"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell5" id="YZe-yn-8t8" customClass="WeightCell" customModule="Euro_Coins_Hunter" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell5" id="YZe-yn-8t8" customClass="WeightCell" customModule="Euro_Coins_Hunter" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="548" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YZe-yn-8t8" id="zkd-q7-AeP">
@@ -409,16 +409,16 @@
                                                     <rect key="frame" x="8" y="0.0" width="367" height="43.5"/>
                                                     <subviews>
                                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Weight:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yEF-7O-1An">
-                                                            <rect key="frame" x="0.0" y="0.0" width="60" height="43.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="65" height="43.5"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="width" constant="60" id="HkR-Gr-Iju"/>
+                                                                <constraint firstAttribute="width" constant="65" id="HkR-Gr-Iju"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v8Z-Rz-Rga">
-                                                            <rect key="frame" x="65" y="0.0" width="302" height="43.5"/>
+                                                            <rect key="frame" x="70" y="0.0" width="297" height="43.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
@@ -438,7 +438,7 @@
                                             <outlet property="weightCoin" destination="v8Z-Rz-Rga" id="eFY-XN-rhC"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell6" id="k0y-o9-sNy" customClass="DiameterCell" customModule="Euro_Coins_Hunter" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell6" id="k0y-o9-sNy" customClass="DiameterCell" customModule="Euro_Coins_Hunter" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="592" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="k0y-o9-sNy" id="Igt-xA-cpA">
@@ -449,16 +449,16 @@
                                                     <rect key="frame" x="8" y="0.0" width="367" height="43.5"/>
                                                     <subviews>
                                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Diameter:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eid-Gr-mYd">
-                                                            <rect key="frame" x="0.0" y="0.0" width="75" height="43.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="82" height="43.5"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="width" constant="75" id="e98-TZ-Kyl"/>
+                                                                <constraint firstAttribute="width" constant="82" id="e98-TZ-Kyl"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yHs-RR-eYQ">
-                                                            <rect key="frame" x="80" y="0.0" width="287" height="43.5"/>
+                                                            <rect key="frame" x="87" y="0.0" width="280" height="43.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
@@ -478,7 +478,7 @@
                                             <outlet property="diameterCoin" destination="yHs-RR-eYQ" id="7nH-Gr-al1"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell7" id="44b-Ec-Equ" customClass="ThicknessCell" customModule="Euro_Coins_Hunter" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell7" id="44b-Ec-Equ" customClass="ThicknessCell" customModule="Euro_Coins_Hunter" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="636" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="44b-Ec-Equ" id="uTd-xB-PFN">
@@ -489,16 +489,16 @@
                                                     <rect key="frame" x="8" y="0.0" width="367" height="43.5"/>
                                                     <subviews>
                                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Thickness:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2T-vd-X30">
-                                                            <rect key="frame" x="0.0" y="0.0" width="85" height="43.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="90" height="43.5"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="width" constant="85" id="BS8-oe-gI4"/>
+                                                                <constraint firstAttribute="width" constant="90" id="BS8-oe-gI4"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZO-4t-ERK">
-                                                            <rect key="frame" x="90" y="0.0" width="277" height="43.5"/>
+                                                            <rect key="frame" x="95" y="0.0" width="272" height="43.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
@@ -518,7 +518,7 @@
                                             <outlet property="thicknessCoin" destination="SZO-4t-ERK" id="vGj-Da-2iv"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell8" id="zvf-VJ-cc7" customClass="HerdCell" customModule="Euro_Coins_Hunter" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell8" id="zvf-VJ-cc7" customClass="HerdCell" customModule="Euro_Coins_Hunter" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="680" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zvf-VJ-cc7" id="S7M-zb-m3Z">
@@ -529,16 +529,16 @@
                                                     <rect key="frame" x="8" y="0.0" width="367" height="43.5"/>
                                                     <subviews>
                                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Herd:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x0q-EG-OCZ">
-                                                            <rect key="frame" x="0.0" y="0.0" width="45" height="43.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="50" height="43.5"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="width" constant="45" id="JEI-w4-iRW"/>
+                                                                <constraint firstAttribute="width" constant="50" id="JEI-w4-iRW"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7uC-Zd-Gbj">
-                                                            <rect key="frame" x="50" y="0.0" width="317" height="43.5"/>
+                                                            <rect key="frame" x="55" y="0.0" width="312" height="43.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
@@ -603,7 +603,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ogp-kw-Sx1"/>
                     </view>
-                    <size key="freeformSize" width="375" height="1100"/>
+                    <size key="freeformSize" width="375" height="1050"/>
                     <connections>
                         <outlet property="detailTableView" destination="lMv-7i-MHU" id="tWE-r3-1NN"/>
                         <outlet property="headerView" destination="pRV-n1-vgf" id="JkF-Cq-8e7"/>

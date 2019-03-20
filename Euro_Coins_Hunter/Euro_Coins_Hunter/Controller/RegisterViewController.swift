@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RegisterViewController: UIViewController {
+class RegisterViewController: UIViewController, UITextFieldDelegate {
   
   @IBOutlet var repeatPasswordTextField: UITextField!
   @IBOutlet var userNameTextField: UITextField!
@@ -20,6 +20,19 @@ class RegisterViewController: UIViewController {
     userNameTextField.resignFirstResponder()
     passwordTextField.resignFirstResponder()
     repeatPasswordTextField.resignFirstResponder()
+    passwordTextField.delegate = self
+    repeatPasswordTextField.delegate = self
+  }
+  
+  //passwordTextField & repeatPasswordTextField sets a range of max
+  //number to 4
+  func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+    let currentText = textField.text ?? ""
+    guard let stringRange = Range(range, in: currentText) else { return false }
+    
+    let updatedText = currentText.replacingCharacters(in: stringRange, with: string)
+    
+    return updatedText.count <= 4
   }
   
   @IBAction func registerButtonAction(_ sender: Any) {

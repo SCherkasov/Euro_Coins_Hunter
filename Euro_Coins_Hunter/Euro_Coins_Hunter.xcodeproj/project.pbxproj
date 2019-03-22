@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A146A7C22450BAF00987A12 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A146A7B22450BAF00987A12 /* Image.swift */; };
 		8A669FC2223D3D3A005423EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A669FC1223D3D3A005423EB /* AppDelegate.swift */; };
 		8A669FC7223D3D3A005423EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A669FC5223D3D3A005423EB /* Main.storyboard */; };
 		8A669FC9223D3D3C005423EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A669FC8223D3D3C005423EB /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A146A7B22450BAF00987A12 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		8A669FBE223D3D3A005423EB /* Euro_Coins_Hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Euro_Coins_Hunter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A669FC1223D3D3A005423EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A669FC6223D3D3A005423EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				8A669FE1223D431A005423EB /* View */,
 				8A669FD5223D3FE3005423EB /* Controller */,
 				8A669FC8223D3D3C005423EB /* Assets.xcassets */,
+				8A146A7B22450BAF00987A12 /* Image.swift */,
 				8A669FCA223D3D3D005423EB /* LaunchScreen.storyboard */,
 				8A669FCD223D3D3D005423EB /* Info.plist */,
 				8A669FDD223D4271005423EB /* BaseOfCoinCountry.json */,
@@ -243,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A8939B7224042FB008F5A2D /* DiameterCell.swift in Sources */,
+				8A146A7C22450BAF00987A12 /* Image.swift in Sources */,
 				8A669FEE223E64BA005423EB /* CoinsCollectionViewCell.swift in Sources */,
 				8A8939B5224042A1008F5A2D /* WeightCell.swift in Sources */,
 				8A669FFB223EBDC7005423EB /* RegisterViewController.swift in Sources */,

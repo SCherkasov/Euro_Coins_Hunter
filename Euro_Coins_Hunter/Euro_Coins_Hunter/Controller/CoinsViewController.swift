@@ -14,6 +14,20 @@ class CoinsViewController: UIViewController {
   
   var coinStore = CoinStore()
    var selectedCountry: Country?
+  var lockImage: CoinsCollectionViewCell?
+  
+  var doorSate = DoorState.closed
+  var editBarButtonItemState = EditBarButtonItem.deactivate
+  
+  enum DoorState {
+    case opened
+    case closed
+  }
+  
+  enum EditBarButtonItem {
+    case activate
+    case deactivate
+  }
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -22,11 +36,13 @@ class CoinsViewController: UIViewController {
     coinCollectionView.register(nib, forCellWithReuseIdentifier:
       "CoinsCollectionViewCell")
     
+    navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Edit", style: .plain, target: self, action: #selector(editAction))
+    navigationItem.rightBarButtonItem?.tintColor = UIColor.white
+    
     self.coinStore.loadCoins()
     self.coinStore.filterCoins(with: selectedCountry!)
     
     setupLayoutToCollectionView()
-    
   }
   
   func setupLayoutToCollectionView() {
@@ -41,6 +57,48 @@ class CoinsViewController: UIViewController {
     
     coinCollectionView.collectionViewLayout = layout
   }
+  
+//  @objc func editAction() {
+//    switch self.doorSate {
+//    case .opened:
+//      self.doorSate = .closed
+//      self.transition(to: .closed)
+//    case .closed:
+//      self.doorSate = .opened
+//      self.transition(to: .opened)
+//    }
+//  }
+  
+  @objc func editAction() {
+    switch self.editBarButtonItemState {
+    case .activate:
+      self.editBarButtonItemState = .deactivate
+      //self.transition(to: .closed)
+      navigationItem.rightBarButtonItem?.title = "Edit"
+    case .deactivate:
+      self.editBarButtonItemState = .activate
+      //self.transition(to: .opened)
+      navigationItem.rightBarButtonItem?.title = "Save"
+    }
+  }
+  
+//  func transition(to nextDoorState: DoorState) {
+//    if nextDoorState == .opened {
+//      UIView.animate(withDuration: 1.0, delay: 0.3, options: [], animations: {
+//        self.lockImage!.imageViews[0].center.x -= self.lockImage!.coinImage.bounds.width / 2
+//        self.lockImage!.imageViews[1].center.x += self.lockImage!.coinImage.bounds.width / 2
+//        self.lockImage!.imageViews[0].alpha = 0.0
+//        self.lockImage!.imageViews[1].alpha = 0.0
+//      }, completion: nil)
+//    } else {
+//      UIView.animate(withDuration: 1.0, delay: 0.3, options: [], animations: {
+//        self.lockImage!.imageViews[0].center.x += self.lockImage!.coinImage.bounds.width / 2
+//        self.lockImage!.imageViews[1].center.x -= self.lockImage!.coinImage.bounds.width / 2
+//        self.lockImage!.imageViews[0].alpha = 0.5
+//        self.lockImage!.imageViews[1].alpha = 0.5
+//      }, completion: nil)
+//    }
+//  }
 }
 
 extension CoinsViewController: UICollectionViewDataSource {

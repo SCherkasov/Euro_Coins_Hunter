@@ -58,47 +58,47 @@ class CoinsViewController: UIViewController {
     coinCollectionView.collectionViewLayout = layout
   }
   
-//  @objc func editAction() {
-//    switch self.doorSate {
-//    case .opened:
-//      self.doorSate = .closed
-//      self.transition(to: .closed)
-//    case .closed:
-//      self.doorSate = .opened
-//      self.transition(to: .opened)
-//    }
-//  }
+    func makeAction() {
+    switch self.doorSate {
+    case .opened:
+      self.doorSate = .closed
+      self.transition(to: .closed)
+    case .closed:
+      self.doorSate = .opened
+      self.transition(to: .opened)
+    }
+  }
   
   @objc func editAction() {
     switch self.editBarButtonItemState {
     case .activate:
       self.editBarButtonItemState = .deactivate
-      //self.transition(to: .closed)
       navigationItem.rightBarButtonItem?.title = "Edit"
+      lockImage?.buttonOnCoinCell.isHidden = false
     case .deactivate:
       self.editBarButtonItemState = .activate
-      //self.transition(to: .opened)
       navigationItem.rightBarButtonItem?.title = "Save"
+      lockImage?.buttonOnCoinCell.isHidden = true
     }
   }
   
-//  func transition(to nextDoorState: DoorState) {
-//    if nextDoorState == .opened {
-//      UIView.animate(withDuration: 1.0, delay: 0.3, options: [], animations: {
-//        self.lockImage!.imageViews[0].center.x -= self.lockImage!.coinImage.bounds.width / 2
-//        self.lockImage!.imageViews[1].center.x += self.lockImage!.coinImage.bounds.width / 2
-//        self.lockImage!.imageViews[0].alpha = 0.0
-//        self.lockImage!.imageViews[1].alpha = 0.0
-//      }, completion: nil)
-//    } else {
-//      UIView.animate(withDuration: 1.0, delay: 0.3, options: [], animations: {
-//        self.lockImage!.imageViews[0].center.x += self.lockImage!.coinImage.bounds.width / 2
-//        self.lockImage!.imageViews[1].center.x -= self.lockImage!.coinImage.bounds.width / 2
-//        self.lockImage!.imageViews[0].alpha = 0.5
-//        self.lockImage!.imageViews[1].alpha = 0.5
-//      }, completion: nil)
-//    }
-//  }
+  func transition(to nextDoorState: DoorState) {
+    if nextDoorState == .opened {
+      UIView.animate(withDuration: 1.0, delay: 0.3, options: [], animations: {
+        self.lockImage!.imageViews[0].center.x -= self.lockImage!.coinImage.bounds.width / 2
+        self.lockImage!.imageViews[1].center.x += self.lockImage!.coinImage.bounds.width / 2
+        self.lockImage!.imageViews[0].alpha = 0.0
+        self.lockImage!.imageViews[1].alpha = 0.0
+      }, completion: nil)
+    } else {
+      UIView.animate(withDuration: 1.0, delay: 0.3, options: [], animations: {
+        self.lockImage!.imageViews[0].center.x += self.lockImage!.coinImage.bounds.width / 2
+        self.lockImage!.imageViews[1].center.x -= self.lockImage!.coinImage.bounds.width / 2
+        self.lockImage!.imageViews[0].alpha = 0.5
+        self.lockImage!.imageViews[1].alpha = 0.5
+      }, completion: nil)
+    }
+  }
 }
 
 extension CoinsViewController: UICollectionViewDataSource {
@@ -146,6 +146,7 @@ extension CoinsViewController: UICollectionViewDelegate {
     if indexPath.item == 8 {
       return
     } else {
+      if editBarButtonItemState == .activate {
     let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
     if let detailVC = storyboard.instantiateViewController(withIdentifier: "DetailViewController")
       as? DetailViewController
@@ -153,7 +154,10 @@ extension CoinsViewController: UICollectionViewDelegate {
       let coinDetailPost = self.coinStore.coins[indexPath.row] as Coin
       detailVC.selectedCoin = coinDetailPost
       self.navigationController?.pushViewController(detailVC, animated: true)
-    }
+    } else {
+      return
+        }
+  }
   }
   }
 }

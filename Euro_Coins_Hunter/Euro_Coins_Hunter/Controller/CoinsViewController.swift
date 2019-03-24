@@ -15,6 +15,7 @@ class CoinsViewController: UIViewController {
   var coinStore = CoinStore()
    var selectedCountry: Country?
   var lockImage: CoinsCollectionViewCell?
+  var isCoinLocked = true
   
   var doorSate = DoorState.closed
   var editBarButtonItemState = EditBarButtonItem.deactivate
@@ -63,9 +64,11 @@ class CoinsViewController: UIViewController {
     case .opened:
       self.doorSate = .closed
       self.transition(to: .closed)
+      isCoinLocked = false
     case .closed:
       self.doorSate = .opened
       self.transition(to: .opened)
+      isCoinLocked = true
     }
   }
   
@@ -145,8 +148,8 @@ extension CoinsViewController: UICollectionViewDelegate {
   func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     if indexPath.item == 8 {
       return
-    } else {
-      if editBarButtonItemState == .activate {
+     } else {
+      if editBarButtonItemState == .activate && isCoinLocked == false {
     let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
     if let detailVC = storyboard.instantiateViewController(withIdentifier: "DetailViewController")
       as? DetailViewController

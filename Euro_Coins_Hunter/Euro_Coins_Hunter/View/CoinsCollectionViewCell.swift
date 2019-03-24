@@ -31,7 +31,7 @@ class CoinsCollectionViewCell: UICollectionViewCell {
   override func awakeFromNib() {
     super.awakeFromNib()
     
-    buttonOnCoinCell.isHidden = true
+   buttonOnCoinCell.isHidden = true
     
     //setup lock image
     self.imageViews = UIImage(named: "lock")!.divideIntoTwoVertialParts()
@@ -64,6 +64,6 @@ class CoinsCollectionViewCell: UICollectionViewCell {
   
   @IBAction func makeAnimationButtom(_ sender: UIButton) {
     print("makeAnimationButtom - pressed")
-    coinsViewController!.makeAction()
+    self.coinsViewController!.makeAction()
   }
 }

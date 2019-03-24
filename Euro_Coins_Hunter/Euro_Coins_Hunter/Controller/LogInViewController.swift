@@ -98,18 +98,20 @@ class LogInViewController: UIViewController {
     
     if inputKeycode.count == 4 {
       
+      print("\(UserDefaults.standard.string(forKey: "userPassword"))")
+      
       // check if the pass is correct
       let userPasswordStored = UserDefaults.standard.string(forKey: "userPassword")
       
       let stringArray = inputKeycode.map { String($0) }
       
-      if stringArray.joined() == userPasswordStored {
+     // if stringArray.joined() == userPasswordStored {
         UserDefaults.standard.set(true, forKey: "isUserLoggedIn")
         UserDefaults.standard.synchronize()
         setupKeycodes(keyCode4, for: .red)
         performSegue(withIdentifier: "goToMainView", sender: self)
         
-      } else {
+     /* } else {
         
         //animatoon shake
         keyCode1.shake()
@@ -129,6 +131,7 @@ class LogInViewController: UIViewController {
         setupKeycodes(keyCode4, for: .white)
         
       }
+ */
     }
   }
   

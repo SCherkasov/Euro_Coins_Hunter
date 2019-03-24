@@ -18,6 +18,8 @@ class CoinsCollectionViewCell: UICollectionViewCell {
   
   var coinsViewController: CoinsViewController?
   
+  var tapGesture: UITapGestureRecognizer!
+  
   var imageViews: [UIImageView] = []
   
   var leftImageView: UIImageView {
@@ -31,7 +33,7 @@ class CoinsCollectionViewCell: UICollectionViewCell {
   override func awakeFromNib() {
     super.awakeFromNib()
     
-   buttonOnCoinCell.isHidden = true
+    buttonOnCoinCell.isHidden = true
     
     //setup lock image
     self.imageViews = UIImage(named: "lock")!.divideIntoTwoVertialParts()
@@ -60,6 +62,10 @@ class CoinsCollectionViewCell: UICollectionViewCell {
     self.coinImage.addSubview(imageViews[0])
     self.coinImage.addSubview(imageViews[1])
     
+
+    self.tapGesture = UITapGestureRecognizer.init(target: self, action: #selector(makeAnimationButtom(_:)))
+    self.addGestureRecognizer(self.tapGesture)
+ 
   }
   
   @IBAction func makeAnimationButtom(_ sender: UIButton) {

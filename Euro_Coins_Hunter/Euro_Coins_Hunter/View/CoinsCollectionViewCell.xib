@@ -20,9 +20,6 @@
                 <subviews>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rGe-d8-KNt">
                         <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
-                        <connections>
-                            <action selector="makeAnimationButtom:" destination="w6T-Ha-3NY" eventType="touchUpInside" id="4kZ-rC-vBk"/>
-                        </connections>
                     </button>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="KU8-5x-f80">
                         <rect key="frame" x="0.0" y="0.0" width="100" height="110"/>
@@ -70,7 +67,6 @@
             <viewLayoutGuide key="safeArea" id="w2q-Rd-g5E"/>
             <size key="customSize" width="142" height="135"/>
             <connections>
-                <outlet property="buttonOnCoinCell" destination="rGe-d8-KNt" id="NRl-OS-WEj"/>
                 <outlet property="coinImage" destination="zVj-nk-JEA" id="zaI-tC-HMI"/>
                 <outlet property="coinNameLabel" destination="vaw-BH-uj1" id="ydA-MR-h3E"/>
             </connections>

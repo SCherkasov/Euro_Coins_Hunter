@@ -17,6 +17,8 @@ class CoinsViewController: UIViewController {
   var lockImage: CoinsCollectionViewCell?
   var isCoinLocked = true
   
+  var button = UIButton()
+  
   var doorSate = DoorState.closed
   var editBarButtonItemState = EditBarButtonItem.deactivate
   
@@ -36,6 +38,14 @@ class CoinsViewController: UIViewController {
     let nib = UINib(nibName: "CoinsCollectionViewCell", bundle: nil)
     coinCollectionView.register(nib, forCellWithReuseIdentifier:
       "CoinsCollectionViewCell")
+    
+    // setup button
+    button.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
+    button.setTitle("", for: .normal)
+    button.addTarget(self, action: #selector(makeAction), for: .touchUpInside)
+    lockImage?.coinImage.addSubview(button)
+    
+    button.isHidden = true
     
     navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Edit", style: .plain, target: self, action: #selector(editAction))
     navigationItem.rightBarButtonItem?.tintColor = UIColor.white
@@ -59,7 +69,7 @@ class CoinsViewController: UIViewController {
     coinCollectionView.collectionViewLayout = layout
   }
   
-    func makeAction() {
+    @objc func makeAction() {
     switch self.doorSate {
     case .opened:
       self.doorSate = .closed
@@ -77,11 +87,13 @@ class CoinsViewController: UIViewController {
     case .activate:
       self.editBarButtonItemState = .deactivate
       navigationItem.rightBarButtonItem?.title = "Edit"
-      lockImage?.buttonOnCoinCell.isHidden = false
+      button.isHidden = true
+      print("button deactivate")
     case .deactivate:
       self.editBarButtonItemState = .activate
       navigationItem.rightBarButtonItem?.title = "Save"
-      lockImage?.buttonOnCoinCell.isHidden = true
+      button.isHidden = false
+      print("button activate")
     }
   }
   
@@ -148,19 +160,18 @@ extension CoinsViewController: UICollectionViewDelegate {
   func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     if indexPath.item == 8 {
       return
-     } else {
-      if editBarButtonItemState == .activate && isCoinLocked == false {
-    let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
-    if let detailVC = storyboard.instantiateViewController(withIdentifier: "DetailViewController")
-      as? DetailViewController
-    {
-      let coinDetailPost = self.coinStore.coins[indexPath.row] as Coin
-      detailVC.selectedCoin = coinDetailPost
-      self.navigationController?.pushViewController(detailVC, animated: true)
-    } else {
-      return
-        }
-  }
-  }
+    }
+    if editBarButtonItemState == .activate && isCoinLocked == false {
+      let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+      if let detailVC = storyboard.instantiateViewController(withIdentifier: "DetailViewController")
+        as? DetailViewController
+      {
+        let coinDetailPost = self.coinStore.coins[indexPath.row] as Coin
+        detailVC.selectedCoin = coinDetailPost
+        self.navigationController?.pushViewController(detailVC, animated: true)
+      } else {
+        return
+      }
+    }
   }
 }

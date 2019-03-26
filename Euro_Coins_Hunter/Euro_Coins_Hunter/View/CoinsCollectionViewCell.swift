@@ -13,7 +13,6 @@ class CoinsCollectionViewCell: UICollectionViewCell {
   @IBOutlet var coinImage: UIImageView!
   @IBOutlet var coinNameLabel: UILabel!
   
-  @IBOutlet var buttonOnCoinCell: UIButton!
   @IBOutlet var welcomeView: UIView!
   
   var coinsViewController: CoinsViewController?
@@ -30,9 +29,7 @@ class CoinsCollectionViewCell: UICollectionViewCell {
   
   override func awakeFromNib() {
     super.awakeFromNib()
-    
-   buttonOnCoinCell.isHidden = true
-    
+  
     //setup lock image
     self.imageViews = UIImage(named: "lock")!.divideIntoTwoVertialParts()
       .map {
@@ -60,10 +57,5 @@ class CoinsCollectionViewCell: UICollectionViewCell {
     self.coinImage.addSubview(imageViews[0])
     self.coinImage.addSubview(imageViews[1])
     
-  }
-  
-  @IBAction func makeAnimationButtom(_ sender: UIButton) {
-    print("makeAnimationButtom - pressed")
-    self.coinsViewController!.makeAction()
   }
 }

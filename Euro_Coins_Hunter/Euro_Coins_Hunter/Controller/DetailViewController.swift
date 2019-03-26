@@ -16,6 +16,8 @@ class DetailViewController: UIViewController {
   var coinStore = CoinStore()
   var selectedCoin: Coin?
   
+  var tapGesture: UITapGestureRecognizer!
+  
   override func viewDidLoad() {
         super.viewDidLoad()
     let image = UIImage(named: (selectedCoin?.image)!)
@@ -24,7 +26,19 @@ class DetailViewController: UIViewController {
     headerView.detailCoinImage.clipsToBounds = true
     
     self.detailTableView.separatorStyle = .none
-    }
+    
+    // setup TapGestureRecognizer
+    self.tapGesture = UITapGestureRecognizer(target: self, action: #selector(transit))
+    self.headerView.detailCoinImage.isUserInteractionEnabled = true
+    self.headerView.detailCoinImage.addGestureRecognizer(tapGesture)
+  }
+  
+  @objc func transit() {
+    let detailCoinVC = UIStoryboard(name: "Main", bundle: nil)
+    let destVC = detailCoinVC.instantiateViewController(withIdentifier: "DetailCoinZoomViewController") as! DetailCoinZoomViewController
+    destVC.detCoiImage = headerView.detailCoinImage.image!
+    self.navigationController?.pushViewController(destVC, animated: true)
+  }
 }
 
 extension DetailViewController: UITableViewDataSource {

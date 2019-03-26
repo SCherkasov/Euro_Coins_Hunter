@@ -160,17 +160,18 @@ extension CoinsViewController: UICollectionViewDelegate {
   func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     if indexPath.item == 8 {
       return
-    }
-    if editBarButtonItemState == .activate && isCoinLocked == false {
-      let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
-      if let detailVC = storyboard.instantiateViewController(withIdentifier: "DetailViewController")
-        as? DetailViewController
-      {
-        let coinDetailPost = self.coinStore.coins[indexPath.row] as Coin
-        detailVC.selectedCoin = coinDetailPost
-        self.navigationController?.pushViewController(detailVC, animated: true)
-      } else {
-        return
+    } else {
+      if editBarButtonItemState == .activate && isCoinLocked == false {
+        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+        if let detailVC = storyboard.instantiateViewController(withIdentifier: "DetailViewController")
+          as? DetailViewController
+        {
+          let coinDetailPost = self.coinStore.coins[indexPath.row] as Coin
+          detailVC.selectedCoin = coinDetailPost
+          self.navigationController?.pushViewController(detailVC, animated: true)
+        } else {
+          return
+        }
       }
     }
   }

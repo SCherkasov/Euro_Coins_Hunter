@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8A146A7C22450BAF00987A12 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A146A7B22450BAF00987A12 /* Image.swift */; };
+		8A305D88224AD5880026BE33 /* DetailCoinZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A305D87224AD5880026BE33 /* DetailCoinZoomViewController.swift */; };
 		8A669FC2223D3D3A005423EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A669FC1223D3D3A005423EB /* AppDelegate.swift */; };
 		8A669FC7223D3D3A005423EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A669FC5223D3D3A005423EB /* Main.storyboard */; };
 		8A669FC9223D3D3C005423EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A669FC8223D3D3C005423EB /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		8A146A7B22450BAF00987A12 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		8A305D87224AD5880026BE33 /* DetailCoinZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCoinZoomViewController.swift; sourceTree = "<group>"; };
 		8A669FBE223D3D3A005423EB /* Euro_Coins_Hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Euro_Coins_Hunter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A669FC1223D3D3A005423EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A669FC6223D3D3A005423EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				8A669FF8223EBDBB005423EB /* LogInViewController.swift */,
 				8A669FFA223EBDC7005423EB /* RegisterViewController.swift */,
 				8A669FFE223EE42C005423EB /* DetailViewController.swift */,
+				8A305D87224AD5880026BE33 /* DetailCoinZoomViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				8A66A003223EE9EE005423EB /* DetailHeaderView.swift in Sources */,
 				8A669FF9223EBDBB005423EB /* LogInViewController.swift in Sources */,
 				8A669FEF223E64BA005423EB /* FlagsCollectionViewCell.swift in Sources */,
+				8A305D88224AD5880026BE33 /* DetailCoinZoomViewController.swift in Sources */,
 				8A8939AE22403FE0008F5A2D /* DesignerCell.swift in Sources */,
 				8A8939AC22403E23008F5A2D /* YearCell.swift in Sources */,
 			);

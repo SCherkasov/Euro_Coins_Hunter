@@ -613,7 +613,64 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fIY-qG-EL4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2493.5999999999999" y="1106.4467766116943"/>
+            <point key="canvasLocation" x="2481" y="913"/>
+        </scene>
+        <!--Detail Coin Zoom View Controller-->
+        <scene sceneID="gEQ-RX-s2w">
+            <objects>
+                <viewController storyboardIdentifier="DetailCoinZoomViewController" id="LZZ-Ef-9aV" customClass="DetailCoinZoomViewController" customModule="Euro_Coins_Hunter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JZR-fM-s28">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Abk-e3-X3A">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g8V-SG-kGI">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="N6N-r5-cnX">
+                                                <rect key="frame" x="37.5" y="183.5" width="300" height="300"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="300" id="UcX-6k-2kP"/>
+                                                    <constraint firstAttribute="height" constant="300" id="VTT-Y7-brT"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="N6N-r5-cnX" firstAttribute="centerX" secondItem="g8V-SG-kGI" secondAttribute="centerX" id="4w6-sJ-0dq"/>
+                                            <constraint firstItem="N6N-r5-cnX" firstAttribute="centerY" secondItem="g8V-SG-kGI" secondAttribute="centerY" id="rEo-OR-z4M"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="g8V-SG-kGI" firstAttribute="top" secondItem="Abk-e3-X3A" secondAttribute="top" id="Lw9-6t-ygB"/>
+                                    <constraint firstItem="g8V-SG-kGI" firstAttribute="height" secondItem="Abk-e3-X3A" secondAttribute="height" priority="250" id="PYC-Ar-Pgi"/>
+                                    <constraint firstItem="g8V-SG-kGI" firstAttribute="width" secondItem="Abk-e3-X3A" secondAttribute="width" id="Wsz-Bi-n8n"/>
+                                    <constraint firstAttribute="trailing" secondItem="g8V-SG-kGI" secondAttribute="trailing" id="fMf-Bo-VU3"/>
+                                    <constraint firstAttribute="bottom" secondItem="g8V-SG-kGI" secondAttribute="bottom" id="xFz-eu-Sl8"/>
+                                    <constraint firstItem="g8V-SG-kGI" firstAttribute="leading" secondItem="Abk-e3-X3A" secondAttribute="leading" id="zL9-E2-yRA"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Abk-e3-X3A" firstAttribute="leading" secondItem="FIc-lF-WaA" secondAttribute="leading" id="9nY-z0-cdD"/>
+                            <constraint firstItem="Abk-e3-X3A" firstAttribute="bottom" secondItem="FIc-lF-WaA" secondAttribute="bottom" id="Wxy-Ym-oRf"/>
+                            <constraint firstItem="Abk-e3-X3A" firstAttribute="top" secondItem="JZR-fM-s28" secondAttribute="top" id="dii-qz-W3s"/>
+                            <constraint firstItem="Abk-e3-X3A" firstAttribute="trailing" secondItem="FIc-lF-WaA" secondAttribute="trailing" id="ncE-ln-D0r"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FIc-lF-WaA"/>
+                    </view>
+                    <connections>
+                        <outlet property="detailCoinImage" destination="N6N-r5-cnX" id="0hd-xG-1wm"/>
+                        <outlet property="scrollView" destination="Abk-e3-X3A" id="u2A-gC-Ylt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QP1-iu-8d9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3229.5999999999999" y="912.5937031484259"/>
         </scene>
         <!--Black Navigation Controller-->
         <scene sceneID="bhu-Yb-Av6">

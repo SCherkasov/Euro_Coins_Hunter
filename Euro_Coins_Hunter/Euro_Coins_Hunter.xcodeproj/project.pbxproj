@@ -38,6 +38,8 @@
 		8A8939B922404361008F5A2D /* ThicknessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8939B822404361008F5A2D /* ThicknessCell.swift */; };
 		8A8939BB224043B3008F5A2D /* HerdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8939BA224043B3008F5A2D /* HerdCell.swift */; };
 		8A8939BD2240440A008F5A2D /* DescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8939BC2240440A008F5A2D /* DescriptionCell.swift */; };
+		E05170C7224B826E00742B86 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05170C6224B826E00742B86 /* LoginViewController.swift */; };
+		E0D13F04224B7180004ABF96 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D13F03224B7180004ABF96 /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +76,8 @@
 		8A8939B822404361008F5A2D /* ThicknessCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThicknessCell.swift; sourceTree = "<group>"; };
 		8A8939BA224043B3008F5A2D /* HerdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerdCell.swift; sourceTree = "<group>"; };
 		8A8939BC2240440A008F5A2D /* DescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionCell.swift; sourceTree = "<group>"; };
+		E05170C6224B826E00742B86 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E0D13F03224B7180004ABF96 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,7 @@
 		8A669FD5223D3FE3005423EB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E0D13F02224B716E004ABF96 /* LoginViewController */,
 				8A669FF3223E64E7005423EB /* CoinsViewController.swift */,
 				8A669FF2223E64E7005423EB /* FlagsViewController.swift */,
 				8A669FF6223E7171005423EB /* BlackNavigationController.swift */,
@@ -172,6 +177,15 @@
 				8A8939BC2240440A008F5A2D /* DescriptionCell.swift */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		E0D13F02224B716E004ABF96 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E0D13F03224B7180004ABF96 /* LoginViewController.xib */,
+				E05170C6224B826E00742B86 /* LoginViewController.swift */,
+			);
+			path = LoginViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +251,7 @@
 				8A669FDE223D4271005423EB /* BaseOfCoinCountry.json in Resources */,
 				8A669FF0223E64BA005423EB /* CoinsCollectionViewCell.xib in Resources */,
 				8A669FC9223D3D3C005423EB /* Assets.xcassets in Resources */,
+				E0D13F04224B7180004ABF96 /* LoginViewController.xib in Resources */,
 				8A669FC7223D3D3A005423EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +287,7 @@
 				8A669FEF223E64BA005423EB /* FlagsCollectionViewCell.swift in Sources */,
 				8A305D88224AD5880026BE33 /* DetailCoinZoomViewController.swift in Sources */,
 				8A8939AE22403FE0008F5A2D /* DesignerCell.swift in Sources */,
+				E05170C7224B826E00742B86 /* LoginViewController.swift in Sources */,
 				8A8939AC22403E23008F5A2D /* YearCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,7 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HH9AF9DGX8;
 				INFOPLIST_FILE = Euro_Coins_Hunter/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,7 +456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HH9AF9DGX8;
 				INFOPLIST_FILE = Euro_Coins_Hunter/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

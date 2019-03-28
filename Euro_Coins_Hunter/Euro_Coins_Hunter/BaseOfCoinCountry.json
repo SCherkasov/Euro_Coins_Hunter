@@ -7,42 +7,91 @@
         {
           "name": "1 euro cent",
           "image": "and_1.jpg",
-          "year": "since 2014"
+          "year": "since 2014",
+          "designer": "Ruben da Silva",
+          "mint": "Royal Mint of Spain (Madrid)",
+          "material": "Copper coated steel",
+          "weight": "2.3 grams",
+          "diameter": "16.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "2 euro cent",
           "image": "and_2.jpg",
-          "year": "since 2014"
+          "year": "since 2014",
+          "designer": "Ruben da Silva",
+          "mint": "Royal Mint of Spain (Madrid)",
+          "material": "Copper coated steel",
+          "weight": "3.06 grams",
+          "diameter": "18.75 mm",
+          "thickness": "1.67 mm"
+          
         },
         {
           "name": "5 euro cent",
           "image": "and_5.jpg",
-          "year": "since 2014"
+          "year": "since 2014",
+          "designer": "Ruben da Silva",
+          "mint": "Royal Mint of Spain (Madrid)",
+          "material": "Copper coated steel",
+          "weight": "3.92 grams",
+          "diameter": "21.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "10 euro cent",
           "image": "and_10.jpg",
-          "year": "since 2014"
+          "year": "since 2014",
+          "designer": "Pere Moles",
+          "mint": "Royal Mint of Spain (Madrid)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "4.1 grams",
+          "diameter": "19.75 mm",
+          "thickness": "1.93 mm"
         },
         {
           "name": "20 euro cent",
           "image": "and_20.jpg",
-          "year": "since 2014"
+          "year": "since 2014",
+          "designer": "Pere Moles",
+          "mint": "Royal Mint of Spain (Madrid)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "5.74 grams",
+          "diameter": "22.25 mm",
+          "thickness": "2.14 mm"
         },
         {
           "name": "50 euro cent",
           "image": "and_50.jpg",
-          "year": "since 2014"
+          "year": "since 2014",
+          "designer": "Pere Moles",
+          "mint": "Royal Mint of Spain (Madrid)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "7.8 grams",
+          "diameter": "24.25 mm",
+          "thickness": "2.38 mm"
         },
         {
           "name": "1 euro",
           "image": "and_1e.jpg",
-          "year": "since 2014"
+          "year": "since 2014",
+          "designer": "Jordi Puy",
+          "mint": "Royal Mint of Spain (Madrid)",
+          "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
+          "weight": "7.5 grams",
+          "diameter": "23.25 mm",
+          "thickness": "2.33 mm"
         },
         {
           "name": "2 euro",
           "image": "and_2e.jpg",
-          "year": "since 2014"
+          "year": "since 2014",
+          "designer": "Pere Moles",
+          "mint": "Royal Mint of Spain (Madrid)",
+          "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
+          "weight": "8.5 grams",
+          "diameter": "25.75 mm",
+          "thickness": "2.2 mm"
         }
       ]
     },
@@ -53,42 +102,90 @@
         {
           "name": "1 euro cent",
           "image": "aus_1.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Josef Kaiser",
+          "mint": "Mint of Austria (Vienna)",
+          "material": "Copper coated steel",
+          "weight": "2.3 grams",
+          "diameter": "16.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "2 euro cent",
           "image": "aus_2.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Josef Kaiser",
+          "mint": "Mint of Austria (Vienna)",
+          "material": "Copper coated steel",
+          "weight": "3.06 grams",
+          "diameter": "18.75 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "5 euro cent",
           "image": "aus_5.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Josef Kaiser",
+          "mint": "Mint of Austria (Vienna)",
+          "material": "Copper coated steel",
+          "weight": "3.92 grams",
+          "diameter": "21.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "10 euro cent",
           "image": "aus_10.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Josef Kaiser",
+          "mint": "Mint of Austria (Vienna)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "4.1 grams",
+          "diameter": "19.75 mm",
+          "thickness": "1.93 mm"
         },
         {
           "name": "20 euro cent",
           "image": "aus_20.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Josef Kaiser",
+          "mint": "Mint of Austria (Vienna)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "5.74 grams",
+          "diameter": "22.25 mm",
+          "thickness": "2.14 mm"
         },
         {
           "name": "50 euro cent",
           "image": "aus_50.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Josef Kaiser",
+          "mint": "Mint of Austria (Vienna)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "7.8 grams",
+          "diameter": "24.25 mm",
+          "thickness": "2.38 mm"
         },
         {
           "name": "1 euro",
           "image": "aus_1e.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Josef Kaiser",
+          "mint": "Mint of Austria (Vienna)",
+          "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
+          "weight": "7.5 grams",
+          "diameter": "23.25 mm",
+          "thickness": "2.33 mm"
         },
         {
           "name": "2 euro",
           "image": "aus_2e.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Josef Kaiser",
+          "mint": "Mint of Austria (Vienna)",
+          "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
+          "weight": "8.5 grams",
+          "diameter": "25.75 mm",
+          "thickness": "2.2 mm"
         }
       ]
     },
@@ -99,42 +196,90 @@
         {
           "name": "1 euro cent",
           "image": "belg_1.jpg",
-          "year": "1999—2007"
+          "year": "1999—2007",
+          "designer": "Jan Alfons Keustermans",
+          "mint": "Royal Mint of Belgium (Brussels)",
+          "material": "Copper coated steel",
+          "weight": "2.3 grams",
+          "diameter": "16.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "2 euro cent",
           "image": "belg_2.jpg",
-          "year": "1999—2007"
+          "year": "1999—2007",
+          "designer": "Jan Alfons Keustermans",
+          "mint": "Royal Mint of Belgium (Brussels)",
+          "material": "Copper coated steel",
+          "weight": "3.06 grams",
+          "diameter": "18.75 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "5 euro cent",
           "image": "belg_5.jpg",
-          "year": "1999—2007"
+          "year": "1999—2007",
+          "designer": "Jan Alfons Keustermans",
+          "mint": "Royal Mint of Belgium (Brussels)",
+          "material": "Copper coated steel",
+          "weight": "3.92 grams",
+          "diameter": "21.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "10 euro cent",
           "image": "belg_10.jpg",
-          "year": "1999—2007"
+          "year": "1999—2007",
+          "designer": "Jan Alfons Keustermans",
+          "mint": "Royal Mint of Belgium (Brussels)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "4.1 grams",
+          "diameter": "19.75 mm",
+          "thickness": "1.93 mm"
         },
         {
           "name": "20 euro cent",
           "image": "belg_20.jpg",
-          "year": "1999—2007"
+          "year": "1999—2007",
+          "designer": "Jan Alfons Keustermans",
+          "mint": "Royal Mint of Belgium (Brussels)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "5.74 grams",
+          "diameter": "22.25 mm",
+          "thickness": "2.14 mm"
         },
         {
           "name": "50 euro cent",
           "image": "belg_50.jpg",
-          "year": "1999—2007"
+          "year": "1999—2007",
+          "designer": "Jan Alfons Keustermans",
+          "mint": "Royal Mint of Belgium (Brussels)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "7.8 grams",
+          "diameter": "24.25 mm",
+          "thickness": "2.38 mm"
         },
         {
           "name": "1 euro",
           "image": "belg_1e.jpg",
-          "year": "1999—2007"
+          "year": "1999—2007",
+          "designer": "Jan Alfons Keustermans",
+          "mint": "Royal Mint of Belgium (Brussels)",
+          "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
+          "weight": "7.5 grams",
+          "diameter": "23.25 mm",
+          "thickness": "2.33 mm"
         },
         {
           "name": "2 euro",
           "image": "belg_2e.jpg",
-          "year": "1999—2007"
+          "year": "1999—2007",
+          "designer": "Jan Alfons Keustermans",
+          "mint": "Royal Mint of Belgium (Brussels)",
+          "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
+          "weight": "8.5 grams",
+          "diameter": "25.75 mm",
+          "thickness": "2.2 mm"
         }
       ]
     },
@@ -145,42 +290,90 @@
         {
           "name": "1 euro cent",
           "image": "cyp_1.jpg",
-          "year": "since 2008"
+          "year": "since 2008",
+          "designer": "Erik Maell, Tatiana Soteropoulos",
+          "mint": "Mint of Finland (Vanta)",
+          "material": "Copper coated steel",
+          "weight": "2.3 grams",
+          "diameter": "16.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "2 euro cent",
           "image": "cyp_2.jpg",
-          "year": "since 2008"
+          "year": "since 2008",
+          "designer": "Erik Maell, Tatiana Soteropoulos",
+          "mint": "Mint of Finland (Vanta)",
+          "material": "Copper coated steel",
+          "weight": "3.06 grams",
+          "diameter": "18.75 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "5 euro cent",
           "image": "cyp_5.jpg",
-          "year": "since 2008"
+          "year": "since 2008",
+          "designer": "Erik Maell, Tatiana Soteropoulos",
+          "mint": "Mint of Finland (Vanta)",
+          "material": "Copper coated steel",
+          "weight": "3.92 grams",
+          "diameter": "21.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "10 euro cent",
           "image": "cyp_10.jpg",
-          "year": "since 2008"
+          "year": "since 2008",
+          "designer": "Erik Maell, Tatiana Soteropoulos",
+          "mint": "Mint of Finland (Vanta)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "4.1 grams",
+          "diameter": "19.75 mm",
+          "thickness": "1.93 mm"
         },
         {
           "name": "20 euro cent",
           "image": "cyp_20.jpg",
-          "year": "since 2008"
+          "year": "since 2008",
+          "designer": "Erik Maell, Tatiana Soteropoulos",
+          "mint": "Mint of Finland (Vanta)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "5.74 grams",
+          "diameter": "22.25 mm",
+          "thickness": "2.14 mm"
         },
         {
           "name": "50 euro cent",
           "image": "cyp_50.jpg",
-          "year": "since 2008"
+          "year": "since 2008",
+          "designer": "Erik Maell, Tatiana Soteropoulos",
+          "mint": "Mint of Finland (Vanta)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "7.8 grams",
+          "diameter": "24.25 mm",
+          "thickness": "2.38 mm"
         },
         {
           "name": "1 euro",
           "image": "cyp_1e.jpg",
-          "year": "since 2008"
+          "year": "since 2008",
+          "designer": "Erik Maell, Tatiana Soteropoulos",
+          "mint": "Mint of Finland (Vanta)",
+          "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
+          "weight": "7.5 grams",
+          "diameter": "23.25 mm",
+          "thickness": "2.33 mm"
         },
         {
           "name": "2 euro",
           "image": "cyp_2e.jpg",
-          "year": "since 2008"
+          "year": "since 2008",
+          "designer": "Erik Maell, Tatiana Soteropoulos",
+          "mint": "Mint of Finland (Vanta)",
+          "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
+          "weight": "8.5 grams",
+          "diameter": "25.75 mm",
+          "thickness": "2.2 mm"
         }
       ]
     },
@@ -191,42 +384,90 @@
         {
           "name": "1 euro cent",
           "image": "est_1.jpg",
-          "year": "since 2011"
+          "year": "since 2011",
+          "designer": "Lembit Lõhmus",
+          "mint": "Mint of Finland (Vanta)",
+          "material": "Copper coated steel",
+          "weight": "2.3 grams",
+          "diameter": "16.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "2 euro cent",
           "image": "est_2.jpg",
-          "year": "since 2011"
+          "year": "since 2011",
+          "designer": "Lembit Lõhmus",
+          "mint": "Mint of Finland (Vanta)",
+          "material": "Copper coated steel",
+          "weight": "3.06 grams",
+          "diameter": "18.75 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "5 euro cent",
           "image": "est_5.jpg",
-          "year": "since 2011"
+          "year": "since 2011",
+          "designer": "Lembit Lõhmus",
+          "mint": "Mint of Finland (Vanta)",
+          "material": "Copper coated steel",
+          "weight": "3.92 grams",
+          "diameter": "21.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "10 euro cent",
           "image": "est_10.jpg",
-          "year": "since 2011"
+          "year": "since 2011",
+          "designer": "Lembit Lõhmus",
+          "mint": "Mint of Finland (Vanta)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "4.1 grams",
+          "diameter": "19.75 mm",
+          "thickness": "1.93 mm"
         },
         {
           "name": "20 euro cent",
           "image": "est_20.jpg",
-          "year": "since 2011"
+          "year": "since 2011",
+          "designer": "Lembit Lõhmus",
+          "mint": "Mint of Finland (Vanta)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "5.74 grams",
+          "diameter": "22.25 mm",
+          "thickness": "2.14 mm"
         },
         {
           "name": "50 euro cent",
           "image": "est_50.jpg",
-          "year": "since 2011"
+          "year": "since 2011",
+          "designer": "Lembit Lõhmus",
+          "mint": "Mint of Finland (Vanta)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "7.8 grams",
+          "diameter": "24.25 mm",
+          "thickness": "2.38 mm"
         },
         {
           "name": "1 euro",
           "image": "est_1e.jpg",
-          "year": "since 2011"
+          "year": "since 2011",
+          "designer": "Lembit Lõhmus",
+          "mint": "Mint of Finland (Vanta)",
+          "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
+          "weight": "7.5 grams",
+          "diameter": "23.25 mm",
+          "thickness": "2.33 mm"
         },
         {
           "name": "2 euro",
           "image": "est_2e.jpg",
-          "year": "since 2011"
+          "year": "since 2011",
+          "designer": "Lembit Lõhmus",
+          "mint": "Mint of Finland (Vanta)",
+          "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
+          "weight": "8.5 grams",
+          "diameter": "25.75 mm",
+          "thickness": "2.2 mm"
         }
       ]
     },
@@ -237,42 +478,90 @@
         {
           "name": "1 euro cent",
           "image": "fin_1.jpg",
-          "year": "1999—2006"
+          "year": "1999—2006",
+          "designer": "Heikki Haivaoja",
+          "mint": "Mint of Finland (Vanta)",
+          "material": "Copper coated steel",
+          "weight": "2.3 grams",
+          "diameter": "16.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "2 euro cent",
           "image": "fin_2.jpg",
-          "year": "1999—2006"
+          "year": "1999—2006",
+          "designer": "Heikki Haivaoja",
+          "mint": "Mint of Finland (Vanta)",
+          "material": "Copper coated steel",
+          "weight": "3.06 grams",
+          "diameter": "18.75 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "5 euro cent",
           "image": "fin_5.jpg",
-          "year": "1999—2006"
+          "year": "1999—2006",
+          "designer": "Heikki Haivaoja",
+          "mint": "Mint of Finland (Vanta)",
+          "material": "Copper coated steel",
+          "weight": "3.92 grams",
+          "diameter": "21.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "10 euro cent",
           "image": "fin_10.jpg",
-          "year": "1999—2006"
+          "year": "1999—2006",
+          "designer": "Heikki Haivaoja",
+          "mint": "Mint of Finland (Vanta)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "4.1 grams",
+          "diameter": "19.75 mm",
+          "thickness": "1.93 mm"
         },
         {
           "name": "20 euro cent",
           "image": "fin_20.jpg",
-          "year": "1999—2006"
+          "year": "1999—2006",
+          "designer": "Heikki Haivaoja",
+          "mint": "Mint of Finland (Vanta)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "5.74 grams",
+          "diameter": "22.25 mm",
+          "thickness": "2.14 mm"
         },
         {
           "name": "50 euro cent",
           "image": "fin_50.jpg",
-          "year": "1999—2006"
+          "year": "1999—2006",
+          "designer": "Heikki Haivaoja",
+          "mint": "Mint of Finland (Vanta)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "7.8 grams",
+          "diameter": "24.25 mm",
+          "thickness": "2.38 mm"
         },
         {
           "name": "1 euro",
           "image": "fin_1e.jpg",
-          "year": "1999—2006"
+          "year": "1999—2006",
+          "designer": "Pertti Makinen",
+          "mint": "Mint of Finland (Vanta)",
+          "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
+          "weight": "7.5 grams",
+          "diameter": "23.25 mm",
+          "thickness": "2.33 mm"
         },
         {
           "name": "2 euro",
           "image": "fin_2e.jpg",
-          "year": "1999—2006"
+          "year": "1999—2006",
+          "designer": "Raimo Heino",
+          "mint": "Mint of Finland (Vanta)",
+          "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
+          "weight": "8.5 grams",
+          "diameter": "25.75 mm",
+          "thickness": "2.2 mm"
         }
       ]
     },
@@ -283,42 +572,90 @@
         {
           "name": "1 euro cent",
           "image": "fran_1.jpg",
-          "year": "since 1999"
+          "year": "since 1999",
+          "designer": "Fabienne Courtiade",
+          "mint": "Paris Mint of France (Pessac)",
+          "material": "Copper coated steel",
+          "weight": "2.3 grams",
+          "diameter": "16.25 mm",
+          "thickness": "1.67 mm",
+          "diameter": "18.75 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "2 euro cent",
           "image": "fran_2.jpg",
-          "year": "since 1999"
+          "year": "since 1999",
+          "designer": "Fabienne Courtiade",
+          "mint": "Paris Mint of France (Pessac)",
+          "material": "Copper coated steel",
+          "weight": "3.06 grams"
         },
         {
           "name": "5 euro cent",
           "image": "fran_5.jpg",
-          "year": "since 1999"
+          "year": "since 1999",
+          "designer": "Fabienne Courtiade",
+          "mint": "Paris Mint of France (Pessac)",
+          "material": "Copper coated steel",
+          "weight": "3.92 grams",
+          "diameter": "21.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "10 euro cent",
           "image": "fran_10.jpg",
-          "year": "since 1999"
+          "year": "since 1999",
+          "designer": "Laurent Jorlo",
+          "mint": "Paris Mint of France (Pessac)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "4.1 grams",
+          "diameter": "19.75 mm",
+          "thickness": "1.93 mm"
         },
         {
           "name": "20 euro cent",
           "image": "fran_20.jpg",
-          "year": "since 1999"
+          "year": "since 1999",
+          "designer": "Laurent Jorlo",
+          "mint": "Paris Mint of France (Pessac)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "5.74 grams",
+          "diameter": "22.25 mm",
+          "thickness": "2.14 mm"
         },
         {
           "name": "50 euro cent",
           "image": "fran_50.jpg",
-          "year": "since 1999"
+          "year": "since 1999",
+          "designer": "Laurent Jorlo",
+          "mint": "Paris Mint of France (Pessac)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "7.8 grams",
+          "diameter": "24.25 mm",
+          "thickness": "2.38 mm"
         },
         {
           "name": "1 euro",
           "image": "fran_1e.jpg",
-          "year": "since 1999"
+          "year": "since 1999",
+          "designer": "Joaquim Jiminez",
+          "mint": "Paris Mint of France (Pessac)",
+          "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
+          "weight": "7.5 grams",
+          "diameter": "23.25 mm",
+          "thickness": "2.33 mm"
         },
         {
           "name": "2 euro",
           "image": "fran_2e.jpg",
-          "year": "since 1999"
+          "year": "since 1999",
+          "designer": "Joaquim Jiminez",
+          "mint": "Paris Mint of France (Pessac)",
+          "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
+          "weight": "8.5 grams",
+          "diameter": "25.75 mm",
+          "thickness": "2.2 mm"
         }
       ]
     },
@@ -329,42 +666,90 @@
         {
           "name": "1 euro cent",
           "image": "ger_1.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Rolf Lederbogen",
+          "mint": "German mints (A, D, G, F, J)",
+          "material": "Copper coated steel",
+          "weight": "2.3 grams",
+          "diameter": "16.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "2 euro cent",
           "image": "ger_2.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Rolf Lederbogen",
+          "mint": "German mints (A, D, G, F, J)",
+          "material": "Copper coated steel",
+          "weight": "3.06 grams",
+          "diameter": "18.75 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "5 euro cent",
           "image": "ger_5.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Rolf Lederbogen",
+          "mint": "German mints (A, D, G, F, J)",
+          "material": "Copper coated steel",
+          "weight": "3.92 grams",
+          "diameter": "21.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "10 euro cent",
           "image": "ger_10.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Reinhart Heinsdorff",
+          "mint": "German mints (A, D, G, F, J)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "4.1 grams",
+          "diameter": "19.75 mm",
+          "thickness": "1.93 mm"
         },
         {
           "name": "20 euro cent",
           "image": "ger_20.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Reinhart Heinsdorff",
+          "mint": "German mints (A, D, G, F, J)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "5.74 grams",
+          "diameter": "22.25 mm",
+          "thickness": "2.14 mm"
         },
         {
           "name": "50 euro cent",
           "image": "ger_50.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Reinhart Heinsdorff",
+          "mint": "German mints (A, D, G, F, J)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "7.8 grams",
+          "diameter": "24.25 mm",
+          "thickness": "2.38 mm"
         },
         {
           "name": "1 euro",
           "image": "ger_1e.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Heinz Hoyer, Sneschana Russewa-Hoyer",
+          "mint": "German mints (A, D, G, F, J)",
+          "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
+          "weight": "7.5 grams",
+          "diameter": "23.25 mm",
+          "thickness": "2.33 mm"
         },
         {
           "name": "2 euro",
           "image": "ger_2e.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Heinz Hoyer, Sneschana Russewa-Hoyer",
+          "mint": "German mints (A, D, G, F, J)",
+          "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
+          "weight": "8.5 grams",
+          "diameter": "25.75 mm",
+          "thickness": "2.2 mm"
         }
       ]
     },
@@ -375,42 +760,90 @@
         {
           "name": "1 euro cent",
           "image": "gree_1.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Georges Stamatopoulos (signature — ΓΣ)",
+          "mint": "---------",
+          "material": "Copper coated steel",
+          "weight": "2.3 grams",
+          "diameter": "16.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "2 euro cent",
           "image": "gree_2.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Georges Stamatopoulos (signature — ΓΣ)",
+          "mint": "---------",
+          "material": "Copper coated steel",
+          "weight": "3.06 grams",
+          "diameter": "18.75 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "5 euro cent",
           "image": "gree_5.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Georges Stamatopoulos (signature — ΓΣ)",
+          "mint": "---------",
+          "material": "Copper coated steel",
+          "weight": "3.92 grams",
+          "diameter": "21.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "10 euro cent",
           "image": "gree_10.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Georges Stamatopoulos (signature — ΓΣ)",
+          "mint": "---------",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "4.1 grams",
+          "diameter": "19.75 mm",
+          "thickness": "1.93 mm"
         },
         {
           "name": "20 euro cent",
           "image": "gree_20.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Georges Stamatopoulos (signature — ΓΣ)",
+          "mint": "---------",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "5.74 grams",
+          "diameter": "22.25 mm",
+          "thickness": "2.14 mm"
         },
         {
           "name": "50 euro cent",
           "image": "gree_50.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Georges Stamatopoulos (signature — ΓΣ)",
+          "mint": "---------",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "7.8 grams",
+          "diameter": "24.25 mm",
+          "thickness": "2.38 mm"
         },
         {
           "name": "1 euro",
           "image": "gree_1e.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Georges Stamatopoulos (signature — ΓΣ)",
+          "mint": "---------",
+          "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
+          "weight": "7.5 grams",
+          "diameter": "23.25 mm",
+          "thickness": "2.33 mm"
         },
         {
           "name": "2 euro",
           "image": "gree_2e.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Georges Stamatopoulos (signature — ΓΣ)",
+          "mint": "---------",
+          "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
+          "weight": "8.5 grams",
+          "diameter": "25.75 mm",
+          "thickness": "2.2 mm"
         }
       ]
     },
@@ -421,42 +854,90 @@
         {
           "name": "1 euro cent",
           "image": "ire_1.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Jarlath Hayes",
+          "mint": "Mint of Ireland (Dublin)",
+          "material": "Copper coated steel",
+          "weight": "2.3 grams",
+          "diameter": "16.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "2 euro cent",
           "image": "ire_2.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Jarlath Hayes",
+          "mint": "Mint of Ireland (Dublin)",
+          "material": "Copper coated steel",
+          "weight": "3.06 grams",
+          "diameter": "18.75 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "5 euro cent",
           "image": "ire_5.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Jarlath Hayes",
+          "mint": "Mint of Ireland (Dublin)",
+          "material": "Copper coated steel",
+          "weight": "3.92 grams",
+          "diameter": "21.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "10 euro cent",
           "image": "ire_10.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Jarlath Hayes",
+          "mint": "Mint of Ireland (Dublin)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "4.1 grams",
+          "diameter": "19.75 mm",
+          "thickness": "1.93 mm"
         },
         {
           "name": "20 euro cent",
           "image": "ire_20.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Jarlath Hayes",
+          "mint": "Mint of Ireland (Dublin)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "5.74 grams",
+          "diameter": "22.25 mm",
+          "thickness": "2.14 mm"
         },
         {
           "name": "50 euro cent",
           "image": "ire_50.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Jarlath Hayes",
+          "mint": "Mint of Ireland (Dublin)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "7.8 grams",
+          "diameter": "24.25 mm",
+          "thickness": "2.38 mm"
         },
         {
           "name": "1 euro",
           "image": "ire_1e.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Jarlath Hayes",
+          "mint": "Mint of Ireland (Dublin)",
+          "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
+          "weight": "7.5 grams",
+          "diameter": "23.25 mm",
+          "thickness": "2.33 mm"
         },
         {
           "name": "2 euro",
           "image": "ire_2e.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Jarlath Hayes",
+          "mint": "Mint of Ireland (Dublin)",
+          "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
+          "weight": "8.5 grams",
+          "diameter": "25.75 mm",
+          "thickness": "2.2 mm"
         }
       ]
     },
@@ -467,42 +948,90 @@
         {
           "name": "1 euro cent",
           "image": "ita_1.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Eugenio Driutti",
+          "mint": "Italian Mint (Rome)",
+          "material": "Copper coated steel",
+          "weight": "2.3 grams",
+          "diameter": "16.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "2 euro cent",
           "image": "ita_2.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Luciana De Simoni (signature — LDS)",
+          "mint": "Italian Mint (Rome)",
+          "material": "Copper coated steel",
+          "weight": "3.06 grams",
+          "diameter": "18.75 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "5 euro cent",
           "image": "ita_5.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Ettore Lorenzo Frapiccini",
+          "mint": "Italian Mint (Rome)",
+          "material": "Copper coated steel",
+          "weight": "3.92 grams",
+          "diameter": "21.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "10 euro cent",
           "image": "ita_10.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Claudia Momoni",
+          "mint": "Italian Mint (Rome)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "4.1 grams",
+          "diameter": "19.75 mm",
+          "thickness": "1.93 mm"
         },
         {
           "name": "20 euro cent",
           "image": "ita_20.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Maria Angela Cassol (signature — M.A.C.)",
+          "mint": "Italian Mint (Rome)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "5.74 grams",
+          "diameter": "22.25 mm",
+          "thickness": "2.14 mm"
         },
         {
           "name": "50 euro cent",
           "image": "ita_50.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Roberto Mauri",
+          "mint": "Italian Mint (Rome)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "7.8 grams",
+          "diameter": "24.25 mm",
+          "thickness": "2.38 mm"
         },
         {
           "name": "1 euro",
           "image": "ita_1e.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Laura Cretara",
+          "mint": "Italian Mint (Rome)",
+          "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
+          "weight": "7.5 grams",
+          "diameter": "23.25 mm",
+          "thickness": "2.33 mm"
         },
         {
           "name": "2 euro",
           "image": "ita_2e.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Maria Carmela Colaneri (signature — M.C.C.)",
+          "mint": "Italian Mint (Rome)",
+          "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
+          "weight": "8.5 grams",
+          "diameter": "25.75 mm",
+          "thickness": "2.2 mm"
         }
       ]
     },
@@ -513,42 +1042,90 @@
         {
           "name": "1 euro cent",
           "image": "lat_1.jpg",
-          "year": "since 2014"
+          "year": "since 2014",
+          "designer": "Rihards Zariņš и Guntars Sietiņš",
+          "mint": "State Mint of Baden-Württemberg",
+          "material": "Copper coated steel",
+          "weight": "2.3 grams",
+          "diameter": "16.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "2 euro cent",
           "image": "lat_2.jpg",
-          "year": "since 2014"
+          "year": "since 2014",
+          "designer": "Rihards Zariņš и Guntars Sietiņš",
+          "mint": "State Mint of Baden-Württemberg",
+          "material": "Copper coated steel",
+          "weight": "3.06 grams",
+          "diameter": "18.75 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "5 euro cent",
           "image": "lat_5.jpg",
-          "year": "since 2014"
+          "year": "since 2014",
+          "designer": "Rihards Zariņš и Guntars Sietiņš",
+          "mint": "State Mint of Baden-Württemberg",
+          "material": "Copper coated steel",
+          "weight": "3.92 grams",
+          "diameter": "21.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "10 euro cent",
           "image": "lat_10.jpg",
-          "year": "since 2014"
+          "year": "since 2014",
+          "designer": "Rihards Zariņš и Guntars Sietiņš",
+          "mint": "State Mint of Baden-Württemberg",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "4.1 grams",
+          "diameter": "19.75 mm",
+          "thickness": "1.93 mm"
         },
         {
           "name": "20 euro cent",
           "image": "lat_20.jpg",
-          "year": "since 2014"
+          "year": "since 2014",
+          "designer": "Rihards Zariņš и Guntars Sietiņš",
+          "mint": "State Mint of Baden-Württemberg",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "5.74 grams",
+          "diameter": "22.25 mm",
+          "thickness": "2.14 mm"
         },
         {
           "name": "50 euro cent",
           "image": "lat_50.jpg",
-          "year": "since 2014"
+          "year": "since 2014",
+          "designer": "Rihards Zariņš и Guntars Sietiņš",
+          "mint": "State Mint of Baden-Württemberg",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "7.8 grams",
+          "diameter": "24.25 mm",
+          "thickness": "2.38 mm"
         },
         {
           "name": "1 euro",
           "image": "lat_1e.jpg",
-          "year": "since 2014"
+          "year": "since 2014",
+          "designer": "Rihards Zariņš и Guntars Sietiņš",
+          "mint": "State Mint of Baden-Württemberg",
+          "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
+          "weight": "7.5 grams",
+          "diameter": "23.25 mm",
+          "thickness": "2.33 mm"
         },
         {
           "name": "2 euro",
           "image": "lat_2e.jpg",
-          "year": "since 2014"
+          "year": "since 2014",
+          "designer": "Rihards Zariņš и Guntars Sietiņš",
+          "mint": "State Mint of Baden-Württemberg",
+          "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
+          "weight": "8.5 grams",
+          "diameter": "25.75 mm",
+          "thickness": "2.2 mm"
         }
       ]
     },
@@ -559,42 +1136,90 @@
         {
           "name": "1 euro cent",
           "image": "lith_1.jpg",
-          "year": "since 2015"
+          "year": "since 2015",
+          "designer": "Arvydas Každailis",
+          "mint": "Lithuanian Mint",
+          "material": "Copper coated steel",
+          "weight": "2.3 grams",
+          "diameter": "16.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "2 euro cent",
           "image": "lith_2.jpg",
-          "year": "since 2015"
+          "year": "since 2015",
+          "designer": "Arvydas Každailis",
+          "mint": "Lithuanian Mint",
+          "material": "Copper coated steel",
+          "weight": "3.06 grams",
+          "diameter": "18.75 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "5 euro cent",
           "image": "lith_5.jpg",
-          "year": "since 2015"
+          "year": "since 2015",
+          "designer": "Arvydas Každailis",
+          "mint": "Lithuanian Mint",
+          "material": "Copper coated steel",
+          "weight": "3.92 grams",
+          "diameter": "21.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "10 euro cent",
           "image": "lith_10.jpg",
-          "year": "since 2015"
+          "year": "since 2015",
+          "designer": "Arvydas Každailis",
+          "mint": "Lithuanian Mint",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "4.1 grams",
+          "diameter": "19.75 mm",
+          "thickness": "1.93 mm"
         },
         {
           "name": "20 euro cent",
           "image": "lith_20.jpg",
-          "year": "since 2015"
+          "year": "since 2015",
+          "designer": "Arvydas Každailis",
+          "mint": "Lithuanian Mint",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "5.74 grams",
+          "diameter": "22.25 mm",
+          "thickness": "2.14 mm"
         },
         {
           "name": "50 euro cent",
           "image": "lith_50.jpg",
-          "year": "since 2015"
+          "year": "since 2015",
+          "designer": "Arvydas Každailis",
+          "mint": "Lithuanian Mint",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "7.8 grams",
+          "diameter": "24.25 mm",
+          "thickness": "2.38 mm"
         },
         {
           "name": "1 euro",
           "image": "lith_1e.jpg",
-          "year": "since 2015"
+          "year": "since 2015",
+          "designer": "Arvydas Každailis",
+          "mint": "Lithuanian Mint",
+          "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
+          "weight": "7.5 grams",
+          "diameter": "23.25 mm",
+          "thickness": "2.33 mm"
         },
         {
           "name": "2 euro",
           "image": "lith_2e.jpg",
-          "year": "since 2015"
+          "year": "since 2015",
+          "designer": "Arvydas Každailis",
+          "mint": "Lithuanian Mint",
+          "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
+          "weight": "8.5 grams",
+          "diameter": "25.75 mm",
+          "thickness": "2.2 mm"
         }
       ]
     },
@@ -605,42 +1230,90 @@
         {
           "name": "1 euro cent",
           "image": "lux_1.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Yvette Gastauer-Claire",
+          "mint": "Royal Mint of the Netherlands (Utrecht)",
+          "material": "Copper coated steel",
+          "weight": "2.3 grams",
+          "diameter": "16.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "2 euro cent",
           "image": "lux_2.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Yvette Gastauer-Claire",
+          "mint": "Royal Mint of the Netherlands (Utrecht)",
+          "material": "Copper coated steel",
+          "weight": "3.06 grams",
+          "diameter": "18.75 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "5 euro cent",
           "image": "lux_5.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Yvette Gastauer-Claire",
+          "mint": "Royal Mint of the Netherlands (Utrecht)",
+          "material": "Copper coated steel",
+          "weight": "3.92 grams",
+          "diameter": "21.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "10 euro cent",
           "image": "lux_10.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Yvette Gastauer-Claire",
+          "mint": "Royal Mint of the Netherlands (Utrecht)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "4.1 grams",
+          "diameter": "19.75 mm",
+          "thickness": "1.93 mm"
         },
         {
           "name": "20 euro cent",
           "image": "lux_20.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Yvette Gastauer-Claire",
+          "mint": "Royal Mint of the Netherlands (Utrecht)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "5.74 grams",
+          "diameter": "22.25 mm",
+          "thickness": "2.14 mm"
         },
         {
           "name": "50 euro cent",
           "image": "lux_50.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Yvette Gastauer-Claire",
+          "mint": "Royal Mint of the Netherlands (Utrecht)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "7.8 grams",
+          "diameter": "24.25 mm",
+          "thickness": "2.38 mm"
         },
         {
           "name": "1 euro",
           "image": "lux_1e.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Yvette Gastauer-Claire",
+          "mint": "Royal Mint of the Netherlands (Utrecht)",
+          "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
+          "weight": "7.5 grams",
+          "diameter": "23.25 mm",
+          "thickness": "2.33 mm"
         },
         {
           "name": "2 euro",
           "image": "lux_2e.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Yvette Gastauer-Claire",
+          "mint": "Royal Mint of the Netherlands (Utrecht)",
+          "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
+          "weight": "8.5 grams",
+          "diameter": "25.75 mm",
+          "thickness": "2.2 mm"
         }
       ]
     },
@@ -651,42 +1324,90 @@
         {
           "name": "1 euro cent",
           "image": "mal_1.jpg",
-          "year": "since 2008"
+          "year": "since 2008",
+          "designer": "Noel Galea Bason",
+          "mint": "Paris Mint of France (Pessac)",
+          "material": "Copper coated steel",
+          "weight": "2.3 grams",
+          "diameter": "16.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "2 euro cent",
           "image": "mal_2.jpg",
-          "year": "since 2008"
+          "year": "since 2008",
+          "designer": "Noel Galea Bason",
+          "mint": "Paris Mint of France (Pessac)",
+          "material": "Copper coated steel",
+          "weight": "3.06 grams",
+          "diameter": "18.75 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "5 euro cent",
           "image": "mal_5.jpg",
-          "year": "since 2008"
+          "year": "since 2008",
+          "designer": "Noel Galea Bason",
+          "mint": "Paris Mint of France (Pessac)",
+          "material": "Copper coated steel",
+          "weight": "3.92 grams",
+          "diameter": "21.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "10 euro cent",
           "image": "mal_10.jpg",
-          "year": "since 2008"
+          "year": "since 2008",
+          "designer": "Noel Galea Bason",
+          "mint": "Paris Mint of France (Pessac)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "4.1 grams",
+          "diameter": "19.75 mm",
+          "thickness": "1.93 mm"
         },
         {
           "name": "20 euro cent",
           "image": "mal_20.jpg",
-          "year": "since 2008"
+          "year": "since 2008",
+          "designer": "Noel Galea Bason",
+          "mint": "Paris Mint of France (Pessac)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "5.74 grams",
+          "diameter": "22.25 mm",
+          "thickness": "2.14 mm"
         },
         {
           "name": "50 euro cent",
           "image": "mal_50.jpg",
-          "year": "since 2008"
+          "year": "since 2008",
+          "designer": "Noel Galea Bason",
+          "mint": "Paris Mint of France (Pessac)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "7.8 grams",
+          "diameter": "24.25 mm",
+          "thickness": "2.38 mm"
         },
         {
           "name": "1 euro",
           "image": "mal_1e.jpg",
-          "year": "since 2008"
+          "year": "since 2008",
+          "designer": "Noel Galea Bason",
+          "mint": "Paris Mint of France (Pessac)",
+          "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
+          "weight": "7.5 grams",
+          "diameter": "23.25 mm",
+          "thickness": "2.33 mm"
         },
         {
           "name": "2 euro",
           "image": "mal_2e.jpg",
-          "year": "since 2008"
+          "year": "since 2008",
+          "designer": "Noel Galea Bason",
+          "mint": "Paris Mint of France (Pessac)",
+          "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
+          "weight": "8.5 grams",
+          "diameter": "25.75 mm",
+          "thickness": "2.2 mm"
         }
       ]
     },
@@ -697,42 +1418,90 @@
         {
           "name": "1 euro cent",
           "image": "mon_1.jpg",
-          "year": "2001, 2002, 2004, 2005"
+          "year": "2001, 2002, 2004, 2005",
+          "designer": "Robert Cochet",
+          "mint": "Paris Mint of France (Pessac)",
+          "material": "Copper coated steel",
+          "weight": "2.3 grams",
+          "diameter": "16.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "2 euro cent",
           "image": "mon_2.jpg",
-          "year": "2001, 2002, 2004, 2005"
+          "year": "2001, 2002, 2004, 2005",
+          "designer": "Robert Cochet",
+          "mint": "Paris Mint of France (Pessac)",
+          "material": "Copper coated steel",
+          "weight": "3.06 grams",
+          "diameter": "18.75 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "5 euro cent",
           "image": "mon_5.jpg",
-          "year": "2001, 2002, 2004, 2005"
+          "year": "2001, 2002, 2004, 2005",
+          "designer": "Robert Cochet",
+          "mint": "Paris Mint of France (Pessac)",
+          "material": "Copper coated steel",
+          "weight": "3.92 grams",
+          "diameter": "21.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "10 euro cent",
           "image": "mon_10.jpg",
-          "year": "2001, 2002, 2004, 2005"
+          "year": "2001, 2002, 2004, 2005",
+          "designer": "R.B. Baron",
+          "mint": "Paris Mint of France (Pessac)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "4.1 grams",
+          "diameter": "19.75 mm",
+          "thickness": "1.93 mm"
         },
         {
           "name": "20 euro cent",
           "image": "mon_20.jpg",
-          "year": "2001, 2002, 2004, 2005"
+          "year": "2001, 2002, 2004, 2005",
+          "designer": "R.B. Baron",
+          "mint": "Paris Mint of France (Pessac)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "5.74 grams",
+          "diameter": "22.25 mm",
+          "thickness": "2.14 mm"
         },
         {
           "name": "50 euro cent",
           "image": "mon_50.jpg",
-          "year": "2001, 2002, 2004, 2005"
+          "year": "2001, 2002, 2004, 2005",
+          "designer": "R.B. Baron",
+          "mint": "Paris Mint of France (Pessac)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "7.8 grams",
+          "diameter": "24.25 mm",
+          "thickness": "2.38 mm"
         },
         {
           "name": "1 euro",
           "image": "mon_1e.jpg",
-          "year": "2001, 2002, 2004, 2005"
+          "year": "2001, 2002, 2004, 2005",
+          "designer": "Nicolas Cozon",
+          "mint": "Paris Mint of France (Pessac)",
+          "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
+          "weight": "7.5 grams",
+          "diameter": "23.25 mm",
+          "thickness": "2.33 mm"
         },
         {
           "name": "2 euro",
           "image": "mon_2e.jpg",
-          "year": "2001, 2002, 2004, 2005"
+          "year": "2001, 2002, 2004, 2005",
+          "designer": "Nicolas Cozon",
+          "mint": "Paris Mint of France (Pessac)",
+          "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
+          "weight": "8.5 grams",
+          "diameter": "25.75 mm",
+          "thickness": "2.2 mm"
         }
       ]
     },
@@ -743,42 +1512,90 @@
         {
           "name": "1 euro cent",
           "image": "neth_1.jpg",
-          "year": "1999—2013"
+          "year": "1999—2013",
+          "designer": "Bruno Ninaber van Eyben",
+          "mint": "Royal Mint of the Netherlands (Utrecht)",
+          "material": "Copper coated steel",
+          "weight": "2.3 grams",
+          "diameter": "16.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "2 euro cent",
           "image": "neth_2.jpg",
-          "year": "1999—2013"
+          "year": "1999—2013",
+          "designer": "Bruno Ninaber van Eyben",
+          "mint": "Royal Mint of the Netherlands (Utrecht)",
+          "material": "Copper coated steel",
+          "weight": "3.06 grams",
+          "diameter": "18.75 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "5 euro cent",
           "image": "neth_5.jpg",
-          "year": "1999—2013"
+          "year": "1999—2013",
+          "designer": "Bruno Ninaber van Eyben",
+          "mint": "Royal Mint of the Netherlands (Utrecht)",
+          "material": "Copper coated steel",
+          "weight": "3.92 grams",
+          "diameter": "21.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "10 euro cent",
           "image": "neth_10.jpg",
-          "year": "1999—2013"
+          "year": "1999—2013",
+          "designer": "Bruno Ninaber van Eyben",
+          "mint": "Royal Mint of the Netherlands (Utrecht)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "4.1 grams",
+          "diameter": "19.75 mm",
+          "thickness": "1.93 mm"
         },
         {
           "name": "20 euro cent",
           "image": "neth_20.jpg",
-          "year": "1999—2013"
+          "year": "1999—2013",
+          "designer": "Bruno Ninaber van Eyben",
+          "mint": "Royal Mint of the Netherlands (Utrecht)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "5.74 grams",
+          "diameter": "22.25 mm",
+          "thickness": "2.14 mm"
         },
         {
           "name": "50 euro cent",
           "image": "neth_50.jpg",
-          "year": "1999—2013"
+          "year": "1999—2013",
+          "designer": "Bruno Ninaber van Eyben",
+          "mint": "Royal Mint of the Netherlands (Utrecht)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "7.8 grams",
+          "diameter": "24.25 mm",
+          "thickness": "2.38 mm"
         },
         {
           "name": "1 euro",
           "image": "neth_1e.jpg",
-          "year": "1999—2013"
+          "year": "1999—2013",
+          "designer": "Bruno Ninaber van Eyben",
+          "mint": "Royal Mint of the Netherlands (Utrecht)",
+          "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
+          "weight": "7.5 grams",
+          "diameter": "23.25 mm",
+          "thickness": "2.33 mm"
         },
         {
           "name": "2 euro",
           "image": "neth_2e.jpg",
-          "year": "1999—2013"
+          "year": "1999—2013",
+          "designer": "Bruno Ninaber van Eyben",
+          "mint": "Royal Mint of the Netherlands (Utrecht)",
+          "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
+          "weight": "8.5 grams",
+          "diameter": "25.75 mm",
+          "thickness": "2.2 mm"
         }
       ]
     },
@@ -789,42 +1606,90 @@
         {
           "name": "1 euro cent",
           "image": "port_1.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Vitor Manuel Fernandes dos Santos",
+          "mint": "Mint of Portugal (Lisbon)",
+          "material": "Copper coated steel",
+          "weight": "2.3 grams",
+          "diameter": "16.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "2 euro cent",
           "image": "port_2.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Vitor Manuel Fernandes dos Santos",
+          "mint": "Mint of Portugal (Lisbon)",
+          "material": "Copper coated steel",
+          "weight": "3.06 grams",
+          "diameter": "18.75 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "5 euro cent",
           "image": "port_5.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Vitor Manuel Fernandes dos Santos",
+          "mint": "Mint of Portugal (Lisbon)",
+          "material": "Copper coated steel",
+          "weight": "3.92 grams",
+          "diameter": "21.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "10 euro cent",
           "image": "port_10.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Vitor Manuel Fernandes dos Santos",
+          "mint": "Mint of Portugal (Lisbon)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "4.1 grams",
+          "diameter": "19.75 mm",
+          "thickness": "1.93 mm"
         },
         {
           "name": "20 euro cent",
           "image": "port_20.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Vitor Manuel Fernandes dos Santos",
+          "mint": "Mint of Portugal (Lisbon)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "5.74 grams",
+          "diameter": "22.25 mm",
+          "thickness": "2.14 mm"
         },
         {
           "name": "50 euro cent",
           "image": "port_50.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Vitor Manuel Fernandes dos Santos",
+          "mint": "Mint of Portugal (Lisbon)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "7.8 grams",
+          "diameter": "24.25 mm",
+          "thickness": "2.38 mm"
         },
         {
           "name": "1 euro",
           "image": "port_1e.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Vitor Manuel Fernandes dos Santos",
+          "mint": "Mint of Portugal (Lisbon)",
+          "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
+          "weight": "7.5 grams",
+          "diameter": "23.25 mm",
+          "thickness": "2.33 mm"
         },
         {
           "name": "2 euro",
           "image": "port_2e.jpg",
-          "year": "since 2002"
+          "year": "since 2002",
+          "designer": "Vitor Manuel Fernandes dos Santos",
+          "mint": "Mint of Portugal (Lisbon)",
+          "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
+          "weight": "8.5 grams",
+          "diameter": "25.75 mm",
+          "thickness": "2.2 mm"
         }
       ]
     },
@@ -835,42 +1700,90 @@
         {
           "name": "1 euro cent",
           "image": "san_1.jpg",
-          "year": "2002—2016"
+          "year": "2002—2016",
+          "designer": "František Chochola (signature — «Ch»)",
+          "mint": "Italian Mint (Rome)",
+          "material": "Copper coated steel",
+          "weight": "2.3 grams",
+          "diameter": "16.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "2 euro cent",
           "image": "san_2.jpg",
-          "year": "2002—2016"
+          "year": "2002—2016",
+          "designer": "František Chochola (signature — «Ch»)",
+          "mint": "Italian Mint (Rome)",
+          "material": "Copper coated steel",
+          "weight": "3.06 grams",
+          "diameter": "18.75 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "5 euro cent",
           "image": "san_5.jpg",
-          "year": "2002—2016"
+          "year": "2002—2016",
+          "designer": "František Chochola (signature — «Ch»)",
+          "mint": "Italian Mint (Rome)",
+          "material": "Copper coated steel",
+          "weight": "3.92 grams",
+          "diameter": "21.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "10 euro cent",
           "image": "san_10.jpg",
-          "year": "2002—2016"
+          "year": "2002—2016",
+          "designer": "František Chochola (signature — «Ch»)",
+          "mint": "Italian Mint (Rome)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "4.1 grams",
+          "diameter": "19.75 mm",
+          "thickness": "1.93 mm"
         },
         {
           "name": "20 euro cent",
           "image": "san_20.jpg",
-          "year": "2002—2016"
+          "year": "2002—2016",
+          "designer": "František Chochola (signature — «Ch»)",
+          "mint": "Italian Mint (Rome)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "5.74 grams",
+          "diameter": "22.25 mm",
+          "thickness": "2.14 mm"
         },
         {
           "name": "50 euro cent",
           "image": "san_50.jpg",
-          "year": "2002—2016"
+          "year": "2002—2016",
+          "designer": "František Chochola (signature — «Ch»)",
+          "mint": "Italian Mint (Rome)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "7.8 grams",
+          "diameter": "24.25 mm",
+          "thickness": "2.38 mm"
         },
         {
           "name": "1 euro",
           "image": "san_1e.jpg",
-          "year": "2002—2016"
+          "year": "2002—2016",
+          "designer": "František Chochola (signature — «Ch»)",
+          "mint": "Italian Mint (Rome)",
+          "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
+          "weight": "7.5 grams",
+          "diameter": "23.25 mm",
+          "thickness": "2.33 mm"
         },
         {
           "name": "2 euro",
           "image": "san_2e.jpg",
-          "year": "2002—2016"
+          "year": "2002—2016",
+          "designer": "František Chochola (signature — «Ch»)",
+          "mint": "Italian Mint (Rome)",
+          "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
+          "weight": "8.5 grams",
+          "diameter": "25.75 mm",
+          "thickness": "2.2 mm"
         }
       ]
     },
@@ -881,42 +1794,90 @@
         {
           "name": "1 euro cent",
           "image": "slovak_1.jpg",
-          "year": "since 2009"
+          "year": "since 2009",
+          "designer": "Drahomir Zobek (signature — Z)",
+          "mint": "Mint of Slovakia (Kremnica)",
+          "material": "Copper coated steel",
+          "weight": "2.3 grams",
+          "diameter": "16.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "2 euro cent",
           "image": "slovak_2.jpg",
-          "year": "since 2009"
+          "year": "since 2009",
+          "designer": "Drahomir Zobek (signature — Z)",
+          "mint": "Mint of Slovakia (Kremnica)",
+          "material": "Copper coated steel",
+          "weight": "3.06 grams",
+          "diameter": "18.75 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "5 euro cent",
           "image": "slovak_5.jpg",
-          "year": "since 2009"
+          "year": "since 2009",
+          "designer": "Drahomir Zobek (signature — Z)",
+          "mint": "Mint of Slovakia (Kremnica)",
+          "material": "Copper coated steel",
+          "weight": "3.92 grams",
+          "diameter": "21.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "10 euro cent",
           "image": "slovak_10.jpg",
-          "year": "since 2009"
+          "year": "since 2009",
+          "designer": "Jan Cernaj & Pavel Karoly",
+          "mint": "Mint of Slovakia (Kremnica)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "4.1 grams",
+          "diameter": "19.75 mm",
+          "thickness": "1.93 mm"
         },
         {
           "name": "20 euro cent",
           "image": "slovak_20.jpg",
-          "year": "since 2009"
+          "year": "since 2009",
+          "designer": "Jan Cernaj & Pavel Karoly",
+          "mint": "Mint of Slovakia (Kremnica)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "5.74 grams",
+          "diameter": "22.25 mm",
+          "thickness": "2.14 mm"
         },
         {
           "name": "50 euro cent",
           "image": "slovak_50.jpg",
-          "year": "since 2009"
+          "year": "since 2009",
+          "designer": "Jan Cernaj & Pavel Karoly",
+          "mint": "Mint of Slovakia (Kremnica)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "7.8 grams",
+          "diameter": "24.25 mm",
+          "thickness": "2.38 mm"
         },
         {
           "name": "1 euro",
           "image": "slovak_1e.jpg",
-          "year": "since 2009"
+          "year": "since 2009",
+          "designer": "Ivan Rehak (signature — IR)",
+          "mint": "Mint of Slovakia (Kremnica)",
+          "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
+          "weight": "7.5 grams",
+          "diameter": "23.25 mm",
+          "thickness": "2.33 mm"
         },
         {
           "name": "2 euro",
           "image": "slovak_2e.jpg",
-          "year": "since 2009"
+          "year": "since 2009",
+          "designer": "Ivan Rehak (signature — IR)",
+          "mint": "Mint of Slovakia (Kremnica)",
+          "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
+          "weight": "8.5 grams",
+          "diameter": "25.75 mm",
+          "thickness": "2.2 mm"
         }
       ]
     },
@@ -927,42 +1888,90 @@
         {
           "name": "1 euro cent",
           "image": "sloven_1.jpg",
-          "year": "since 2007"
+          "year": "since 2007",
+          "designer": "Maarten T.Brouwer",
+          "mint": "--------",
+          "material": "Copper coated steel",
+          "weight": "2.3 grams",
+          "diameter": "16.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "2 euro cent",
           "image": "sloven_2.jpg",
-          "year": "since 2007"
+          "year": "since 2007",
+          "designer": "Maarten T.Brouwer",
+          "mint": "--------",
+          "material": "Copper coated steel",
+          "weight": "3.06 grams",
+          "diameter": "18.75 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "5 euro cent",
           "image": "sloven_5.jpg",
-          "year": "since 2007"
+          "year": "since 2007",
+          "designer": "Maarten T.Brouwer",
+          "mint": "--------",
+          "material": "Copper coated steel",
+          "weight": "3.92 grams",
+          "diameter": "21.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "10 euro cent",
           "image": "sloven_10.jpg",
-          "year": "since 2007"
+          "year": "since 2007",
+          "designer": "Maarten T.Brouwer",
+          "mint": "--------",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "4.1 grams",
+          "diameter": "19.75 mm",
+          "thickness": "1.93 mm"
         },
         {
           "name": "20 euro cent",
           "image": "sloven_20.jpg",
-          "year": "since 2007"
+          "year": "since 2007",
+          "designer": "Maarten T.Brouwer",
+          "mint": "--------",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "5.74 grams",
+          "diameter": "22.25 mm",
+          "thickness": "2.14 mm"
         },
         {
           "name": "50 euro cent",
           "image": "sloven_50.jpg",
-          "year": "since 2007"
+          "year": "since 2007",
+          "designer": "Maarten T.Brouwer",
+          "mint": "--------",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "7.8 grams",
+          "diameter": "24.25 mm",
+          "thickness": "2.38 mm"
         },
         {
           "name": "1 euro",
           "image": "sloven_1e.jpg",
-          "year": "since 2007"
+          "year": "since 2007",
+          "designer": "Maarten T.Brouwer",
+          "mint": "--------",
+          "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
+          "weight": "7.5 grams",
+          "diameter": "23.25 mm",
+          "thickness": "2.33 mm"
         },
         {
           "name": "2 euro",
           "image": "sloven_2e.jpg",
-          "year": "since 2007"
+          "year": "since 2007",
+          "designer": "Maarten T.Brouwer",
+          "mint": "--------",
+          "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
+          "weight": "8.5 grams",
+          "diameter": "25.75 mm",
+          "thickness": "2.2 mm"
         }
       ]
     },
@@ -973,42 +1982,90 @@
         {
           "name": "1 euro cent",
           "image": "spa_1.jpg",
-          "year": "1999-2009"
+          "year": "1999-2009",
+          "designer": "Garcilaso Rollán",
+          "mint": "Royal Mint of Spain (Madrid)",
+          "material": "Copper coated steel",
+          "weight": "2.3 grams",
+          "diameter": "16.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "2 euro cent",
           "image": "spa_2.jpg",
-          "year": "1999-2009"
+          "year": "1999-2009",
+          "designer": "Garcilaso Rollán",
+          "mint": "Royal Mint of Spain (Madrid)",
+          "material": "Copper coated steel",
+          "weight": "3.06 grams",
+          "diameter": "18.75 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "5 euro cent",
           "image": "spa_5.jpg",
-          "year": "1999-2009"
+          "year": "1999-2009",
+          "designer": "Garcilaso Rollán",
+          "mint": "Royal Mint of Spain (Madrid)",
+          "material": "Copper coated steel",
+          "weight": "3.92 grams",
+          "diameter": "21.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "10 euro cent",
           "image": "spa_10.jpg",
-          "year": "1999-2009"
+          "year": "1999-2009",
+          "designer": "Begoña Castellanos García",
+          "mint": "Royal Mint of Spain (Madrid)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "4.1 grams",
+          "diameter": "19.75 mm",
+          "thickness": "1.93 mm"
         },
         {
           "name": "20 euro cent",
           "image": "spa_20.jpg",
-          "year": "1999-2009"
+          "year": "1999-2009",
+          "designer": "Begoña Castellanos García",
+          "mint": "Royal Mint of Spain (Madrid)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "5.74 grams",
+          "diameter": "22.25 mm",
+          "thickness": "2.14 mm"
         },
         {
           "name": "50 euro cent",
           "image": "spa_50.jpg",
-          "year": "1999-2009"
+          "year": "1999-2009",
+          "designer": "Begoña Castellanos García",
+          "mint": "Royal Mint of Spain (Madrid)",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "7.8 grams",
+          "diameter": "24.25 mm",
+          "thickness": "2.38 mm"
         },
         {
           "name": "1 euro",
           "image": "spa_1e.jpg",
-          "year": "1999-2009"
+          "year": "1999-2009",
+          "designer": "Luis José Díaz Salas",
+          "mint": "Royal Mint of Spain (Madrid)",
+          "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
+          "weight": "7.5 grams",
+          "diameter": "23.25 mm",
+          "thickness": "2.33 mm"
         },
         {
           "name": "2 euro",
           "image": "spa_2e.jpg",
-          "year": "1999-2009"
+          "year": "1999-2009",
+          "designer": "Luis José Díaz Salas",
+          "mint": "Royal Mint of Spain (Madrid)",
+          "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
+          "weight": "8.5 grams",
+          "diameter": "25.75 mm",
+          "thickness": "2.2 mm"
         }
       ]
     },
@@ -1019,42 +2076,90 @@
         {
           "name": "1 euro cent",
           "image": "vat_1.jpg",
-          "year": "2002—2005"
+          "year": "2002—2005",
+          "designer": "Guido Veroi (signature — GV)",
+          "mint": "State Polygraphic Institute and Mint",
+          "material": "Copper coated steel",
+          "weight": "2.3 grams",
+          "diameter": "16.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "2 euro cent",
           "image": "vat_2.jpg",
-          "year": "2002—2005"
+          "year": "2002—2005",
+          "designer": "Guido Veroi (signature — GV)",
+          "mint": "State Polygraphic Institute and Mint",
+          "material": "Copper coated steel",
+          "weight": "3.06 grams",
+          "diameter": "18.75 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "5 euro cent",
           "image": "vat_5.jpg",
-          "year": "2002—2005"
+          "year": "2002—2005",
+          "designer": "Guido Veroi (signature — GV)",
+          "mint": "State Polygraphic Institute and Mint",
+          "material": "Copper coated steel",
+          "weight": "3.92 grams",
+          "diameter": "21.25 mm",
+          "thickness": "1.67 mm"
         },
         {
           "name": "10 euro cent",
           "image": "vat_10.jpg",
-          "year": "2002—2005"
+          "year": "2002—2005",
+          "designer": "Guido Veroi (signature — GV)",
+          "mint": "State Polygraphic Institute and Mint",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "4.1 grams",
+          "diameter": "19.75 mm",
+          "thickness": "1.93 mm"
         },
         {
           "name": "20 euro cent",
           "image": "vat_20.jpg",
-          "year": "2002—2005"
+          "year": "2002—2005",
+          "designer": "Guido Veroi (signature — GV)",
+          "mint": "State Polygraphic Institute and Mint",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "5.74 grams",
+          "diameter": "22.25 mm",
+          "thickness": "2.14 mm"
         },
         {
           "name": "50 euro cent",
           "image": "vat_50.jpg",
-          "year": "2002—2005"
+          "year": "2002—2005",
+          "designer": "Guido Veroi (signature — GV)",
+          "mint": "State Polygraphic Institute and Mint",
+          "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
+          "weight": "7.8 grams",
+          "diameter": "24.25 mm",
+          "thickness": "2.38 mm"
         },
         {
           "name": "1 euro",
           "image": "vat_1e.jpg",
-          "year": "2002—2005"
+          "year": "2002—2005",
+          "designer": "Guido Veroi (signature — GV)",
+          "mint": "State Polygraphic Institute and Mint",
+          "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
+          "weight": "7.5 grams",
+          "diameter": "23.25 mm",
+          "thickness": "2.33 mm"
         },
         {
           "name": "2 euro",
           "image": "vat_2e.jpg",
-          "year": "2002—2005"
+          "year": "2002—2005",
+          "designer": "Guido Veroi (signature — GV)",
+          "mint": "State Polygraphic Institute and Mint",
+          "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
+          "weight": "8.5 grams",
+          "diameter": "25.75 mm",
+          "thickness": "2.2 mm"
         }
       ]
     }

@@ -12,5 +12,11 @@ struct Coin {
   var name: String
   var image: String
   var year: String
+  var designer: String
+  var mint: String
+  var material: String
+  var weight: String
+  var diameter: String
+  var thickness: String
   var country: Country
 }

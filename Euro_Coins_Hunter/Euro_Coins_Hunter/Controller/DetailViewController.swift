@@ -71,42 +71,42 @@ extension DetailViewController: UITableViewDataSource {
     case 2:
       let cell = tableView.dequeueReusableCell(withIdentifier: "cell2",
                                                for: indexPath) as! DesignerCell
-      cell.designerCoin.text = "Robert"
+      cell.designerCoin.text = selectedCoin?.designer
       
       return cell
       
     case 3:
       let cell = tableView.dequeueReusableCell(withIdentifier: "cell3",
                                                for: indexPath) as! MintCell
-      cell.mintCoin.text = "Georgious"
+      cell.mintCoin.text = selectedCoin?.mint
       
       return cell
       
     case 4:
       let cell = tableView.dequeueReusableCell(withIdentifier: "cell4",
                                                for: indexPath) as! MaterialCell
-      cell.materialCoin.text = "Neilzibert"
+      cell.materialCoin.text = selectedCoin?.material
       
       return cell
       
     case 5:
       let cell = tableView.dequeueReusableCell(withIdentifier: "cell5",
                                                for: indexPath) as! WeightCell
-      cell.weightCoin.text = "1.3"
+      cell.weightCoin.text = selectedCoin?.weight
       
       return cell
       
     case 6:
       let cell = tableView.dequeueReusableCell(withIdentifier: "cell6",
                                                for: indexPath) as! DiameterCell
-      cell.diameterCoin.text = "4.0"
+      cell.diameterCoin.text = selectedCoin?.diameter
       
       return cell
       
     case 7:
       let cell = tableView.dequeueReusableCell(withIdentifier: "cell7",
                                                for: indexPath) as! ThicknessCell
-      cell.thicknessCoin.text = "1.0"
+      cell.thicknessCoin.text = selectedCoin?.thickness
       
       return cell
       

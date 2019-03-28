@@ -161,7 +161,7 @@ extension CoinsViewController: UICollectionViewDelegate {
     if indexPath.item == 8 {
       return
     } else {
-      if editBarButtonItemState == .activate && isCoinLocked == false {
+      if editBarButtonItemState == .activate {
         let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
         if let detailVC = storyboard.instantiateViewController(withIdentifier: "DetailViewController")
           as? DetailViewController

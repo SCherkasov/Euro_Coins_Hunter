@@ -6,35 +6,43 @@
       "Coins":[
         {
           "name": "1 euro cent",
-          "image": "and_1.jpg"
+          "image": "and_1.jpg",
+          "year": "since 2014"
         },
         {
           "name": "2 euro cent",
-          "image": "and_2.jpg"
+          "image": "and_2.jpg",
+          "year": "since 2014"
         },
         {
           "name": "5 euro cent",
-          "image": "and_5.jpg"
+          "image": "and_5.jpg",
+          "year": "since 2014"
         },
         {
           "name": "10 euro cent",
-          "image": "and_10.jpg"
+          "image": "and_10.jpg",
+          "year": "since 2014"
         },
         {
           "name": "20 euro cent",
-          "image": "and_20.jpg"
+          "image": "and_20.jpg",
+          "year": "since 2014"
         },
         {
           "name": "50 euro cent",
-          "image": "and_50.jpg"
+          "image": "and_50.jpg",
+          "year": "since 2014"
         },
         {
           "name": "1 euro",
-          "image": "and_1e.jpg"
+          "image": "and_1e.jpg",
+          "year": "since 2014"
         },
         {
           "name": "2 euro",
-          "image": "and_2e.jpg"
+          "image": "and_2e.jpg",
+          "year": "since 2014"
         }
       ]
     },
@@ -44,35 +52,43 @@
       "Coins": [
         {
           "name": "1 euro cent",
-          "image": "aus_1.jpg"
+          "image": "aus_1.jpg",
+          "year": "since 2002"
         },
         {
           "name": "2 euro cent",
-          "image": "aus_2.jpg"
+          "image": "aus_2.jpg",
+          "year": "since 2002"
         },
         {
           "name": "5 euro cent",
-          "image": "aus_5.jpg"
+          "image": "aus_5.jpg",
+          "year": "since 2002"
         },
         {
           "name": "10 euro cent",
-          "image": "aus_10.jpg"
+          "image": "aus_10.jpg",
+          "year": "since 2002"
         },
         {
           "name": "20 euro cent",
-          "image": "aus_20.jpg"
+          "image": "aus_20.jpg",
+          "year": "since 2002"
         },
         {
           "name": "50 euro cent",
-          "image": "aus_50.jpg"
+          "image": "aus_50.jpg",
+          "year": "since 2002"
         },
         {
           "name": "1 euro",
-          "image": "aus_1e.jpg"
+          "image": "aus_1e.jpg",
+          "year": "since 2002"
         },
         {
           "name": "2 euro",
-          "image": "aus_2e.jpg"
+          "image": "aus_2e.jpg",
+          "year": "since 2002"
         }
       ]
     },
@@ -82,35 +98,43 @@
       "Coins":[
         {
           "name": "1 euro cent",
-          "image": "belg_1.jpg"
+          "image": "belg_1.jpg",
+          "year": "1999—2007"
         },
         {
           "name": "2 euro cent",
-          "image": "belg_2.jpg"
+          "image": "belg_2.jpg",
+          "year": "1999—2007"
         },
         {
           "name": "5 euro cent",
-          "image": "belg_5.jpg"
+          "image": "belg_5.jpg",
+          "year": "1999—2007"
         },
         {
           "name": "10 euro cent",
-          "image": "belg_10.jpg"
+          "image": "belg_10.jpg",
+          "year": "1999—2007"
         },
         {
           "name": "20 euro cent",
-          "image": "belg_20.jpg"
+          "image": "belg_20.jpg",
+          "year": "1999—2007"
         },
         {
           "name": "50 euro cent",
-          "image": "belg_50.jpg"
+          "image": "belg_50.jpg",
+          "year": "1999—2007"
         },
         {
           "name": "1 euro",
-          "image": "belg_1e.jpg"
+          "image": "belg_1e.jpg",
+          "year": "1999—2007"
         },
         {
           "name": "2 euro",
-          "image": "belg_2e.jpg"
+          "image": "belg_2e.jpg",
+          "year": "1999—2007"
         }
       ]
     },
@@ -120,35 +144,43 @@
       "Coins": [
         {
           "name": "1 euro cent",
-          "image": "cyp_1.jpg"
+          "image": "cyp_1.jpg",
+          "year": "since 2008"
         },
         {
           "name": "2 euro cent",
-          "image": "cyp_2.jpg"
+          "image": "cyp_2.jpg",
+          "year": "since 2008"
         },
         {
           "name": "5 euro cent",
-          "image": "cyp_5.jpg"
+          "image": "cyp_5.jpg",
+          "year": "since 2008"
         },
         {
           "name": "10 euro cent",
-          "image": "cyp_10.jpg"
+          "image": "cyp_10.jpg",
+          "year": "since 2008"
         },
         {
           "name": "20 euro cent",
-          "image": "cyp_20.jpg"
+          "image": "cyp_20.jpg",
+          "year": "since 2008"
         },
         {
           "name": "50 euro cent",
-          "image": "cyp_50.jpg"
+          "image": "cyp_50.jpg",
+          "year": "since 2008"
         },
         {
           "name": "1 euro",
-          "image": "cyp_1e.jpg"
+          "image": "cyp_1e.jpg",
+          "year": "since 2008"
         },
         {
           "name": "2 euro",
-          "image": "cyp_2e.jpg"
+          "image": "cyp_2e.jpg",
+          "year": "since 2008"
         }
       ]
     },
@@ -158,35 +190,43 @@
       "Coins": [
         {
           "name": "1 euro cent",
-          "image": "est_1.jpg"
+          "image": "est_1.jpg",
+          "year": "since 2011"
         },
         {
           "name": "2 euro cent",
-          "image": "est_2.jpg"
+          "image": "est_2.jpg",
+          "year": "since 2011"
         },
         {
           "name": "5 euro cent",
-          "image": "est_5.jpg"
+          "image": "est_5.jpg",
+          "year": "since 2011"
         },
         {
           "name": "10 euro cent",
-          "image": "est_10.jpg"
+          "image": "est_10.jpg",
+          "year": "since 2011"
         },
         {
           "name": "20 euro cent",
-          "image": "est_20.jpg"
+          "image": "est_20.jpg",
+          "year": "since 2011"
         },
         {
           "name": "50 euro cent",
-          "image": "est_50.jpg"
+          "image": "est_50.jpg",
+          "year": "since 2011"
         },
         {
           "name": "1 euro",
-          "image": "est_1e.jpg"
+          "image": "est_1e.jpg",
+          "year": "since 2011"
         },
         {
           "name": "2 euro",
-          "image": "est_2e.jpg"
+          "image": "est_2e.jpg",
+          "year": "since 2011"
         }
       ]
     },
@@ -196,35 +236,43 @@
       "Coins": [
         {
           "name": "1 euro cent",
-          "image": "fin_1.jpg"
+          "image": "fin_1.jpg",
+          "year": "1999—2006"
         },
         {
           "name": "2 euro cent",
-          "image": "fin_2.jpg"
+          "image": "fin_2.jpg",
+          "year": "1999—2006"
         },
         {
           "name": "5 euro cent",
-          "image": "fin_5.jpg"
+          "image": "fin_5.jpg",
+          "year": "1999—2006"
         },
         {
           "name": "10 euro cent",
-          "image": "fin_10.jpg"
+          "image": "fin_10.jpg",
+          "year": "1999—2006"
         },
         {
           "name": "20 euro cent",
-          "image": "fin_20.jpg"
+          "image": "fin_20.jpg",
+          "year": "1999—2006"
         },
         {
           "name": "50 euro cent",
-          "image": "fin_50.jpg"
+          "image": "fin_50.jpg",
+          "year": "1999—2006"
         },
         {
           "name": "1 euro",
-          "image": "fin_1e.jpg"
+          "image": "fin_1e.jpg",
+          "year": "1999—2006"
         },
         {
           "name": "2 euro",
-          "image": "fin_2e.jpg"
+          "image": "fin_2e.jpg",
+          "year": "1999—2006"
         }
       ]
     },
@@ -234,35 +282,43 @@
       "Coins": [
         {
           "name": "1 euro cent",
-          "image": "fran_1.jpg"
+          "image": "fran_1.jpg",
+          "year": "since 1999"
         },
         {
           "name": "2 euro cent",
-          "image": "fran_2.jpg"
+          "image": "fran_2.jpg",
+          "year": "since 1999"
         },
         {
           "name": "5 euro cent",
-          "image": "fran_5.jpg"
+          "image": "fran_5.jpg",
+          "year": "since 1999"
         },
         {
           "name": "10 euro cent",
-          "image": "fran_10.jpg"
+          "image": "fran_10.jpg",
+          "year": "since 1999"
         },
         {
           "name": "20 euro cent",
-          "image": "fran_20.jpg"
+          "image": "fran_20.jpg",
+          "year": "since 1999"
         },
         {
           "name": "50 euro cent",
-          "image": "fran_50.jpg"
+          "image": "fran_50.jpg",
+          "year": "since 1999"
         },
         {
           "name": "1 euro",
-          "image": "fran_1e.jpg"
+          "image": "fran_1e.jpg",
+          "year": "since 1999"
         },
         {
           "name": "2 euro",
-          "image": "fran_2e.jpg"
+          "image": "fran_2e.jpg",
+          "year": "since 1999"
         }
       ]
     },
@@ -272,35 +328,43 @@
       "Coins": [
         {
           "name": "1 euro cent",
-          "image": "ger_1.jpg"
+          "image": "ger_1.jpg",
+          "year": "since 2002"
         },
         {
           "name": "2 euro cent",
-          "image": "ger_2.jpg"
+          "image": "ger_2.jpg",
+          "year": "since 2002"
         },
         {
           "name": "5 euro cent",
-          "image": "ger_5.jpg"
+          "image": "ger_5.jpg",
+          "year": "since 2002"
         },
         {
           "name": "10 euro cent",
-          "image": "ger_10.jpg"
+          "image": "ger_10.jpg",
+          "year": "since 2002"
         },
         {
           "name": "20 euro cent",
-          "image": "ger_20.jpg"
+          "image": "ger_20.jpg",
+          "year": "since 2002"
         },
         {
           "name": "50 euro cent",
-          "image": "ger_50.jpg"
+          "image": "ger_50.jpg",
+          "year": "since 2002"
         },
         {
           "name": "1 euro",
-          "image": "ger_1e.jpg"
+          "image": "ger_1e.jpg",
+          "year": "since 2002"
         },
         {
           "name": "2 euro",
-          "image": "ger_2e.jpg"
+          "image": "ger_2e.jpg",
+          "year": "since 2002"
         }
       ]
     },
@@ -310,35 +374,43 @@
       "Coins": [
         {
           "name": "1 euro cent",
-          "image": "gree_1.jpg"
+          "image": "gree_1.jpg",
+          "year": "since 2002"
         },
         {
           "name": "2 euro cent",
-          "image": "gree_2.jpg"
+          "image": "gree_2.jpg",
+          "year": "since 2002"
         },
         {
           "name": "5 euro cent",
-          "image": "gree_5.jpg"
+          "image": "gree_5.jpg",
+          "year": "since 2002"
         },
         {
           "name": "10 euro cent",
-          "image": "gree_10.jpg"
+          "image": "gree_10.jpg",
+          "year": "since 2002"
         },
         {
           "name": "20 euro cent",
-          "image": "gree_20.jpg"
+          "image": "gree_20.jpg",
+          "year": "since 2002"
         },
         {
           "name": "50 euro cent",
-          "image": "gree_50.jpg"
+          "image": "gree_50.jpg",
+          "year": "since 2002"
         },
         {
           "name": "1 euro",
-          "image": "gree_1e.jpg"
+          "image": "gree_1e.jpg",
+          "year": "since 2002"
         },
         {
           "name": "2 euro",
-          "image": "gree_2e.jpg"
+          "image": "gree_2e.jpg",
+          "year": "since 2002"
         }
       ]
     },
@@ -348,35 +420,43 @@
       "Coins": [
         {
           "name": "1 euro cent",
-          "image": "ire_1.jpg"
+          "image": "ire_1.jpg",
+          "year": "since 2002"
         },
         {
           "name": "2 euro cent",
-          "image": "ire_2.jpg"
+          "image": "ire_2.jpg",
+          "year": "since 2002"
         },
         {
           "name": "5 euro cent",
-          "image": "ire_5.jpg"
+          "image": "ire_5.jpg",
+          "year": "since 2002"
         },
         {
           "name": "10 euro cent",
-          "image": "ire_10.jpg"
+          "image": "ire_10.jpg",
+          "year": "since 2002"
         },
         {
           "name": "20 euro cent",
-          "image": "ire_20.jpg"
+          "image": "ire_20.jpg",
+          "year": "since 2002"
         },
         {
           "name": "50 euro cent",
-          "image": "ire_50.jpg"
+          "image": "ire_50.jpg",
+          "year": "since 2002"
         },
         {
           "name": "1 euro",
-          "image": "ire_1e.jpg"
+          "image": "ire_1e.jpg",
+          "year": "since 2002"
         },
         {
           "name": "2 euro",
-          "image": "ire_2e.jpg"
+          "image": "ire_2e.jpg",
+          "year": "since 2002"
         }
       ]
     },
@@ -386,35 +466,43 @@
       "Coins": [
         {
           "name": "1 euro cent",
-          "image": "ita_1.jpg"
+          "image": "ita_1.jpg",
+          "year": "since 2002"
         },
         {
           "name": "2 euro cent",
-          "image": "ita_2.jpg"
+          "image": "ita_2.jpg",
+          "year": "since 2002"
         },
         {
           "name": "5 euro cent",
-          "image": "ita_5.jpg"
+          "image": "ita_5.jpg",
+          "year": "since 2002"
         },
         {
           "name": "10 euro cent",
-          "image": "ita_10.jpg"
+          "image": "ita_10.jpg",
+          "year": "since 2002"
         },
         {
           "name": "20 euro cent",
-          "image": "ita_20.jpg"
+          "image": "ita_20.jpg",
+          "year": "since 2002"
         },
         {
           "name": "50 euro cent",
-          "image": "ita_50.jpg"
+          "image": "ita_50.jpg",
+          "year": "since 2002"
         },
         {
           "name": "1 euro",
-          "image": "ita_1e.jpg"
+          "image": "ita_1e.jpg",
+          "year": "since 2002"
         },
         {
           "name": "2 euro",
-          "image": "ita_2e.jpg"
+          "image": "ita_2e.jpg",
+          "year": "since 2002"
         }
       ]
     },
@@ -424,35 +512,43 @@
       "Coins": [
         {
           "name": "1 euro cent",
-          "image": "lat_1.jpg"
+          "image": "lat_1.jpg",
+          "year": "since 2014"
         },
         {
           "name": "2 euro cent",
-          "image": "lat_2.jpg"
+          "image": "lat_2.jpg",
+          "year": "since 2014"
         },
         {
           "name": "5 euro cent",
-          "image": "lat_5.jpg"
+          "image": "lat_5.jpg",
+          "year": "since 2014"
         },
         {
           "name": "10 euro cent",
-          "image": "lat_10.jpg"
+          "image": "lat_10.jpg",
+          "year": "since 2014"
         },
         {
           "name": "20 euro cent",
-          "image": "lat_20.jpg"
+          "image": "lat_20.jpg",
+          "year": "since 2014"
         },
         {
           "name": "50 euro cent",
-          "image": "lat_50.jpg"
+          "image": "lat_50.jpg",
+          "year": "since 2014"
         },
         {
           "name": "1 euro",
-          "image": "lat_1e.jpg"
+          "image": "lat_1e.jpg",
+          "year": "since 2014"
         },
         {
           "name": "2 euro",
-          "image": "lat_2e.jpg"
+          "image": "lat_2e.jpg",
+          "year": "since 2014"
         }
       ]
     },
@@ -462,35 +558,43 @@
       "Coins": [
         {
           "name": "1 euro cent",
-          "image": "lith_1.jpg"
+          "image": "lith_1.jpg",
+          "year": "since 2015"
         },
         {
           "name": "2 euro cent",
-          "image": "lith_2.jpg"
+          "image": "lith_2.jpg",
+          "year": "since 2015"
         },
         {
           "name": "5 euro cent",
-          "image": "lith_5.jpg"
+          "image": "lith_5.jpg",
+          "year": "since 2015"
         },
         {
           "name": "10 euro cent",
-          "image": "lith_10.jpg"
+          "image": "lith_10.jpg",
+          "year": "since 2015"
         },
         {
           "name": "20 euro cent",
-          "image": "lith_20.jpg"
+          "image": "lith_20.jpg",
+          "year": "since 2015"
         },
         {
           "name": "50 euro cent",
-          "image": "lith_50.jpg"
+          "image": "lith_50.jpg",
+          "year": "since 2015"
         },
         {
           "name": "1 euro",
-          "image": "lith_1e.jpg"
+          "image": "lith_1e.jpg",
+          "year": "since 2015"
         },
         {
           "name": "2 euro",
-          "image": "lith_2e.jpg"
+          "image": "lith_2e.jpg",
+          "year": "since 2015"
         }
       ]
     },
@@ -500,35 +604,43 @@
       "Coins": [
         {
           "name": "1 euro cent",
-          "image": "lux_1.jpg"
+          "image": "lux_1.jpg",
+          "year": "since 2002"
         },
         {
           "name": "2 euro cent",
-          "image": "lux_2.jpg"
+          "image": "lux_2.jpg",
+          "year": "since 2002"
         },
         {
           "name": "5 euro cent",
-          "image": "lux_5.jpg"
+          "image": "lux_5.jpg",
+          "year": "since 2002"
         },
         {
           "name": "10 euro cent",
-          "image": "lux_10.jpg"
+          "image": "lux_10.jpg",
+          "year": "since 2002"
         },
         {
           "name": "20 euro cent",
-          "image": "lux_20.jpg"
+          "image": "lux_20.jpg",
+          "year": "since 2002"
         },
         {
           "name": "50 euro cent",
-          "image": "lux_50.jpg"
+          "image": "lux_50.jpg",
+          "year": "since 2002"
         },
         {
           "name": "1 euro",
-          "image": "lux_1e.jpg"
+          "image": "lux_1e.jpg",
+          "year": "since 2002"
         },
         {
           "name": "2 euro",
-          "image": "lux_2e.jpg"
+          "image": "lux_2e.jpg",
+          "year": "since 2002"
         }
       ]
     },
@@ -538,35 +650,43 @@
       "Coins": [
         {
           "name": "1 euro cent",
-          "image": "mal_1.jpg"
+          "image": "mal_1.jpg",
+          "year": "since 2008"
         },
         {
           "name": "2 euro cent",
-          "image": "mal_2.jpg"
+          "image": "mal_2.jpg",
+          "year": "since 2008"
         },
         {
           "name": "5 euro cent",
-          "image": "mal_5.jpg"
+          "image": "mal_5.jpg",
+          "year": "since 2008"
         },
         {
           "name": "10 euro cent",
-          "image": "mal_10.jpg"
+          "image": "mal_10.jpg",
+          "year": "since 2008"
         },
         {
           "name": "20 euro cent",
-          "image": "mal_20.jpg"
+          "image": "mal_20.jpg",
+          "year": "since 2008"
         },
         {
           "name": "50 euro cent",
-          "image": "mal_50.jpg"
+          "image": "mal_50.jpg",
+          "year": "since 2008"
         },
         {
           "name": "1 euro",
-          "image": "mal_1e.jpg"
+          "image": "mal_1e.jpg",
+          "year": "since 2008"
         },
         {
           "name": "2 euro",
-          "image": "mal_2e.jpg"
+          "image": "mal_2e.jpg",
+          "year": "since 2008"
         }
       ]
     },
@@ -576,35 +696,43 @@
       "Coins": [
         {
           "name": "1 euro cent",
-          "image": "mon_1.jpg"
+          "image": "mon_1.jpg",
+          "year": "2001, 2002, 2004, 2005"
         },
         {
           "name": "2 euro cent",
-          "image": "mon_2.jpg"
+          "image": "mon_2.jpg",
+          "year": "2001, 2002, 2004, 2005"
         },
         {
           "name": "5 euro cent",
-          "image": "mon_5.jpg"
+          "image": "mon_5.jpg",
+          "year": "2001, 2002, 2004, 2005"
         },
         {
           "name": "10 euro cent",
-          "image": "mon_10.jpg"
+          "image": "mon_10.jpg",
+          "year": "2001, 2002, 2004, 2005"
         },
         {
           "name": "20 euro cent",
-          "image": "mon_20.jpg"
+          "image": "mon_20.jpg",
+          "year": "2001, 2002, 2004, 2005"
         },
         {
           "name": "50 euro cent",
-          "image": "mon_50.jpg"
+          "image": "mon_50.jpg",
+          "year": "2001, 2002, 2004, 2005"
         },
         {
           "name": "1 euro",
-          "image": "mon_1e.jpg"
+          "image": "mon_1e.jpg",
+          "year": "2001, 2002, 2004, 2005"
         },
         {
           "name": "2 euro",
-          "image": "mon_2e.jpg"
+          "image": "mon_2e.jpg",
+          "year": "2001, 2002, 2004, 2005"
         }
       ]
     },
@@ -614,35 +742,43 @@
       "Coins": [
         {
           "name": "1 euro cent",
-          "image": "neth_1.jpg"
+          "image": "neth_1.jpg",
+          "year": "1999—2013"
         },
         {
           "name": "2 euro cent",
-          "image": "neth_2.jpg"
+          "image": "neth_2.jpg",
+          "year": "1999—2013"
         },
         {
           "name": "5 euro cent",
-          "image": "neth_5.jpg"
+          "image": "neth_5.jpg",
+          "year": "1999—2013"
         },
         {
           "name": "10 euro cent",
-          "image": "neth_10.jpg"
+          "image": "neth_10.jpg",
+          "year": "1999—2013"
         },
         {
           "name": "20 euro cent",
-          "image": "neth_20.jpg"
+          "image": "neth_20.jpg",
+          "year": "1999—2013"
         },
         {
           "name": "50 euro cent",
-          "image": "neth_50.jpg"
+          "image": "neth_50.jpg",
+          "year": "1999—2013"
         },
         {
           "name": "1 euro",
-          "image": "neth_1e.jpg"
+          "image": "neth_1e.jpg",
+          "year": "1999—2013"
         },
         {
           "name": "2 euro",
-          "image": "neth_2e.jpg"
+          "image": "neth_2e.jpg",
+          "year": "1999—2013"
         }
       ]
     },
@@ -652,35 +788,43 @@
       "Coins": [
         {
           "name": "1 euro cent",
-          "image": "port_1.jpg"
+          "image": "port_1.jpg",
+          "year": "since 2002"
         },
         {
           "name": "2 euro cent",
-          "image": "port_2.jpg"
+          "image": "port_2.jpg",
+          "year": "since 2002"
         },
         {
           "name": "5 euro cent",
-          "image": "port_5.jpg"
+          "image": "port_5.jpg",
+          "year": "since 2002"
         },
         {
           "name": "10 euro cent",
-          "image": "port_10.jpg"
+          "image": "port_10.jpg",
+          "year": "since 2002"
         },
         {
           "name": "20 euro cent",
-          "image": "port_20.jpg"
+          "image": "port_20.jpg",
+          "year": "since 2002"
         },
         {
           "name": "50 euro cent",
-          "image": "port_50.jpg"
+          "image": "port_50.jpg",
+          "year": "since 2002"
         },
         {
           "name": "1 euro",
-          "image": "port_1e.jpg"
+          "image": "port_1e.jpg",
+          "year": "since 2002"
         },
         {
           "name": "2 euro",
-          "image": "port_2e.jpg"
+          "image": "port_2e.jpg",
+          "year": "since 2002"
         }
       ]
     },
@@ -690,35 +834,43 @@
       "Coins": [
         {
           "name": "1 euro cent",
-          "image": "san_1.jpg"
+          "image": "san_1.jpg",
+          "year": "2002—2016"
         },
         {
           "name": "2 euro cent",
-          "image": "san_2.jpg"
+          "image": "san_2.jpg",
+          "year": "2002—2016"
         },
         {
           "name": "5 euro cent",
-          "image": "san_5.jpg"
+          "image": "san_5.jpg",
+          "year": "2002—2016"
         },
         {
           "name": "10 euro cent",
-          "image": "san_10.jpg"
+          "image": "san_10.jpg",
+          "year": "2002—2016"
         },
         {
           "name": "20 euro cent",
-          "image": "san_20.jpg"
+          "image": "san_20.jpg",
+          "year": "2002—2016"
         },
         {
           "name": "50 euro cent",
-          "image": "san_50.jpg"
+          "image": "san_50.jpg",
+          "year": "2002—2016"
         },
         {
           "name": "1 euro",
-          "image": "san_1e.jpg"
+          "image": "san_1e.jpg",
+          "year": "2002—2016"
         },
         {
           "name": "2 euro",
-          "image": "san_2e.jpg"
+          "image": "san_2e.jpg",
+          "year": "2002—2016"
         }
       ]
     },
@@ -728,35 +880,43 @@
       "Coins": [
         {
           "name": "1 euro cent",
-          "image": "slovak_1.jpg"
+          "image": "slovak_1.jpg",
+          "year": "since 2009"
         },
         {
           "name": "2 euro cent",
-          "image": "slovak_2.jpg"
+          "image": "slovak_2.jpg",
+          "year": "since 2009"
         },
         {
           "name": "5 euro cent",
-          "image": "slovak_5.jpg"
+          "image": "slovak_5.jpg",
+          "year": "since 2009"
         },
         {
           "name": "10 euro cent",
-          "image": "slovak_10.jpg"
+          "image": "slovak_10.jpg",
+          "year": "since 2009"
         },
         {
           "name": "20 euro cent",
-          "image": "slovak_20.jpg"
+          "image": "slovak_20.jpg",
+          "year": "since 2009"
         },
         {
           "name": "50 euro cent",
-          "image": "slovak_50.jpg"
+          "image": "slovak_50.jpg",
+          "year": "since 2009"
         },
         {
           "name": "1 euro",
-          "image": "slovak_1e.jpg"
+          "image": "slovak_1e.jpg",
+          "year": "since 2009"
         },
         {
           "name": "2 euro",
-          "image": "slovak_2e.jpg"
+          "image": "slovak_2e.jpg",
+          "year": "since 2009"
         }
       ]
     },
@@ -766,35 +926,43 @@
       "Coins": [
         {
           "name": "1 euro cent",
-          "image": "sloven_1.jpg"
+          "image": "sloven_1.jpg",
+          "year": "since 2007"
         },
         {
           "name": "2 euro cent",
-          "image": "sloven_2.jpg"
+          "image": "sloven_2.jpg",
+          "year": "since 2007"
         },
         {
           "name": "5 euro cent",
-          "image": "sloven_5.jpg"
+          "image": "sloven_5.jpg",
+          "year": "since 2007"
         },
         {
           "name": "10 euro cent",
-          "image": "sloven_10.jpg"
+          "image": "sloven_10.jpg",
+          "year": "since 2007"
         },
         {
           "name": "20 euro cent",
-          "image": "sloven_20.jpg"
+          "image": "sloven_20.jpg",
+          "year": "since 2007"
         },
         {
           "name": "50 euro cent",
-          "image": "sloven_50.jpg"
+          "image": "sloven_50.jpg",
+          "year": "since 2007"
         },
         {
           "name": "1 euro",
-          "image": "sloven_1e.jpg"
+          "image": "sloven_1e.jpg",
+          "year": "since 2007"
         },
         {
           "name": "2 euro",
-          "image": "sloven_2e.jpg"
+          "image": "sloven_2e.jpg",
+          "year": "since 2007"
         }
       ]
     },
@@ -804,35 +972,43 @@
       "Coins": [
         {
           "name": "1 euro cent",
-          "image": "spa_1.jpg"
+          "image": "spa_1.jpg",
+          "year": "1999-2009"
         },
         {
           "name": "2 euro cent",
-          "image": "spa_2.jpg"
+          "image": "spa_2.jpg",
+          "year": "1999-2009"
         },
         {
           "name": "5 euro cent",
-          "image": "spa_5.jpg"
+          "image": "spa_5.jpg",
+          "year": "1999-2009"
         },
         {
           "name": "10 euro cent",
-          "image": "spa_10.jpg"
+          "image": "spa_10.jpg",
+          "year": "1999-2009"
         },
         {
           "name": "20 euro cent",
-          "image": "spa_20.jpg"
+          "image": "spa_20.jpg",
+          "year": "1999-2009"
         },
         {
           "name": "50 euro cent",
-          "image": "spa_50.jpg"
+          "image": "spa_50.jpg",
+          "year": "1999-2009"
         },
         {
           "name": "1 euro",
-          "image": "spa_1e.jpg"
+          "image": "spa_1e.jpg",
+          "year": "1999-2009"
         },
         {
           "name": "2 euro",
-          "image": "spa_2e.jpg"
+          "image": "spa_2e.jpg",
+          "year": "1999-2009"
         }
       ]
     },
@@ -842,35 +1018,43 @@
       "Coins": [
         {
           "name": "1 euro cent",
-          "image": "vat_1.jpg"
+          "image": "vat_1.jpg",
+          "year": "2002—2005"
         },
         {
           "name": "2 euro cent",
-          "image": "vat_2.jpg"
+          "image": "vat_2.jpg",
+          "year": "2002—2005"
         },
         {
           "name": "5 euro cent",
-          "image": "vat_5.jpg"
+          "image": "vat_5.jpg",
+          "year": "2002—2005"
         },
         {
           "name": "10 euro cent",
-          "image": "vat_10.jpg"
+          "image": "vat_10.jpg",
+          "year": "2002—2005"
         },
         {
           "name": "20 euro cent",
-          "image": "vat_20.jpg"
+          "image": "vat_20.jpg",
+          "year": "2002—2005"
         },
         {
           "name": "50 euro cent",
-          "image": "vat_50.jpg"
+          "image": "vat_50.jpg",
+          "year": "2002—2005"
         },
         {
           "name": "1 euro",
-          "image": "vat_1e.jpg"
+          "image": "vat_1e.jpg",
+          "year": "2002—2005"
         },
         {
           "name": "2 euro",
-          "image": "vat_2e.jpg"
+          "image": "vat_2e.jpg",
+          "year": "2002—2005"
         }
       ]
     }

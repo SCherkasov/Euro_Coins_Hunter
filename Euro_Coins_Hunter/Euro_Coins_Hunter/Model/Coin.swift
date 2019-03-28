@@ -11,5 +11,6 @@ import Foundation
 struct Coin {
   var name: String
   var image: String
+  var year: String
   var country: Country
 }

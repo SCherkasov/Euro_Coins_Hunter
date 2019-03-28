@@ -57,14 +57,14 @@ extension DetailViewController: UITableViewDataSource {
     case 0:
       let cell = tableView.dequeueReusableCell(withIdentifier: "cell0",
                                                for: indexPath) as! NameCell
-      cell.nameCountry.text = "Germany"
+      cell.nameCountry.text = selectedCoin?.country.name
       
       return cell
      
     case 1:
       let cell = tableView.dequeueReusableCell(withIdentifier: "cell1",
                                                for: indexPath) as! YearCell
-      cell.yearCoins.text = "1999-2019"
+      cell.yearCoins.text = selectedCoin?.year
       
       return cell
       

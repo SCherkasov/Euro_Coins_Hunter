@@ -41,9 +41,10 @@ class CoinStore {
             
             for coinDict in countryCoinsD {
               if let name = coinDict["name"],
-                let image = coinDict["image"]
+                let image = coinDict["image"],
+                let year = coinDict["year"]
               {
-                countryCoins.append(Coin.init(name: name, image: image,
+                countryCoins.append(Coin.init(name: name, image: image, year: year,
                                               country: country))
               }
             }

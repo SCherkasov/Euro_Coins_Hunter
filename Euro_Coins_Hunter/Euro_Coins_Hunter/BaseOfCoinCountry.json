@@ -13,7 +13,8 @@
           "material": "Copper coated steel",
           "weight": "2.3 grams",
           "diameter": "16.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "On the background of the mountains - the image of the Pyrenean chamois. In the sky soars bearded. At the bottom left on the diagonal in two lines is the name of the issuing country “ANDORRA” and the year of minting. 12 stars are located along the circumference along the shoulder."
         },
         {
           "name": "2 euro cent",
@@ -24,7 +25,8 @@
           "material": "Copper coated steel",
           "weight": "3.06 grams",
           "diameter": "18.75 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "On the background of the mountains - the image of the Pyrenean chamois. In the sky soars bearded. At the bottom left on the diagonal in two lines is the name of the issuing country “ANDORRA” and the year of minting. 12 stars are located along the circumference along the shoulder."
           
         },
         {
@@ -36,7 +38,8 @@
           "material": "Copper coated steel",
           "weight": "3.92 grams",
           "diameter": "21.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "On the background of the mountains - the image of the Pyrenean chamois. In the sky soars bearded. At the bottom left on the diagonal in two lines is the name of the issuing country “ANDORRA” and the year of minting. 12 stars are located along the circumference along the shoulder."
         },
         {
           "name": "10 euro cent",
@@ -47,7 +50,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "4.1 grams",
           "diameter": "19.75 mm",
-          "thickness": "1.93 mm"
+          "thickness": "1.93 mm",
+          "about": "In the central part there is an image of the church of Santa Coloma, in the foreground - a stone arch. On the right, the names of the issuing country “ANDORRA” and the year of minting are vertically indicated in two lines. 12 stars are located along the circumference along the shoulder."
         },
         {
           "name": "20 euro cent",
@@ -58,7 +62,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "5.74 grams",
           "diameter": "22.25 mm",
-          "thickness": "2.14 mm"
+          "thickness": "2.14 mm",
+          "about": "In the central part there is an image of the church of Santa Coloma, in the foreground - a stone arch. On the right, the names of the issuing country “ANDORRA” and the year of minting are vertically indicated in two lines. 12 stars are located along the circumference along the shoulder."
         },
         {
           "name": "50 euro cent",
@@ -69,7 +74,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "7.8 grams",
           "diameter": "24.25 mm",
-          "thickness": "2.38 mm"
+          "thickness": "2.38 mm",
+          "about": "In the central part there is an image of the church of Santa Coloma, in the foreground - a stone arch. On the right, the names of the issuing country “ANDORRA” and the year of minting are vertically indicated in two lines. 12 stars are located along the circumference along the shoulder."
         },
         {
           "name": "1 euro",
@@ -80,7 +86,8 @@
           "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
           "weight": "7.5 grams",
           "diameter": "23.25 mm",
-          "thickness": "2.33 mm"
+          "thickness": "2.33 mm",
+          "about": "In the central part is the building of the old parliament of Andorra, Casa de la Val. Bottom horizontally arranged in two lines the name of the state of the issuer “ANDORRA” and the year of minting In the circle of the outer ring are 12 stars."
         },
         {
           "name": "2 euro",
@@ -91,7 +98,8 @@
           "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
           "weight": "8.5 grams",
           "diameter": "25.75 mm",
-          "thickness": "2.2 mm"
+          "thickness": "2.2 mm",
+          "about": "In the central part - the emblem of the Principality of Andorra. On the right, the name of the issuing country “ANDORRA” and the year of issue are engraved in two lines. In the circle of the outer ring are 12 stars."
         }
       ]
     },
@@ -108,7 +116,8 @@
           "material": "Copper coated steel",
           "weight": "2.3 grams",
           "diameter": "16.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "Alpine gentian - a flower growing in the Alps at an altitude of 2000-2600 m. The semicircle above indicates the denomination of the coin in German - “EIN EURO CENT”. Bottom shows three alternating stripes (rough-smooth-rough), symbolizing the Austrian flag and the date of issue of the coin."
         },
         {
           "name": "2 euro cent",
@@ -119,7 +128,8 @@
           "material": "Copper coated steel",
           "weight": "3.06 grams",
           "diameter": "18.75 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "In the center of the coin is the edelweiss flower. The semicircle above indicates the denomination of the coin in German - “ZWEI EURO CENT”. Bottom shows three alternating stripes (rough-smooth-rough), symbolizing the Austrian flag and the date of issue of the coin."
         },
         {
           "name": "5 euro cent",
@@ -130,7 +140,8 @@
           "material": "Copper coated steel",
           "weight": "3.92 grams",
           "diameter": "21.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "In the center of the coin is depicted a flower of alpine primrose (primrose). On top of the semicircle is the denomination of the coin in German - “FÜNF EURO CENT”. Bottom shows three alternating stripes (rough-smooth-rough), symbolizing the Austrian flag and the date of issue of the coin."
         },
         {
           "name": "10 euro cent",
@@ -141,7 +152,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "4.1 grams",
           "diameter": "19.75 mm",
-          "thickness": "1.93 mm"
+          "thickness": "1.93 mm",
+          "about": "St. Stephen's Cathedral, which is the main shrine of the Austrian capital. His appearance is sustained in the Gothic spirit. Set the right coin denomination ”10 EURO CENT”, and also shows three alternating strips (rough-smooth, rough) symbolizing Austrian flag. On the left is the date of issue of the coin."
         },
         {
           "name": "20 euro cent",
@@ -152,7 +164,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "5.74 grams",
           "diameter": "22.25 mm",
-          "thickness": "2.14 mm"
+          "thickness": "2.14 mm",
+          "about": "The main gate to the Upper Belvedere with the arms of Prince Eugene of Savoy. The denomination of the coin is divided into two parts: the inscription on top of a semicircle is “EURO CENT”, the bottom value is the numerical value “20”. Also below are three alternating stripes (rough-smooth-rough), symbolizing the Austrian flag and the date of issue of the coin."
         },
         {
           "name": "50 euro cent",
@@ -163,7 +176,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "7.8 grams",
           "diameter": "24.25 mm",
-          "thickness": "2.38 mm"
+          "thickness": "2.38 mm",
+          "about": "The famous Vienna Secession, illustrating the birth of a new art of Austria and a new era, symbolizing the bridge between the old and the new monetary systems. On top of the semicircle is the denomination of the coin - “50 EURO CENT”. On the right are three alternating stripes (rough-smooth-rough), symbolizing the Austrian flag and the date of issue of the coin."
         },
         {
           "name": "1 euro",
@@ -174,7 +188,8 @@
           "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
           "weight": "7.5 grams",
           "diameter": "23.25 mm",
-          "thickness": "2.33 mm"
+          "thickness": "2.33 mm",
+          "about": "Portrait of Wolfgang Mozart, the famous Austrian composer, representing Austria as a great musical state. The design of the coin is based on the portrait of Mozart, written by Barbara Kraft in 1819. To the right of the portrait are three alternating stripes (rough-smooth-rough), symbolizing the Austrian flag. Above them is the nominal value - “1 EURO” in two lines. On the left is the date of issue of the coin."
         },
         {
           "name": "2 euro",
@@ -185,7 +200,8 @@
           "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
           "weight": "8.5 grams",
           "diameter": "25.75 mm",
-          "thickness": "2.2 mm"
+          "thickness": "2.2 mm",
+          "about": "Portrait of the organizer of the pacifist movement Bertha von Suttner, the Nobel Prize winner in 1905, the writer who published the magazine Down with Arms. The image personifies Austria’s longstanding desire for peace. To the left of the portrait there are three alternating stripes (rough-smooth-rough), symbolizing the Austrian flag. Above them is the face value - “2 EURO” in two lines. On the right is the date of issue of the coin."
         }
       ]
     },
@@ -202,7 +218,8 @@
           "material": "Copper coated steel",
           "weight": "2.3 grams",
           "diameter": "16.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "2 euro cent",
@@ -213,7 +230,8 @@
           "material": "Copper coated steel",
           "weight": "3.06 grams",
           "diameter": "18.75 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "5 euro cent",
@@ -224,7 +242,8 @@
           "material": "Copper coated steel",
           "weight": "3.92 grams",
           "diameter": "21.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "10 euro cent",
@@ -235,7 +254,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "4.1 grams",
           "diameter": "19.75 mm",
-          "thickness": "1.93 mm"
+          "thickness": "1.93 mm",
+          "about": "***"
         },
         {
           "name": "20 euro cent",
@@ -246,7 +266,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "5.74 grams",
           "diameter": "22.25 mm",
-          "thickness": "2.14 mm"
+          "thickness": "2.14 mm",
+          "about": "***"
         },
         {
           "name": "50 euro cent",
@@ -257,7 +278,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "7.8 grams",
           "diameter": "24.25 mm",
-          "thickness": "2.38 mm"
+          "thickness": "2.38 mm",
+          "about": "***"
         },
         {
           "name": "1 euro",
@@ -268,7 +290,8 @@
           "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
           "weight": "7.5 grams",
           "diameter": "23.25 mm",
-          "thickness": "2.33 mm"
+          "thickness": "2.33 mm",
+          "about": "***"
         },
         {
           "name": "2 euro",
@@ -279,7 +302,8 @@
           "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
           "weight": "8.5 grams",
           "diameter": "25.75 mm",
-          "thickness": "2.2 mm"
+          "thickness": "2.2 mm",
+          "about": "***"
         }
       ]
     },
@@ -296,7 +320,8 @@
           "material": "Copper coated steel",
           "weight": "2.3 grams",
           "diameter": "16.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "2 euro cent",
@@ -307,7 +332,8 @@
           "material": "Copper coated steel",
           "weight": "3.06 grams",
           "diameter": "18.75 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "5 euro cent",
@@ -318,7 +344,8 @@
           "material": "Copper coated steel",
           "weight": "3.92 grams",
           "diameter": "21.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "10 euro cent",
@@ -329,7 +356,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "4.1 grams",
           "diameter": "19.75 mm",
-          "thickness": "1.93 mm"
+          "thickness": "1.93 mm",
+          "about": "***"
         },
         {
           "name": "20 euro cent",
@@ -340,7 +368,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "5.74 grams",
           "diameter": "22.25 mm",
-          "thickness": "2.14 mm"
+          "thickness": "2.14 mm",
+          "about": "***"
         },
         {
           "name": "50 euro cent",
@@ -351,7 +380,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "7.8 grams",
           "diameter": "24.25 mm",
-          "thickness": "2.38 mm"
+          "thickness": "2.38 mm",
+          "about": "***"
         },
         {
           "name": "1 euro",
@@ -362,7 +392,8 @@
           "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
           "weight": "7.5 grams",
           "diameter": "23.25 mm",
-          "thickness": "2.33 mm"
+          "thickness": "2.33 mm",
+          "about": "***"
         },
         {
           "name": "2 euro",
@@ -373,7 +404,8 @@
           "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
           "weight": "8.5 grams",
           "diameter": "25.75 mm",
-          "thickness": "2.2 mm"
+          "thickness": "2.2 mm",
+          "about": "***"
         }
       ]
     },
@@ -390,7 +422,8 @@
           "material": "Copper coated steel",
           "weight": "2.3 grams",
           "diameter": "16.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "2 euro cent",
@@ -401,7 +434,8 @@
           "material": "Copper coated steel",
           "weight": "3.06 grams",
           "diameter": "18.75 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "5 euro cent",
@@ -412,7 +446,8 @@
           "material": "Copper coated steel",
           "weight": "3.92 grams",
           "diameter": "21.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "10 euro cent",
@@ -423,7 +458,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "4.1 grams",
           "diameter": "19.75 mm",
-          "thickness": "1.93 mm"
+          "thickness": "1.93 mm",
+          "about": "***"
         },
         {
           "name": "20 euro cent",
@@ -434,7 +470,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "5.74 grams",
           "diameter": "22.25 mm",
-          "thickness": "2.14 mm"
+          "thickness": "2.14 mm",
+          "about": "***"
         },
         {
           "name": "50 euro cent",
@@ -445,7 +482,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "7.8 grams",
           "diameter": "24.25 mm",
-          "thickness": "2.38 mm"
+          "thickness": "2.38 mm",
+          "about": "***"
         },
         {
           "name": "1 euro",
@@ -456,7 +494,8 @@
           "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
           "weight": "7.5 grams",
           "diameter": "23.25 mm",
-          "thickness": "2.33 mm"
+          "thickness": "2.33 mm",
+          "about": "***"
         },
         {
           "name": "2 euro",
@@ -467,7 +506,8 @@
           "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
           "weight": "8.5 grams",
           "diameter": "25.75 mm",
-          "thickness": "2.2 mm"
+          "thickness": "2.2 mm",
+          "about": "***"
         }
       ]
     },
@@ -484,7 +524,8 @@
           "material": "Copper coated steel",
           "weight": "2.3 grams",
           "diameter": "16.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "2 euro cent",
@@ -495,7 +536,8 @@
           "material": "Copper coated steel",
           "weight": "3.06 grams",
           "diameter": "18.75 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "5 euro cent",
@@ -506,7 +548,8 @@
           "material": "Copper coated steel",
           "weight": "3.92 grams",
           "diameter": "21.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "10 euro cent",
@@ -517,7 +560,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "4.1 grams",
           "diameter": "19.75 mm",
-          "thickness": "1.93 mm"
+          "thickness": "1.93 mm",
+          "about": "***"
         },
         {
           "name": "20 euro cent",
@@ -528,7 +572,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "5.74 grams",
           "diameter": "22.25 mm",
-          "thickness": "2.14 mm"
+          "thickness": "2.14 mm",
+          "about": "***"
         },
         {
           "name": "50 euro cent",
@@ -539,7 +584,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "7.8 grams",
           "diameter": "24.25 mm",
-          "thickness": "2.38 mm"
+          "thickness": "2.38 mm",
+          "about": "***"
         },
         {
           "name": "1 euro",
@@ -550,7 +596,8 @@
           "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
           "weight": "7.5 grams",
           "diameter": "23.25 mm",
-          "thickness": "2.33 mm"
+          "thickness": "2.33 mm",
+          "about": "***"
         },
         {
           "name": "2 euro",
@@ -561,7 +608,8 @@
           "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
           "weight": "8.5 grams",
           "diameter": "25.75 mm",
-          "thickness": "2.2 mm"
+          "thickness": "2.2 mm",
+          "about": "***"
         }
       ]
     },
@@ -579,8 +627,7 @@
           "weight": "2.3 grams",
           "diameter": "16.25 mm",
           "thickness": "1.67 mm",
-          "diameter": "18.75 mm",
-          "thickness": "1.67 mm"
+          "about": "***"
         },
         {
           "name": "2 euro cent",
@@ -589,7 +636,10 @@
           "designer": "Fabienne Courtiade",
           "mint": "Paris Mint of France (Pessac)",
           "material": "Copper coated steel",
-          "weight": "3.06 grams"
+          "weight": "3.06 grams",
+          "diameter": "18.75 mm",
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "5 euro cent",
@@ -600,7 +650,8 @@
           "material": "Copper coated steel",
           "weight": "3.92 grams",
           "diameter": "21.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "10 euro cent",
@@ -611,7 +662,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "4.1 grams",
           "diameter": "19.75 mm",
-          "thickness": "1.93 mm"
+          "thickness": "1.93 mm",
+          "about": "***"
         },
         {
           "name": "20 euro cent",
@@ -622,7 +674,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "5.74 grams",
           "diameter": "22.25 mm",
-          "thickness": "2.14 mm"
+          "thickness": "2.14 mm",
+          "about": "***"
         },
         {
           "name": "50 euro cent",
@@ -633,7 +686,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "7.8 grams",
           "diameter": "24.25 mm",
-          "thickness": "2.38 mm"
+          "thickness": "2.38 mm",
+          "about": "***"
         },
         {
           "name": "1 euro",
@@ -644,7 +698,8 @@
           "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
           "weight": "7.5 grams",
           "diameter": "23.25 mm",
-          "thickness": "2.33 mm"
+          "thickness": "2.33 mm",
+          "about": "***"
         },
         {
           "name": "2 euro",
@@ -655,7 +710,8 @@
           "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
           "weight": "8.5 grams",
           "diameter": "25.75 mm",
-          "thickness": "2.2 mm"
+          "thickness": "2.2 mm",
+          "about": "***"
         }
       ]
     },
@@ -672,7 +728,8 @@
           "material": "Copper coated steel",
           "weight": "2.3 grams",
           "diameter": "16.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "2 euro cent",
@@ -683,7 +740,8 @@
           "material": "Copper coated steel",
           "weight": "3.06 grams",
           "diameter": "18.75 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "5 euro cent",
@@ -694,7 +752,8 @@
           "material": "Copper coated steel",
           "weight": "3.92 grams",
           "diameter": "21.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "10 euro cent",
@@ -705,7 +764,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "4.1 grams",
           "diameter": "19.75 mm",
-          "thickness": "1.93 mm"
+          "thickness": "1.93 mm",
+          "about": "***"
         },
         {
           "name": "20 euro cent",
@@ -716,7 +776,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "5.74 grams",
           "diameter": "22.25 mm",
-          "thickness": "2.14 mm"
+          "thickness": "2.14 mm",
+          "about": "***"
         },
         {
           "name": "50 euro cent",
@@ -727,7 +788,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "7.8 grams",
           "diameter": "24.25 mm",
-          "thickness": "2.38 mm"
+          "thickness": "2.38 mm",
+          "about": "***"
         },
         {
           "name": "1 euro",
@@ -738,7 +800,8 @@
           "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
           "weight": "7.5 grams",
           "diameter": "23.25 mm",
-          "thickness": "2.33 mm"
+          "thickness": "2.33 mm",
+          "about": "***"
         },
         {
           "name": "2 euro",
@@ -749,7 +812,8 @@
           "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
           "weight": "8.5 grams",
           "diameter": "25.75 mm",
-          "thickness": "2.2 mm"
+          "thickness": "2.2 mm",
+          "about": "***"
         }
       ]
     },
@@ -766,7 +830,8 @@
           "material": "Copper coated steel",
           "weight": "2.3 grams",
           "diameter": "16.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "2 euro cent",
@@ -777,7 +842,8 @@
           "material": "Copper coated steel",
           "weight": "3.06 grams",
           "diameter": "18.75 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "5 euro cent",
@@ -788,7 +854,8 @@
           "material": "Copper coated steel",
           "weight": "3.92 grams",
           "diameter": "21.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "10 euro cent",
@@ -799,7 +866,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "4.1 grams",
           "diameter": "19.75 mm",
-          "thickness": "1.93 mm"
+          "thickness": "1.93 mm",
+          "about": "***"
         },
         {
           "name": "20 euro cent",
@@ -810,7 +878,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "5.74 grams",
           "diameter": "22.25 mm",
-          "thickness": "2.14 mm"
+          "thickness": "2.14 mm",
+          "about": "***"
         },
         {
           "name": "50 euro cent",
@@ -821,7 +890,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "7.8 grams",
           "diameter": "24.25 mm",
-          "thickness": "2.38 mm"
+          "thickness": "2.38 mm",
+          "about": "***"
         },
         {
           "name": "1 euro",
@@ -832,7 +902,8 @@
           "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
           "weight": "7.5 grams",
           "diameter": "23.25 mm",
-          "thickness": "2.33 mm"
+          "thickness": "2.33 mm",
+          "about": "***"
         },
         {
           "name": "2 euro",
@@ -843,7 +914,8 @@
           "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
           "weight": "8.5 grams",
           "diameter": "25.75 mm",
-          "thickness": "2.2 mm"
+          "thickness": "2.2 mm",
+          "about": "***"
         }
       ]
     },
@@ -860,7 +932,8 @@
           "material": "Copper coated steel",
           "weight": "2.3 grams",
           "diameter": "16.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "2 euro cent",
@@ -871,7 +944,8 @@
           "material": "Copper coated steel",
           "weight": "3.06 grams",
           "diameter": "18.75 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "5 euro cent",
@@ -882,7 +956,8 @@
           "material": "Copper coated steel",
           "weight": "3.92 grams",
           "diameter": "21.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "10 euro cent",
@@ -893,7 +968,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "4.1 grams",
           "diameter": "19.75 mm",
-          "thickness": "1.93 mm"
+          "thickness": "1.93 mm",
+          "about": "***"
         },
         {
           "name": "20 euro cent",
@@ -904,7 +980,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "5.74 grams",
           "diameter": "22.25 mm",
-          "thickness": "2.14 mm"
+          "thickness": "2.14 mm",
+          "about": "***"
         },
         {
           "name": "50 euro cent",
@@ -915,7 +992,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "7.8 grams",
           "diameter": "24.25 mm",
-          "thickness": "2.38 mm"
+          "thickness": "2.38 mm",
+          "about": "***"
         },
         {
           "name": "1 euro",
@@ -926,7 +1004,8 @@
           "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
           "weight": "7.5 grams",
           "diameter": "23.25 mm",
-          "thickness": "2.33 mm"
+          "thickness": "2.33 mm",
+          "about": "***"
         },
         {
           "name": "2 euro",
@@ -937,7 +1016,8 @@
           "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
           "weight": "8.5 grams",
           "diameter": "25.75 mm",
-          "thickness": "2.2 mm"
+          "thickness": "2.2 mm",
+          "about": "***"
         }
       ]
     },
@@ -954,7 +1034,8 @@
           "material": "Copper coated steel",
           "weight": "2.3 grams",
           "diameter": "16.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "2 euro cent",
@@ -965,7 +1046,8 @@
           "material": "Copper coated steel",
           "weight": "3.06 grams",
           "diameter": "18.75 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "5 euro cent",
@@ -976,7 +1058,8 @@
           "material": "Copper coated steel",
           "weight": "3.92 grams",
           "diameter": "21.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "10 euro cent",
@@ -987,7 +1070,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "4.1 grams",
           "diameter": "19.75 mm",
-          "thickness": "1.93 mm"
+          "thickness": "1.93 mm",
+          "about": "***"
         },
         {
           "name": "20 euro cent",
@@ -998,7 +1082,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "5.74 grams",
           "diameter": "22.25 mm",
-          "thickness": "2.14 mm"
+          "thickness": "2.14 mm",
+          "about": "***"
         },
         {
           "name": "50 euro cent",
@@ -1009,7 +1094,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "7.8 grams",
           "diameter": "24.25 mm",
-          "thickness": "2.38 mm"
+          "thickness": "2.38 mm",
+          "about": "***"
         },
         {
           "name": "1 euro",
@@ -1020,7 +1106,8 @@
           "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
           "weight": "7.5 grams",
           "diameter": "23.25 mm",
-          "thickness": "2.33 mm"
+          "thickness": "2.33 mm",
+          "about": "***"
         },
         {
           "name": "2 euro",
@@ -1031,7 +1118,8 @@
           "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
           "weight": "8.5 grams",
           "diameter": "25.75 mm",
-          "thickness": "2.2 mm"
+          "thickness": "2.2 mm",
+          "about": "***"
         }
       ]
     },
@@ -1048,7 +1136,8 @@
           "material": "Copper coated steel",
           "weight": "2.3 grams",
           "diameter": "16.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "2 euro cent",
@@ -1059,7 +1148,8 @@
           "material": "Copper coated steel",
           "weight": "3.06 grams",
           "diameter": "18.75 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "5 euro cent",
@@ -1070,7 +1160,8 @@
           "material": "Copper coated steel",
           "weight": "3.92 grams",
           "diameter": "21.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "10 euro cent",
@@ -1081,7 +1172,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "4.1 grams",
           "diameter": "19.75 mm",
-          "thickness": "1.93 mm"
+          "thickness": "1.93 mm",
+          "about": "***"
         },
         {
           "name": "20 euro cent",
@@ -1092,7 +1184,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "5.74 grams",
           "diameter": "22.25 mm",
-          "thickness": "2.14 mm"
+          "thickness": "2.14 mm",
+          "about": "***"
         },
         {
           "name": "50 euro cent",
@@ -1103,7 +1196,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "7.8 grams",
           "diameter": "24.25 mm",
-          "thickness": "2.38 mm"
+          "thickness": "2.38 mm",
+          "about": "***"
         },
         {
           "name": "1 euro",
@@ -1114,7 +1208,8 @@
           "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
           "weight": "7.5 grams",
           "diameter": "23.25 mm",
-          "thickness": "2.33 mm"
+          "thickness": "2.33 mm",
+          "about": "***"
         },
         {
           "name": "2 euro",
@@ -1125,7 +1220,8 @@
           "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
           "weight": "8.5 grams",
           "diameter": "25.75 mm",
-          "thickness": "2.2 mm"
+          "thickness": "2.2 mm",
+          "about": "***"
         }
       ]
     },
@@ -1142,7 +1238,8 @@
           "material": "Copper coated steel",
           "weight": "2.3 grams",
           "diameter": "16.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "2 euro cent",
@@ -1153,7 +1250,8 @@
           "material": "Copper coated steel",
           "weight": "3.06 grams",
           "diameter": "18.75 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "5 euro cent",
@@ -1164,7 +1262,8 @@
           "material": "Copper coated steel",
           "weight": "3.92 grams",
           "diameter": "21.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "10 euro cent",
@@ -1175,7 +1274,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "4.1 grams",
           "diameter": "19.75 mm",
-          "thickness": "1.93 mm"
+          "thickness": "1.93 mm",
+          "about": "***"
         },
         {
           "name": "20 euro cent",
@@ -1186,7 +1286,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "5.74 grams",
           "diameter": "22.25 mm",
-          "thickness": "2.14 mm"
+          "thickness": "2.14 mm",
+          "about": "***"
         },
         {
           "name": "50 euro cent",
@@ -1197,7 +1298,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "7.8 grams",
           "diameter": "24.25 mm",
-          "thickness": "2.38 mm"
+          "thickness": "2.38 mm",
+          "about": "***"
         },
         {
           "name": "1 euro",
@@ -1208,7 +1310,8 @@
           "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
           "weight": "7.5 grams",
           "diameter": "23.25 mm",
-          "thickness": "2.33 mm"
+          "thickness": "2.33 mm",
+          "about": "***"
         },
         {
           "name": "2 euro",
@@ -1219,7 +1322,8 @@
           "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
           "weight": "8.5 grams",
           "diameter": "25.75 mm",
-          "thickness": "2.2 mm"
+          "thickness": "2.2 mm",
+          "about": "***"
         }
       ]
     },
@@ -1236,7 +1340,8 @@
           "material": "Copper coated steel",
           "weight": "2.3 grams",
           "diameter": "16.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "2 euro cent",
@@ -1247,7 +1352,8 @@
           "material": "Copper coated steel",
           "weight": "3.06 grams",
           "diameter": "18.75 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "5 euro cent",
@@ -1258,7 +1364,8 @@
           "material": "Copper coated steel",
           "weight": "3.92 grams",
           "diameter": "21.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "10 euro cent",
@@ -1269,7 +1376,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "4.1 grams",
           "diameter": "19.75 mm",
-          "thickness": "1.93 mm"
+          "thickness": "1.93 mm",
+          "about": "***"
         },
         {
           "name": "20 euro cent",
@@ -1280,7 +1388,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "5.74 grams",
           "diameter": "22.25 mm",
-          "thickness": "2.14 mm"
+          "thickness": "2.14 mm",
+          "about": "***"
         },
         {
           "name": "50 euro cent",
@@ -1291,7 +1400,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "7.8 grams",
           "diameter": "24.25 mm",
-          "thickness": "2.38 mm"
+          "thickness": "2.38 mm",
+          "about": "***"
         },
         {
           "name": "1 euro",
@@ -1302,7 +1412,8 @@
           "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
           "weight": "7.5 grams",
           "diameter": "23.25 mm",
-          "thickness": "2.33 mm"
+          "thickness": "2.33 mm",
+          "about": "***"
         },
         {
           "name": "2 euro",
@@ -1313,7 +1424,8 @@
           "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
           "weight": "8.5 grams",
           "diameter": "25.75 mm",
-          "thickness": "2.2 mm"
+          "thickness": "2.2 mm",
+          "about": "***"
         }
       ]
     },
@@ -1330,7 +1442,8 @@
           "material": "Copper coated steel",
           "weight": "2.3 grams",
           "diameter": "16.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "2 euro cent",
@@ -1341,7 +1454,8 @@
           "material": "Copper coated steel",
           "weight": "3.06 grams",
           "diameter": "18.75 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "5 euro cent",
@@ -1352,7 +1466,8 @@
           "material": "Copper coated steel",
           "weight": "3.92 grams",
           "diameter": "21.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "10 euro cent",
@@ -1363,7 +1478,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "4.1 grams",
           "diameter": "19.75 mm",
-          "thickness": "1.93 mm"
+          "thickness": "1.93 mm",
+          "about": "***"
         },
         {
           "name": "20 euro cent",
@@ -1374,7 +1490,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "5.74 grams",
           "diameter": "22.25 mm",
-          "thickness": "2.14 mm"
+          "thickness": "2.14 mm",
+          "about": "***"
         },
         {
           "name": "50 euro cent",
@@ -1385,7 +1502,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "7.8 grams",
           "diameter": "24.25 mm",
-          "thickness": "2.38 mm"
+          "thickness": "2.38 mm",
+          "about": "***"
         },
         {
           "name": "1 euro",
@@ -1396,7 +1514,8 @@
           "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
           "weight": "7.5 grams",
           "diameter": "23.25 mm",
-          "thickness": "2.33 mm"
+          "thickness": "2.33 mm",
+          "about": "***"
         },
         {
           "name": "2 euro",
@@ -1407,7 +1526,8 @@
           "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
           "weight": "8.5 grams",
           "diameter": "25.75 mm",
-          "thickness": "2.2 mm"
+          "thickness": "2.2 mm",
+          "about": "***"
         }
       ]
     },
@@ -1424,7 +1544,8 @@
           "material": "Copper coated steel",
           "weight": "2.3 grams",
           "diameter": "16.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "2 euro cent",
@@ -1435,7 +1556,8 @@
           "material": "Copper coated steel",
           "weight": "3.06 grams",
           "diameter": "18.75 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "5 euro cent",
@@ -1446,7 +1568,8 @@
           "material": "Copper coated steel",
           "weight": "3.92 grams",
           "diameter": "21.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "10 euro cent",
@@ -1457,7 +1580,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "4.1 grams",
           "diameter": "19.75 mm",
-          "thickness": "1.93 mm"
+          "thickness": "1.93 mm",
+          "about": "***"
         },
         {
           "name": "20 euro cent",
@@ -1468,7 +1592,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "5.74 grams",
           "diameter": "22.25 mm",
-          "thickness": "2.14 mm"
+          "thickness": "2.14 mm",
+          "about": "***"
         },
         {
           "name": "50 euro cent",
@@ -1479,7 +1604,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "7.8 grams",
           "diameter": "24.25 mm",
-          "thickness": "2.38 mm"
+          "thickness": "2.38 mm",
+          "about": "***"
         },
         {
           "name": "1 euro",
@@ -1490,7 +1616,8 @@
           "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
           "weight": "7.5 grams",
           "diameter": "23.25 mm",
-          "thickness": "2.33 mm"
+          "thickness": "2.33 mm",
+          "about": "***"
         },
         {
           "name": "2 euro",
@@ -1501,7 +1628,8 @@
           "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
           "weight": "8.5 grams",
           "diameter": "25.75 mm",
-          "thickness": "2.2 mm"
+          "thickness": "2.2 mm",
+          "about": "***"
         }
       ]
     },
@@ -1518,7 +1646,8 @@
           "material": "Copper coated steel",
           "weight": "2.3 grams",
           "diameter": "16.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "2 euro cent",
@@ -1529,7 +1658,8 @@
           "material": "Copper coated steel",
           "weight": "3.06 grams",
           "diameter": "18.75 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "5 euro cent",
@@ -1540,7 +1670,8 @@
           "material": "Copper coated steel",
           "weight": "3.92 grams",
           "diameter": "21.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "10 euro cent",
@@ -1551,7 +1682,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "4.1 grams",
           "diameter": "19.75 mm",
-          "thickness": "1.93 mm"
+          "thickness": "1.93 mm",
+          "about": "***"
         },
         {
           "name": "20 euro cent",
@@ -1562,7 +1694,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "5.74 grams",
           "diameter": "22.25 mm",
-          "thickness": "2.14 mm"
+          "thickness": "2.14 mm",
+          "about": "***"
         },
         {
           "name": "50 euro cent",
@@ -1573,7 +1706,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "7.8 grams",
           "diameter": "24.25 mm",
-          "thickness": "2.38 mm"
+          "thickness": "2.38 mm",
+          "about": "***"
         },
         {
           "name": "1 euro",
@@ -1584,7 +1718,8 @@
           "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
           "weight": "7.5 grams",
           "diameter": "23.25 mm",
-          "thickness": "2.33 mm"
+          "thickness": "2.33 mm",
+          "about": "***"
         },
         {
           "name": "2 euro",
@@ -1595,7 +1730,8 @@
           "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
           "weight": "8.5 grams",
           "diameter": "25.75 mm",
-          "thickness": "2.2 mm"
+          "thickness": "2.2 mm",
+          "about": "***"
         }
       ]
     },
@@ -1612,7 +1748,8 @@
           "material": "Copper coated steel",
           "weight": "2.3 grams",
           "diameter": "16.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "2 euro cent",
@@ -1623,7 +1760,8 @@
           "material": "Copper coated steel",
           "weight": "3.06 grams",
           "diameter": "18.75 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "5 euro cent",
@@ -1634,7 +1772,8 @@
           "material": "Copper coated steel",
           "weight": "3.92 grams",
           "diameter": "21.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "10 euro cent",
@@ -1645,7 +1784,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "4.1 grams",
           "diameter": "19.75 mm",
-          "thickness": "1.93 mm"
+          "thickness": "1.93 mm",
+          "about": "***"
         },
         {
           "name": "20 euro cent",
@@ -1656,7 +1796,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "5.74 grams",
           "diameter": "22.25 mm",
-          "thickness": "2.14 mm"
+          "thickness": "2.14 mm",
+          "about": "***"
         },
         {
           "name": "50 euro cent",
@@ -1667,7 +1808,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "7.8 grams",
           "diameter": "24.25 mm",
-          "thickness": "2.38 mm"
+          "thickness": "2.38 mm",
+          "about": "***"
         },
         {
           "name": "1 euro",
@@ -1678,7 +1820,8 @@
           "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
           "weight": "7.5 grams",
           "diameter": "23.25 mm",
-          "thickness": "2.33 mm"
+          "thickness": "2.33 mm",
+          "about": "***"
         },
         {
           "name": "2 euro",
@@ -1689,7 +1832,8 @@
           "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
           "weight": "8.5 grams",
           "diameter": "25.75 mm",
-          "thickness": "2.2 mm"
+          "thickness": "2.2 mm",
+          "about": "***"
         }
       ]
     },
@@ -1706,7 +1850,8 @@
           "material": "Copper coated steel",
           "weight": "2.3 grams",
           "diameter": "16.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "2 euro cent",
@@ -1717,7 +1862,8 @@
           "material": "Copper coated steel",
           "weight": "3.06 grams",
           "diameter": "18.75 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "5 euro cent",
@@ -1728,7 +1874,8 @@
           "material": "Copper coated steel",
           "weight": "3.92 grams",
           "diameter": "21.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "10 euro cent",
@@ -1739,7 +1886,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "4.1 grams",
           "diameter": "19.75 mm",
-          "thickness": "1.93 mm"
+          "thickness": "1.93 mm",
+          "about": "***"
         },
         {
           "name": "20 euro cent",
@@ -1750,7 +1898,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "5.74 grams",
           "diameter": "22.25 mm",
-          "thickness": "2.14 mm"
+          "thickness": "2.14 mm",
+          "about": "***"
         },
         {
           "name": "50 euro cent",
@@ -1761,7 +1910,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "7.8 grams",
           "diameter": "24.25 mm",
-          "thickness": "2.38 mm"
+          "thickness": "2.38 mm",
+          "about": "***"
         },
         {
           "name": "1 euro",
@@ -1772,7 +1922,8 @@
           "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
           "weight": "7.5 grams",
           "diameter": "23.25 mm",
-          "thickness": "2.33 mm"
+          "thickness": "2.33 mm",
+          "about": "***"
         },
         {
           "name": "2 euro",
@@ -1783,7 +1934,8 @@
           "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
           "weight": "8.5 grams",
           "diameter": "25.75 mm",
-          "thickness": "2.2 mm"
+          "thickness": "2.2 mm",
+          "about": "***"
         }
       ]
     },
@@ -1800,7 +1952,8 @@
           "material": "Copper coated steel",
           "weight": "2.3 grams",
           "diameter": "16.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "2 euro cent",
@@ -1811,7 +1964,8 @@
           "material": "Copper coated steel",
           "weight": "3.06 grams",
           "diameter": "18.75 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "5 euro cent",
@@ -1822,7 +1976,8 @@
           "material": "Copper coated steel",
           "weight": "3.92 grams",
           "diameter": "21.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "10 euro cent",
@@ -1833,7 +1988,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "4.1 grams",
           "diameter": "19.75 mm",
-          "thickness": "1.93 mm"
+          "thickness": "1.93 mm",
+          "about": "***"
         },
         {
           "name": "20 euro cent",
@@ -1844,7 +2000,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "5.74 grams",
           "diameter": "22.25 mm",
-          "thickness": "2.14 mm"
+          "thickness": "2.14 mm",
+          "about": "***"
         },
         {
           "name": "50 euro cent",
@@ -1855,7 +2012,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "7.8 grams",
           "diameter": "24.25 mm",
-          "thickness": "2.38 mm"
+          "thickness": "2.38 mm",
+          "about": "***"
         },
         {
           "name": "1 euro",
@@ -1866,7 +2024,8 @@
           "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
           "weight": "7.5 grams",
           "diameter": "23.25 mm",
-          "thickness": "2.33 mm"
+          "thickness": "2.33 mm",
+          "about": "***"
         },
         {
           "name": "2 euro",
@@ -1877,7 +2036,8 @@
           "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
           "weight": "8.5 grams",
           "diameter": "25.75 mm",
-          "thickness": "2.2 mm"
+          "thickness": "2.2 mm",
+          "about": "***"
         }
       ]
     },
@@ -1894,7 +2054,8 @@
           "material": "Copper coated steel",
           "weight": "2.3 grams",
           "diameter": "16.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "2 euro cent",
@@ -1905,7 +2066,8 @@
           "material": "Copper coated steel",
           "weight": "3.06 grams",
           "diameter": "18.75 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "5 euro cent",
@@ -1916,7 +2078,8 @@
           "material": "Copper coated steel",
           "weight": "3.92 grams",
           "diameter": "21.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "10 euro cent",
@@ -1927,7 +2090,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "4.1 grams",
           "diameter": "19.75 mm",
-          "thickness": "1.93 mm"
+          "thickness": "1.93 mm",
+          "about": "***"
         },
         {
           "name": "20 euro cent",
@@ -1938,7 +2102,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "5.74 grams",
           "diameter": "22.25 mm",
-          "thickness": "2.14 mm"
+          "thickness": "2.14 mm",
+          "about": "***"
         },
         {
           "name": "50 euro cent",
@@ -1949,7 +2114,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "7.8 grams",
           "diameter": "24.25 mm",
-          "thickness": "2.38 mm"
+          "thickness": "2.38 mm",
+          "about": "***"
         },
         {
           "name": "1 euro",
@@ -1960,7 +2126,8 @@
           "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
           "weight": "7.5 grams",
           "diameter": "23.25 mm",
-          "thickness": "2.33 mm"
+          "thickness": "2.33 mm",
+          "about": "***"
         },
         {
           "name": "2 euro",
@@ -1971,7 +2138,8 @@
           "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
           "weight": "8.5 grams",
           "diameter": "25.75 mm",
-          "thickness": "2.2 mm"
+          "thickness": "2.2 mm",
+          "about": "***"
         }
       ]
     },
@@ -1988,7 +2156,8 @@
           "material": "Copper coated steel",
           "weight": "2.3 grams",
           "diameter": "16.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "2 euro cent",
@@ -1999,7 +2168,8 @@
           "material": "Copper coated steel",
           "weight": "3.06 grams",
           "diameter": "18.75 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "5 euro cent",
@@ -2010,7 +2180,8 @@
           "material": "Copper coated steel",
           "weight": "3.92 grams",
           "diameter": "21.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "10 euro cent",
@@ -2021,7 +2192,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "4.1 grams",
           "diameter": "19.75 mm",
-          "thickness": "1.93 mm"
+          "thickness": "1.93 mm",
+          "about": "***"
         },
         {
           "name": "20 euro cent",
@@ -2032,7 +2204,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "5.74 grams",
           "diameter": "22.25 mm",
-          "thickness": "2.14 mm"
+          "thickness": "2.14 mm",
+          "about": "***"
         },
         {
           "name": "50 euro cent",
@@ -2043,7 +2216,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "7.8 grams",
           "diameter": "24.25 mm",
-          "thickness": "2.38 mm"
+          "thickness": "2.38 mm",
+          "about": "***"
         },
         {
           "name": "1 euro",
@@ -2054,7 +2228,8 @@
           "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
           "weight": "7.5 grams",
           "diameter": "23.25 mm",
-          "thickness": "2.33 mm"
+          "thickness": "2.33 mm",
+          "about": "***"
         },
         {
           "name": "2 euro",
@@ -2065,7 +2240,8 @@
           "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
           "weight": "8.5 grams",
           "diameter": "25.75 mm",
-          "thickness": "2.2 mm"
+          "thickness": "2.2 mm",
+          "about": "***"
         }
       ]
     },
@@ -2082,7 +2258,8 @@
           "material": "Copper coated steel",
           "weight": "2.3 grams",
           "diameter": "16.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "2 euro cent",
@@ -2093,7 +2270,8 @@
           "material": "Copper coated steel",
           "weight": "3.06 grams",
           "diameter": "18.75 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "5 euro cent",
@@ -2104,7 +2282,8 @@
           "material": "Copper coated steel",
           "weight": "3.92 grams",
           "diameter": "21.25 mm",
-          "thickness": "1.67 mm"
+          "thickness": "1.67 mm",
+          "about": "***"
         },
         {
           "name": "10 euro cent",
@@ -2115,7 +2294,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "4.1 grams",
           "diameter": "19.75 mm",
-          "thickness": "1.93 mm"
+          "thickness": "1.93 mm",
+          "about": "***"
         },
         {
           "name": "20 euro cent",
@@ -2126,7 +2306,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "5.74 grams",
           "diameter": "22.25 mm",
-          "thickness": "2.14 mm"
+          "thickness": "2.14 mm",
+          "about": "***"
         },
         {
           "name": "50 euro cent",
@@ -2137,7 +2318,8 @@
           "material": "Scandinavian alloy (Cu — 89%, Al — 5%, Zn — 5%, Sn — 1%)",
           "weight": "7.8 grams",
           "diameter": "24.25 mm",
-          "thickness": "2.38 mm"
+          "thickness": "2.38 mm",
+          "about": "***"
         },
         {
           "name": "1 euro",
@@ -2148,7 +2330,8 @@
           "material": "Outer ring - Cu-Zn-Ni; three-layer inner part - Cu-Ni; Ni; Cu-Ni",
           "weight": "7.5 grams",
           "diameter": "23.25 mm",
-          "thickness": "2.33 mm"
+          "thickness": "2.33 mm",
+          "about": "***"
         },
         {
           "name": "2 euro",
@@ -2159,7 +2342,8 @@
           "material": "Outer ring - Cu-Ni; three-layer inner part - Cu-Zn-Ni; Ni; Cu-Zn-Ni",
           "weight": "8.5 grams",
           "diameter": "25.75 mm",
-          "thickness": "2.2 mm"
+          "thickness": "2.2 mm",
+          "about": "***"
         }
       ]
     }

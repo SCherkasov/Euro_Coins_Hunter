@@ -48,9 +48,10 @@ class CoinStore {
                 let material = coinDict["material"],
                 let weight = coinDict["weight"],
                 let diameter = coinDict["diameter"],
-                let thickness = coinDict["thickness"]
+                let thickness = coinDict["thickness"],
+                let about = coinDict["about"]
               {
-                countryCoins.append(Coin.init(name: name, image: image, year: year, designer: designer, mint: mint, material: material, weight: weight, diameter: diameter, thickness: thickness, country: country))
+                countryCoins.append(Coin.init(name: name, image: image, year: year, designer: designer, mint: mint, material: material, weight: weight, diameter: diameter, thickness: thickness, about: about, country: country))
               }
             }
             

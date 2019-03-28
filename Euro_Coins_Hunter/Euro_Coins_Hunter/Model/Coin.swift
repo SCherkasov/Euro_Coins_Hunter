@@ -18,5 +18,6 @@ struct Coin {
   var weight: String
   var diameter: String
   var thickness: String
+  var about: String
   var country: Country
 }

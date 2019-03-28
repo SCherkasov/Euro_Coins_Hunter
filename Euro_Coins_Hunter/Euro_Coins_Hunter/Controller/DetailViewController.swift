@@ -48,7 +48,7 @@ extension DetailViewController: UITableViewDataSource {
   }
   
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return 10
+    return 9
   }
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -112,15 +112,8 @@ extension DetailViewController: UITableViewDataSource {
       
     case 8:
       let cell = tableView.dequeueReusableCell(withIdentifier: "cell8",
-                                               for: indexPath) as! HerdCell
-      cell.herdCoin.text = "Smooth"
-      
-      return cell
-      
-    case 9:
-      let cell = tableView.dequeueReusableCell(withIdentifier: "cell9",
                                                for: indexPath) as! DescriptionCell
-      cell.descriptionAboutCoin.text = "Coat of arms of the Cardinal Camelot, temporary head of the Vatican. Text around the coat of arms: SEDE VACANTE MMV. Between the emblem and the year of issue of the coin (MMV) there is a mint mark (letter “R”). To the left of the emblem there is the artist's designation “D.LONGO”, to the right - the engraver “M.A.C. INC.  Along the flange, 12 stars are depicted (above) and the name of the issuing state “CITTA` DEL VATICANO” (below) is indicated."
+      cell.descriptionAboutCoin.text = selectedCoin?.about
       
       cell.descriptionAboutCoin.translatesAutoresizingMaskIntoConstraints = true
       cell.descriptionAboutCoin.sizeToFit()

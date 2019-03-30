@@ -14,6 +14,8 @@ class CoinsCollectionViewCell: UICollectionViewCell {
   @IBOutlet var coinNameLabel: UILabel!
   
   @IBOutlet var welcomeView: UIView!
+
+  @IBOutlet var buttonForAnimation: UIButton!
   
   var coinsViewController: CoinsViewController?
   

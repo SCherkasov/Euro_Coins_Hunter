@@ -17,8 +17,6 @@ class CoinsViewController: UIViewController {
   var lockImage: CoinsCollectionViewCell?
   var isCoinLocked = true
   
-  var button = UIButton()
-  
   var doorSate = DoorState.closed
   var editBarButtonItemState = EditBarButtonItem.deactivate
   
@@ -38,14 +36,6 @@ class CoinsViewController: UIViewController {
     let nib = UINib(nibName: "CoinsCollectionViewCell", bundle: nil)
     coinCollectionView.register(nib, forCellWithReuseIdentifier:
       "CoinsCollectionViewCell")
-    
-    // setup button
-    button.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
-    button.setTitle("", for: .normal)
-    button.addTarget(self, action: #selector(makeAction), for: .touchUpInside)
-    lockImage?.coinImage.addSubview(button)
-    
-    button.isHidden = true
     
     navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Edit", style: .plain, target: self, action: #selector(editAction))
     navigationItem.rightBarButtonItem?.tintColor = UIColor.white
@@ -69,16 +59,18 @@ class CoinsViewController: UIViewController {
     coinCollectionView.collectionViewLayout = layout
   }
   
-    @objc func makeAction() {
+  @objc func makeAction() {
     switch self.doorSate {
     case .opened:
       self.doorSate = .closed
-      self.transition(to: .closed)
-      isCoinLocked = false
+//      self.transition(to: .closed)
+      isCoinLocked = true
+      print("door closed")
     case .closed:
       self.doorSate = .opened
-      self.transition(to: .opened)
-      isCoinLocked = true
+//      self.transition(to: .opened)
+      isCoinLocked = false
+      print("door opened")
     }
   }
   
@@ -87,30 +79,34 @@ class CoinsViewController: UIViewController {
     case .activate:
       self.editBarButtonItemState = .deactivate
       navigationItem.rightBarButtonItem?.title = "Edit"
-      button.isHidden = true
+      lockImage?.buttonForAnimation.isHidden = true
       print("button deactivate")
+      
+      navigationItem.setHidesBackButton(false, animated: true)
     case .deactivate:
       self.editBarButtonItemState = .activate
       navigationItem.rightBarButtonItem?.title = "Save"
-      button.isHidden = false
+      lockImage?.buttonForAnimation.isHidden = false
       print("button activate")
+      
+      navigationItem.setHidesBackButton(true, animated: true)
     }
   }
   
   func transition(to nextDoorState: DoorState) {
     if nextDoorState == .opened {
       UIView.animate(withDuration: 1.0, delay: 0.3, options: [], animations: {
-        self.lockImage!.imageViews[0].center.x -= self.lockImage!.coinImage.bounds.width / 2
-        self.lockImage!.imageViews[1].center.x += self.lockImage!.coinImage.bounds.width / 2
-        self.lockImage!.imageViews[0].alpha = 0.0
-        self.lockImage!.imageViews[1].alpha = 0.0
+        self.lockImage!.imageViews[0].center.x -= (self.lockImage?.coinImage.bounds.width)! / 2
+        self.lockImage?.imageViews[1].center.x += (self.lockImage?.coinImage.bounds.width)! / 2
+        self.lockImage?.imageViews[0].alpha = 0.0
+        self.lockImage?.imageViews[1].alpha = 0.0
       }, completion: nil)
     } else {
       UIView.animate(withDuration: 1.0, delay: 0.3, options: [], animations: {
-        self.lockImage!.imageViews[0].center.x += self.lockImage!.coinImage.bounds.width / 2
-        self.lockImage!.imageViews[1].center.x -= self.lockImage!.coinImage.bounds.width / 2
-        self.lockImage!.imageViews[0].alpha = 0.5
-        self.lockImage!.imageViews[1].alpha = 0.5
+        self.lockImage?.imageViews[0].center.x += (self.lockImage?.coinImage.bounds.width)! / 2
+        self.lockImage?.imageViews[1].center.x -= (self.lockImage?.coinImage.bounds.width)! / 2
+        self.lockImage?.imageViews[0].alpha = 0.5
+        self.lockImage?.imageViews[1].alpha = 0.5
       }, completion: nil)
     }
   }
@@ -133,6 +129,11 @@ extension CoinsViewController: UICollectionViewDataSource {
       
       let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CoinsCollectionViewCell", for: indexPath) as!
       CoinsCollectionViewCell
+      
+    cell.buttonForAnimation = UIButton(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
+      cell.buttonForAnimation.addTarget(self, action: #selector(makeAction), for: .touchUpInside)
+      cell.addSubview(cell.buttonForAnimation)
+     // cell.buttonForAnimation.isHidden = true
       
       if indexPath.row < self.coinStore.coins.count {
         cell.coinNameLabel.text = self.coinStore.coins[indexPath.row].name
@@ -161,7 +162,11 @@ extension CoinsViewController: UICollectionViewDelegate {
     if indexPath.item == 8 {
       return
     } else {
-      if editBarButtonItemState == .activate {
+      if editBarButtonItemState == .deactivate && isCoinLocked == true {
+        lockImage?.buttonForAnimation.isHidden = false
+        return
+      }
+      if editBarButtonItemState == .activate && isCoinLocked == false {
         let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
         if let detailVC = storyboard.instantiateViewController(withIdentifier: "DetailViewController")
           as? DetailViewController

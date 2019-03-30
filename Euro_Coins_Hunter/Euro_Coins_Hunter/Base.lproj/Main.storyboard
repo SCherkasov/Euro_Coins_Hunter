@@ -21,14 +21,43 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="167"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Euro Coins Hunter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sY0-el-Qz7">
-                                        <rect key="frame" x="90" y="69.5" width="195.5" height="28"/>
+                                        <rect key="frame" x="90" y="69.5" width="195.5" height="27.5"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="37" translatesAutoresizingMaskIntoConstraints="NO" id="MJt-2N-mco">
+                                        <rect key="frame" x="128" y="117" width="119" height="15"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vq3-sp-xuU">
+                                                <rect key="frame" x="0.0" y="0.0" width="15" height="15"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="15" id="eAS-GK-WsU"/>
+                                                    <constraint firstAttribute="height" constant="15" id="qDK-ja-xbT"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="info"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ISV-Hw-Tjo">
+                                                <rect key="frame" x="52" y="0.0" width="15" height="15"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="15" id="W8j-7h-PMg"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="about"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kve-E4-N9a">
+                                                <rect key="frame" x="104" y="0.0" width="15" height="15"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="15" id="RaL-52-SFy"/>
+                                                </constraints>
+                                                <state key="normal" image="settings"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstItem="MJt-2N-mco" firstAttribute="top" secondItem="sY0-el-Qz7" secondAttribute="bottom" constant="20" id="5GI-u9-16G"/>
+                                    <constraint firstItem="MJt-2N-mco" firstAttribute="centerX" secondItem="5mI-ez-7aM" secondAttribute="centerX" id="8Xi-BE-8He"/>
                                     <constraint firstItem="sY0-el-Qz7" firstAttribute="centerX" secondItem="5mI-ez-7aM" secondAttribute="centerX" id="hMm-15-bEj"/>
                                     <constraint firstItem="sY0-el-Qz7" firstAttribute="centerY" secondItem="5mI-ez-7aM" secondAttribute="centerY" id="jK3-Xr-l0S"/>
                                 </constraints>
@@ -1008,5 +1037,8 @@
     </scenes>
     <resources>
         <image name="Touch_ID" width="128" height="128"/>
+        <image name="about" width="229" height="256"/>
+        <image name="info" width="155" height="151"/>
+        <image name="settings" width="66" height="65.25"/>
     </resources>
 </document>

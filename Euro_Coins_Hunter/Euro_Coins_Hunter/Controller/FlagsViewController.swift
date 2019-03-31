@@ -56,8 +56,7 @@ extension FlagsViewController: UICollectionViewDataSource {
     return self.coinStore.countries.count
   }
   
-  func collectionView(_ collectionView: UICollectionView, cellForItemAt
-    indexPath: IndexPath) -> UICollectionViewCell {
+  func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
     
     let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FlagsCollectionViewCell", for: indexPath)
       as! FlagsCollectionViewCell

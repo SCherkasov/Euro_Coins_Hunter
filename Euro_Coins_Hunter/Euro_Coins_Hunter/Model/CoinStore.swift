@@ -43,8 +43,11 @@ class CoinStore {
               if let name = coinDict["name"],
                 let image = coinDict["image"]
               {
-                countryCoins.append(Coin.init(name: name, image: image,
-                                              country: country))
+                countryCoins.append(Coin.init(
+                  name: name,
+                  image: image,
+                  country: country,
+                  isLocked: true))
               }
             }
             
@@ -56,7 +59,6 @@ class CoinStore {
       self.internalCoins = coins
       self.coins = coins
       self.countries = countries
-      
     }
   }
   

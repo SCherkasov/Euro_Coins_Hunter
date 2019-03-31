@@ -15,9 +15,7 @@ struct Country {
 
 extension Country: Equatable {
   static func == (lhs: Country, rhs: Country) -> Bool {
-    return
-      
-      lhs.name == rhs.name &&
-        lhs.flagImageName == rhs.flagImageName
+    return lhs.name == rhs.name &&
+      lhs.flagImageName == rhs.flagImageName
   }
 }

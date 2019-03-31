@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     _ application: UIApplication,
     willFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool
   {
+    /*
     window = UIWindow.init(frame: UIScreen.main.bounds)
     
     let mainViewController = LoginViewController.init()
@@ -25,6 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     window?.rootViewController = mainViewController
     
     window?.makeKeyAndVisible()
+     */
 
     return true
   }

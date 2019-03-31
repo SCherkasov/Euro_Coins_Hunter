@@ -8,6 +8,10 @@
 
 import UIKit
 
+protocol CoinsCellDelegate {
+  func coinCell(_ cell: CoinsCollectionViewCell, with index:Int, didTouchButton button: UIButton)
+}
+
 class CoinsCollectionViewCell: UICollectionViewCell {
   
   public enum DoorState {
@@ -16,6 +20,8 @@ class CoinsCollectionViewCell: UICollectionViewCell {
   }
   
   var doorSate = DoorState.closed
+  var delegate: CoinsCellDelegate?
+  var index: Int!
   
   @IBOutlet var coinImage: UIImageView!
   @IBOutlet var coinNameLabel: UILabel!
@@ -71,6 +77,12 @@ class CoinsCollectionViewCell: UICollectionViewCell {
     self.coinImage.addSubview(imageViews[1])
     
     self.button.isHidden = true
+  }
+  
+  @IBAction func onButtonTouch(_ sender: UIButton) {
+    if let delegate = self.delegate {
+      delegate.coinCell(self, with: self.index, didTouchButton: sender)
+    }
   }
   
   public func transition(to nextDoorState: DoorState, onCompletion:(() -> ())?) {

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CoinsViewController: UIViewController {
+class CoinsViewController: UIViewController, CoinsCellDelegate {
   
   enum EditBarButtonItem {
     case activate
@@ -49,30 +49,6 @@ class CoinsViewController: UIViewController {
     layout.minimumLineSpacing = 0
     
     coinCollectionView.collectionViewLayout = layout
-  }
-  
-  @objc
-  func coinCellButtonTouched(_ sender: UIButton) {
-    print("Button \(String(describing: sender.titleLabel?.text)) touched)")
-    
-    if let coinCell = sender.superview?.superview as? CoinsCollectionViewCell,
-      let indexPath = self.coinCollectionView.indexPath(for: coinCell)
-    {
-      let isLocked = self.coinStore.coins[indexPath.row].setNextState()
-      
-      var onCompletion: (() -> ())?
-      if let indexPath = self.coinCollectionView.indexPath(for: coinCell) {
-        onCompletion = {
-          self.updateButtonFor(cell: coinCell, coinAtIndexPath: indexPath)
-        }
-      }
-      
-      if isLocked {
-        coinCell.transition(to: .closed, onCompletion: onCompletion)
-      } else {
-        coinCell.transition(to: .opened, onCompletion: onCompletion)
-      }
-    }
   }
   
   @objc func editAction() {
@@ -131,6 +107,7 @@ extension CoinsViewController: UICollectionViewDataSource {
       
       let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CoinsCollectionViewCell", for: indexPath) as!
       CoinsCollectionViewCell
+      cell.index = indexPath.row
       
       if indexPath.row < self.coinStore.coins.count {
         cell.coinNameLabel.text = self.coinStore.coins[indexPath.row].name
@@ -142,7 +119,7 @@ extension CoinsViewController: UICollectionViewDataSource {
         
         self.updateButtonFor(cell: cell, coinAtIndexPath: indexPath)
   
-        cell.button.addTarget(self, action: #selector(coinCellButtonTouched(_:)), for: UIControlEvents.touchUpInside)
+        cell.delegate = self
       } else {
         if indexPath.row == self.coinStore.coins.count {
           cell.coinNameLabel.text = selectedCountry?.name
@@ -154,6 +131,26 @@ extension CoinsViewController: UICollectionViewDataSource {
         }
       }
       return cell
+  }
+  
+  func coinCell(_ cell: CoinsCollectionViewCell, with index: Int, didTouchButton button: UIButton) {
+    print("Button \(String(describing: button.titleLabel?.text)) touched)")
+    
+    let indexPath = IndexPath.init(item: index, section: 0)
+    
+    let isLocked = self.coinStore.coins[index].setNextState()
+    
+    var onCompletion: (() -> ())?
+
+    onCompletion = {
+      self.updateButtonFor(cell: cell, coinAtIndexPath: indexPath)
+    }
+    
+    if isLocked {
+      cell.transition(to: .closed, onCompletion: onCompletion)
+    } else {
+      cell.transition(to: .opened, onCompletion: onCompletion)
+    }
   }
 }
 

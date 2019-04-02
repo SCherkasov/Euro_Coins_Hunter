@@ -20,10 +20,11 @@ class CoinsViewController: UIViewController, CoinsCellDelegate {
   var coinStore = CoinStore()
   var selectedCountry: Country?
   var editBarButtonItemState = EditBarButtonItem.deactivate
-  
 
   override func viewDidLoad() {
     super.viewDidLoad()
+    self.coinStore.loadCoins()
+    self.coinStore.filterCoins(with: selectedCountry!)
     
     let nib = UINib(nibName: "CoinsCollectionViewCell", bundle: nil)
     coinCollectionView.register(nib, forCellWithReuseIdentifier:
@@ -32,21 +33,18 @@ class CoinsViewController: UIViewController, CoinsCellDelegate {
     navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Edit", style: .plain, target: self, action: #selector(editAction))
     navigationItem.rightBarButtonItem?.tintColor = UIColor.white
     
-    self.coinStore.loadCoins()
-    self.coinStore.filterCoins(with: selectedCountry!)
-    
     setupLayoutToCollectionView()
   }
   
   func setupLayoutToCollectionView() {
-    let itemSize = UIScreen.main.bounds.width / 3
+    let itemSize = (UIScreen.main.bounds.width - 40) / 3
     
     let layout = UICollectionViewFlowLayout()
-    layout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
-    layout.itemSize = CGSize(width: itemSize, height: itemSize)
+    layout.sectionInset = UIEdgeInsets(top: 8, left: 8, bottom: 8, right: 8)
+    layout.itemSize = CGSize(width: itemSize, height: itemSize + 30)
     
-    layout.minimumInteritemSpacing = 0
-    layout.minimumLineSpacing = 0
+    layout.minimumInteritemSpacing = 8
+    layout.minimumLineSpacing = 8
     
     coinCollectionView.collectionViewLayout = layout
   }
@@ -57,13 +55,10 @@ class CoinsViewController: UIViewController, CoinsCellDelegate {
       self.editBarButtonItemState = .deactivate
       navigationItem.rightBarButtonItem?.title = "Edit"
       self.setCoinCellViewButtonState(true)
-      print("button deactivate")
     case .deactivate:
       self.editBarButtonItemState = .activate
       navigationItem.rightBarButtonItem?.title = "Save"
-      
       self.setCoinCellViewButtonState(false)
-      print("button activate")
     }
   }
   
@@ -94,19 +89,16 @@ extension CoinsViewController: UICollectionViewDataSource {
     return self.coinStore.coins.count + 1
   }
   
-
-  
   func updateButtonFor(cell: CoinsCollectionViewCell, coinAtIndexPath indexPath: IndexPath) {
     let title = self.coinStore.coins[indexPath.row].isLocked ? "Unlock" : "Lock";
     cell.button.setTitle(title, for: UIControlState.normal)
   }
   
   func collectionView(_ collectionView: UICollectionView,
-                      cellForItemAt indexPath: IndexPath) ->
-    UICollectionViewCell {
-      
-      let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CoinsCollectionViewCell", for: indexPath) as!
-      CoinsCollectionViewCell
+                      cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
+  {
+      let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CoinsCollectionViewCell", for: indexPath)
+        as! CoinsCollectionViewCell
       cell.index = indexPath.row
       
       if indexPath.row < self.coinStore.coins.count {
@@ -114,8 +106,6 @@ extension CoinsViewController: UICollectionViewDataSource {
         
         let image = UIImage(named: self.coinStore.coins[indexPath.row].image)
         cell.coinImage.image = image
-        cell.coinImage.layer.cornerRadius = cell.coinImage.frame.size.height / 2
-        cell.coinImage.clipsToBounds = true
         
         self.updateButtonFor(cell: cell, coinAtIndexPath: indexPath)
   
@@ -123,19 +113,15 @@ extension CoinsViewController: UICollectionViewDataSource {
       } else {
         if indexPath.row == self.coinStore.coins.count {
           cell.coinNameLabel.text = selectedCountry?.name
-          
+    
           let image = UIImage(named: (selectedCountry?.flagImageName)!)
           cell.coinImage.image = image
-          cell.coinImage.layer.cornerRadius = cell.coinImage.frame.size.height / 2
-          cell.coinImage.clipsToBounds = true
         }
       }
       return cell
   }
   
   func coinCell(_ cell: CoinsCollectionViewCell, with index: Int, didTouchButton button: UIButton) {
-    print("Button \(String(describing: button.titleLabel?.text)) touched)")
-    
     let indexPath = IndexPath.init(item: index, section: 0)
     
     let isLocked = self.coinStore.coins[index].setNextState()

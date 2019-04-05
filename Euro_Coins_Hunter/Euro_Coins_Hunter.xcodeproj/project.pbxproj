@@ -29,6 +29,8 @@
 		8A669FFF223EE42C005423EB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A669FFE223EE42C005423EB /* DetailViewController.swift */; };
 		8A66A003223EE9EE005423EB /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A66A002223EE9EE005423EB /* DetailHeaderView.swift */; };
 		8A66A005223EEDC9005423EB /* NameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A66A004223EEDC9005423EB /* NameCell.swift */; };
+		8A6E0AA7225739B200339B9D /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E0AA6225739B200339B9D /* SettingsTableViewController.swift */; };
+		8A6E0AAA22573BCB00339B9D /* VersionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E0AA922573BCA00339B9D /* VersionTableViewCell.swift */; };
 		8A8939AC22403E23008F5A2D /* YearCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8939AB22403E23008F5A2D /* YearCell.swift */; };
 		8A8939AE22403FE0008F5A2D /* DesignerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8939AD22403FE0008F5A2D /* DesignerCell.swift */; };
 		8A8939B1224041F8008F5A2D /* MintCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8939B0224041F8008F5A2D /* MintCell.swift */; };
@@ -65,6 +67,8 @@
 		8A669FFE223EE42C005423EB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		8A66A002223EE9EE005423EB /* DetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeaderView.swift; sourceTree = "<group>"; };
 		8A66A004223EEDC9005423EB /* NameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameCell.swift; sourceTree = "<group>"; };
+		8A6E0AA6225739B200339B9D /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		8A6E0AA922573BCA00339B9D /* VersionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionTableViewCell.swift; sourceTree = "<group>"; };
 		8A8939AB22403E23008F5A2D /* YearCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearCell.swift; sourceTree = "<group>"; };
 		8A8939AD22403FE0008F5A2D /* DesignerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignerCell.swift; sourceTree = "<group>"; };
 		8A8939B0224041F8008F5A2D /* MintCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintCell.swift; sourceTree = "<group>"; };
@@ -130,6 +134,7 @@
 				8A669FFA223EBDC7005423EB /* RegisterViewController.swift */,
 				8A669FFE223EE42C005423EB /* DetailViewController.swift */,
 				8A305D87224AD5880026BE33 /* DetailCoinZoomViewController.swift */,
+				8A6E0AA822573A0800339B9D /* Settings, Info, About */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -152,8 +157,25 @@
 				8A669FEB223E64BA005423EB /* FlagsCollectionViewCell.swift */,
 				8A669FED223E64BA005423EB /* FlagsCollectionViewCell.xib */,
 				8A8939AF22403FF1008F5A2D /* Detail */,
+				8A6E0AAB22573BD000339B9D /* Settings */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		8A6E0AA822573A0800339B9D /* Settings, Info, About */ = {
+			isa = PBXGroup;
+			children = (
+				8A6E0AA6225739B200339B9D /* SettingsTableViewController.swift */,
+			);
+			path = "Settings, Info, About";
+			sourceTree = "<group>";
+		};
+		8A6E0AAB22573BD000339B9D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				8A6E0AA922573BCA00339B9D /* VersionTableViewCell.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		8A8939AF22403FF1008F5A2D /* Detail */ = {
@@ -262,6 +284,7 @@
 				8A669FD7223D41CC005423EB /* Country.swift in Sources */,
 				8A8939B1224041F8008F5A2D /* MintCell.swift in Sources */,
 				8A66A005223EEDC9005423EB /* NameCell.swift in Sources */,
+				8A6E0AA7225739B200339B9D /* SettingsTableViewController.swift in Sources */,
 				8A669FF7223E7171005423EB /* BlackNavigationController.swift in Sources */,
 				8A669FF4223E64E7005423EB /* FlagsViewController.swift in Sources */,
 				8A669FDA223D4208005423EB /* Coin.swift in Sources */,
@@ -272,6 +295,7 @@
 				8A669FEF223E64BA005423EB /* FlagsCollectionViewCell.swift in Sources */,
 				8A305D88224AD5880026BE33 /* DetailCoinZoomViewController.swift in Sources */,
 				8A8939AE22403FE0008F5A2D /* DesignerCell.swift in Sources */,
+				8A6E0AAA22573BCB00339B9D /* VersionTableViewCell.swift in Sources */,
 				8A8939AC22403E23008F5A2D /* YearCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

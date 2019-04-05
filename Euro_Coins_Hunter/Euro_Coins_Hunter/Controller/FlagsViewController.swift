@@ -44,6 +44,11 @@ class FlagsViewController: UIViewController {
     
     self.performSegue(withIdentifier: "goToLogInView", sender: self)
   }
+  
+  
+  @IBAction func settingsButton(_ sender: UIButton) {
+    
+  }
 }
 
 extension FlagsViewController: UICollectionViewDataSource {

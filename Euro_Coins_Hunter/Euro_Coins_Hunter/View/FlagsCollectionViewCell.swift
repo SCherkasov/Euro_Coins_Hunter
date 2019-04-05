@@ -13,6 +13,8 @@ class FlagsCollectionViewCell: UICollectionViewCell {
   @IBOutlet var flagImage: UIImageView!
   @IBOutlet var flagNameLabel: UILabel!
   
+ 
+  
   override func awakeFromNib() {
     super.awakeFromNib()
   }

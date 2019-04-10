@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8A146A7C22450BAF00987A12 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A146A7B22450BAF00987A12 /* Image.swift */; };
 		8A305D88224AD5880026BE33 /* DetailCoinZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A305D87224AD5880026BE33 /* DetailCoinZoomViewController.swift */; };
+		8A5E50CA225E254300C7B825 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5E50C9225E254300C7B825 /* InfoViewController.swift */; };
+		8A5E50CC225E25CD00C7B825 /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5E50CB225E25CD00C7B825 /* InfoTableViewCell.swift */; };
 		8A669FC2223D3D3A005423EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A669FC1223D3D3A005423EB /* AppDelegate.swift */; };
 		8A669FC7223D3D3A005423EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A669FC5223D3D3A005423EB /* Main.storyboard */; };
 		8A669FC9223D3D3C005423EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A669FC8223D3D3C005423EB /* Assets.xcassets */; };
@@ -45,6 +47,8 @@
 /* Begin PBXFileReference section */
 		8A146A7B22450BAF00987A12 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		8A305D87224AD5880026BE33 /* DetailCoinZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCoinZoomViewController.swift; sourceTree = "<group>"; };
+		8A5E50C9225E254300C7B825 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		8A5E50CB225E25CD00C7B825 /* InfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
 		8A669FBE223D3D3A005423EB /* Euro_Coins_Hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Euro_Coins_Hunter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A669FC1223D3D3A005423EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A669FC6223D3D3A005423EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -166,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				8A6E0AA6225739B200339B9D /* SettingsTableViewController.swift */,
+				8A5E50C9225E254300C7B825 /* InfoViewController.swift */,
 			);
 			path = "Settings, Info, About";
 			sourceTree = "<group>";
@@ -174,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				8A6E0AA922573BCA00339B9D /* VersionTableViewCell.swift */,
+				8A5E50CB225E25CD00C7B825 /* InfoTableViewCell.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -280,7 +286,9 @@
 				8A669FF5223E64E7005423EB /* CoinsViewController.swift in Sources */,
 				8A669FFF223EE42C005423EB /* DetailViewController.swift in Sources */,
 				8A8939BD2240440A008F5A2D /* DescriptionCell.swift in Sources */,
+				8A5E50CA225E254300C7B825 /* InfoViewController.swift in Sources */,
 				8A669FDC223D4234005423EB /* CoinStore.swift in Sources */,
+				8A5E50CC225E25CD00C7B825 /* InfoTableViewCell.swift in Sources */,
 				8A669FD7223D41CC005423EB /* Country.swift in Sources */,
 				8A8939B1224041F8008F5A2D /* MintCell.swift in Sources */,
 				8A66A005223EEDC9005423EB /* NameCell.swift in Sources */,

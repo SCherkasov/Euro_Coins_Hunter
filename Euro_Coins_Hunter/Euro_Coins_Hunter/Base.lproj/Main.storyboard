@@ -36,6 +36,9 @@
                                                     <constraint firstAttribute="height" constant="15" id="qDK-ja-xbT"/>
                                                 </constraints>
                                                 <state key="normal" title="Button" image="info"/>
+                                                <connections>
+                                                    <segue destination="qRe-AZ-bga" kind="show" id="wYf-gI-qbX"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ISV-Hw-Tjo">
                                                 <rect key="frame" x="52" y="0.0" width="15" height="15"/>
@@ -1038,10 +1041,91 @@
             </objects>
             <point key="canvasLocation" x="-846" y="1668"/>
         </scene>
+        <!--Info View Controller-->
+        <scene sceneID="aNc-Zr-v87">
+            <objects>
+                <viewController id="qRe-AZ-bga" customClass="InfoViewController" customModule="Euro_Coins_Hunter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cbd-aF-3YU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="SG3-PP-PdR">
+                                <rect key="frame" x="0.0" y="272" width="375" height="395"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="yVz-na-3EO" customClass="InfoTableViewCell" customModule="Euro_Coins_Hunter" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="yVz-na-3EO" id="H0J-aO-p3M">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogV-Kx-Tik">
+                                                    <rect key="frame" x="8" y="1" width="359" height="42.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstItem="ogV-Kx-Tik" firstAttribute="top" secondItem="H0J-aO-p3M" secondAttribute="top" constant="1" id="KhY-xE-EDH"/>
+                                                <constraint firstItem="ogV-Kx-Tik" firstAttribute="leading" secondItem="H0J-aO-p3M" secondAttribute="leading" constant="8" id="e6v-Lh-apI"/>
+                                                <constraint firstAttribute="trailing" secondItem="ogV-Kx-Tik" secondAttribute="trailing" constant="8" id="sG8-pH-3Y5"/>
+                                                <constraint firstAttribute="bottom" secondItem="ogV-Kx-Tik" secondAttribute="bottom" id="t2s-b5-EhX"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="infoLabel" destination="ogV-Kx-Tik" id="cx2-Ud-Nlw"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
+                                <connections>
+                                    <outlet property="dataSource" destination="qRe-AZ-bga" id="QMn-T9-Hff"/>
+                                    <outlet property="delegate" destination="qRe-AZ-bga" id="Eww-5A-Gvp"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U0n-4r-KPn">
+                                <rect key="frame" x="0.0" y="64" width="375" height="200"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="infoImage" translatesAutoresizingMaskIntoConstraints="NO" id="NiP-2s-yr2">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="NiP-2s-yr2" secondAttribute="trailing" id="3HS-LQ-NWY"/>
+                                    <constraint firstItem="NiP-2s-yr2" firstAttribute="top" secondItem="U0n-4r-KPn" secondAttribute="top" id="GGC-vS-Lic"/>
+                                    <constraint firstAttribute="height" constant="200" id="KYW-ad-EjG"/>
+                                    <constraint firstAttribute="bottom" secondItem="NiP-2s-yr2" secondAttribute="bottom" id="Lei-LH-mYL"/>
+                                    <constraint firstItem="NiP-2s-yr2" firstAttribute="leading" secondItem="U0n-4r-KPn" secondAttribute="leading" id="UaE-KK-AMA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="SG3-PP-PdR" firstAttribute="centerX" secondItem="cbd-aF-3YU" secondAttribute="centerX" id="4XM-na-yrb"/>
+                            <constraint firstItem="U0n-4r-KPn" firstAttribute="leading" secondItem="ZfJ-Ag-5lf" secondAttribute="leading" id="FIK-sc-lg3"/>
+                            <constraint firstItem="SG3-PP-PdR" firstAttribute="trailing" secondItem="ZfJ-Ag-5lf" secondAttribute="trailing" id="LqD-6D-sgI"/>
+                            <constraint firstItem="U0n-4r-KPn" firstAttribute="trailing" secondItem="ZfJ-Ag-5lf" secondAttribute="trailing" id="OGn-TW-7j9"/>
+                            <constraint firstItem="SG3-PP-PdR" firstAttribute="top" secondItem="U0n-4r-KPn" secondAttribute="bottom" constant="8" id="WIP-e2-Qp0"/>
+                            <constraint firstItem="SG3-PP-PdR" firstAttribute="leading" secondItem="ZfJ-Ag-5lf" secondAttribute="leading" id="aAr-FJ-BO9"/>
+                            <constraint firstItem="U0n-4r-KPn" firstAttribute="top" secondItem="ZfJ-Ag-5lf" secondAttribute="top" id="jlh-3Z-tkc"/>
+                            <constraint firstItem="U0n-4r-KPn" firstAttribute="centerX" secondItem="cbd-aF-3YU" secondAttribute="centerX" id="mNE-IT-1oK"/>
+                            <constraint firstItem="SG3-PP-PdR" firstAttribute="bottom" secondItem="ZfJ-Ag-5lf" secondAttribute="bottom" id="tLu-BL-nNo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZfJ-Ag-5lf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y5l-9F-86h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="99.400299850074973"/>
+        </scene>
         <!--Settings Table View Controller-->
         <scene sceneID="LNH-fR-Whf">
             <objects>
-                <tableViewController storyboardIdentifier="SettingsTableViewController" id="XZJ-3G-RvA" customClass="SettingsTableViewController" customModule="SettingScreen" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="SettingsTableViewController" id="XZJ-3G-RvA" customClass="SettingsTableViewController" customModule="Euro_Coins_Hunter" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="WYm-aP-KTE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1050,7 +1134,7 @@
                         <sections>
                             <tableViewSection headerTitle="Version" id="ehg-VL-Y0F">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="70" id="r6M-kB-Jeu" customClass="VersionTableViewCell" customModule="SettingScreen" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="70" id="r6M-kB-Jeu" customClass="VersionTableViewCell" customModule="Euro_Coins_Hunter" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="r6M-kB-Jeu" id="IiS-Sp-mTk">
@@ -1075,7 +1159,7 @@
                             </tableViewSection>
                             <tableViewSection headerTitle="Language" id="iAK-zR-8mF">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="70" id="s9r-Rq-VhY" customClass="LanguageTableViewCell" customModule="SettingScreen" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="70" id="s9r-Rq-VhY" customClass="LanguageTableViewCell" customModule="Euro_Coins_Hunter" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="126" width="375" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="s9r-Rq-VhY" id="nAe-95-tZ3">
@@ -1191,6 +1275,7 @@
         <image name="Touch_ID" width="128" height="128"/>
         <image name="about" width="229" height="256"/>
         <image name="info" width="155" height="151"/>
+        <image name="infoImage" width="1389" height="1331"/>
         <image name="logout" width="200" height="180"/>
         <image name="settings" width="66" height="65.25"/>
     </resources>

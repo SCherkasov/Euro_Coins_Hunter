@@ -55,10 +55,12 @@ class CoinsViewController: UIViewController, CoinsCellDelegate {
       self.editBarButtonItemState = .deactivate
       navigationItem.rightBarButtonItem?.title = "Edit"
       self.setCoinCellViewButtonState(true)
+      navigationItem.setHidesBackButton(false, animated: true)
     case .deactivate:
       self.editBarButtonItemState = .activate
       navigationItem.rightBarButtonItem?.title = "Save"
       self.setCoinCellViewButtonState(false)
+      navigationItem.setHidesBackButton(true, animated: true)
     }
   }
   

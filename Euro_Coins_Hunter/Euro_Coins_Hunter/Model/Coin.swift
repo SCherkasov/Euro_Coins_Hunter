@@ -20,4 +20,10 @@ struct Coin {
   var thickness: String
   var about: String
   var country: Country
+  var isLocked = true
+  
+  public mutating func setNextState() -> Bool {
+    self.isLocked = self.isLocked ? false : true
+    return self.isLocked
+  }
 }

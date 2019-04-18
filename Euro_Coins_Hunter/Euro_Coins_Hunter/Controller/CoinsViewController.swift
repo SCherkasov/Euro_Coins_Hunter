@@ -36,6 +36,12 @@ class CoinsViewController: UIViewController, CoinsCellDelegate {
     setupLayoutToCollectionView()
   }
   
+  override func viewWillAppear(_ animated: Bool) {
+    super.viewWillAppear(true)
+    
+    UserDefaults.standard.bool(forKey: "is")
+  }
+  
   func setupLayoutToCollectionView() {
     let itemSize = (UIScreen.main.bounds.width - 40) / 3
     
@@ -94,6 +100,16 @@ extension CoinsViewController: UICollectionViewDataSource {
   func updateButtonFor(cell: CoinsCollectionViewCell, coinAtIndexPath indexPath: IndexPath) {
     let title = self.coinStore.coins[indexPath.row].isLocked ? "" : ""
     cell.button.setTitle(title, for: UIControl.State.normal)
+    
+    if self.coinStore.coins[indexPath.row].isLocked == true {
+      UserDefaults.standard.set(true, forKey: "is")
+      UserDefaults.standard.synchronize()
+    } else {
+      if self.coinStore.coins[indexPath.row].isLocked == false {
+        UserDefaults.standard.set(false, forKey: "is")
+        UserDefaults.standard.synchronize()
+      }
+    }
   }
   
   func collectionView(_ collectionView: UICollectionView,

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8A146A7C22450BAF00987A12 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A146A7B22450BAF00987A12 /* Image.swift */; };
+		8A28D685226CDE61001E3A38 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A28D684226CDE61001E3A38 /* LaunchViewController.swift */; };
 		8A305D88224AD5880026BE33 /* DetailCoinZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A305D87224AD5880026BE33 /* DetailCoinZoomViewController.swift */; };
 		8A5E50CA225E254300C7B825 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5E50C9225E254300C7B825 /* InfoViewController.swift */; };
 		8A5E50CC225E25CD00C7B825 /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5E50CB225E25CD00C7B825 /* InfoTableViewCell.swift */; };
@@ -46,6 +47,7 @@
 
 /* Begin PBXFileReference section */
 		8A146A7B22450BAF00987A12 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		8A28D684226CDE61001E3A38 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		8A305D87224AD5880026BE33 /* DetailCoinZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCoinZoomViewController.swift; sourceTree = "<group>"; };
 		8A5E50C9225E254300C7B825 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		8A5E50CB225E25CD00C7B825 /* InfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				8A669FFA223EBDC7005423EB /* RegisterViewController.swift */,
 				8A669FFE223EE42C005423EB /* DetailViewController.swift */,
 				8A305D87224AD5880026BE33 /* DetailCoinZoomViewController.swift */,
+				8A28D684226CDE61001E3A38 /* LaunchViewController.swift */,
 				8A6E0AA822573A0800339B9D /* Settings, Info, About */,
 			);
 			path = Controller;
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A8939B7224042FB008F5A2D /* DiameterCell.swift in Sources */,
+				8A28D685226CDE61001E3A38 /* LaunchViewController.swift in Sources */,
 				8A146A7C22450BAF00987A12 /* Image.swift in Sources */,
 				8A669FEE223E64BA005423EB /* CoinsCollectionViewCell.swift in Sources */,
 				8A8939B5224042A1008F5A2D /* WeightCell.swift in Sources */,

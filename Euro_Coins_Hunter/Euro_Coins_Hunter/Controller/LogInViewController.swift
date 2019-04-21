@@ -30,6 +30,8 @@ class LogInViewController: UIViewController {
   @IBOutlet var keyCode3: UIView!
   @IBOutlet var keyCode4: UIView!
   
+  @IBOutlet var blackView: UIView!
+  
   @IBOutlet var userNameAfterRegisterLabel: UILabel!
   
   var inputKeycode: [Int] = []
@@ -60,6 +62,9 @@ class LogInViewController: UIViewController {
       touchButton.setImage(image, for: .normal)
     }
     
+    blackView.alpha = 1
+    animation()
+    
     authWithTouchID()
     self.navigationItem.hidesBackButton = true
   }
@@ -67,6 +72,15 @@ class LogInViewController: UIViewController {
   override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(true)
     setupUserName()
+  }
+  
+  // animate appear LogIn screen
+  func animation() {
+    DispatchQueue.main.asyncAfter(deadline: .now()) {
+      UIView.animate(withDuration: 3, delay: 0.5, options: [], animations: {
+        self.blackView.alpha = 0
+      }, completion: nil)
+    }
   }
   
   func setupUserName() {

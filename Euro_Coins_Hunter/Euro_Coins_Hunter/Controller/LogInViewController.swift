@@ -65,7 +65,7 @@ class LogInViewController: UIViewController {
     blackView.alpha = 1
     animation()
     
-    authWithTouchID()
+    timer()
     self.navigationItem.hidesBackButton = true
   }
   
@@ -154,6 +154,10 @@ class LogInViewController: UIViewController {
     button.layer.borderColor = UIColor.white.cgColor
   }
   
+  func timer() {
+    let timer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(authWithTouchID), userInfo: nil, repeats: false)
+  }
+  
   // alert controller
   func showAlertController(_ message: String) {
 
@@ -165,7 +169,8 @@ class LogInViewController: UIViewController {
   }
   
   // authorisation with touch id
-  func authWithTouchID() {
+  @objc func authWithTouchID() {
+    
       let context = LAContext()
       
       if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics,

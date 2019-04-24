@@ -55,7 +55,6 @@
                                                 </constraints>
                                                 <state key="normal" image="settings"/>
                                                 <connections>
-                                                    <action selector="settingsButton:" destination="5Op-TF-80N" eventType="touchUpInside" id="1eZ-bb-TS9"/>
                                                     <segue destination="XZJ-3G-RvA" kind="show" id="iJR-BI-VuK"/>
                                                 </connections>
                                             </button>
@@ -113,15 +112,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8oH-58-A26"/>
                     </view>
-                    <navigationItem key="navigationItem" id="A5J-Ec-JbY">
-                        <barButtonItem key="rightBarButtonItem" title="log out" id="alV-Ji-1WA">
-                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <connections>
-                                <action selector="logOutBarButtonItem:" destination="5Op-TF-80N" id="0uj-DW-lKr"/>
-                                <segue destination="Jgp-VA-eYo" kind="show" identifier="goToLogInView" id="Z4g-tB-6wt"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="A5J-Ec-JbY"/>
                     <connections>
                         <outlet property="flagCollectionView" destination="zd5-To-qbN" id="T3M-aL-WTv"/>
                     </connections>
@@ -747,7 +738,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="px7-oI-z59">
-                                <rect key="frame" x="115" y="166" width="142" height="30"/>
+                                <rect key="frame" x="115" y="122" width="142" height="30"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="niI-XW-ukD">
                                         <rect key="frame" x="0.0" y="-8" width="144" height="30"/>
@@ -785,7 +776,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bPu-zk-wUk">
-                                <rect key="frame" x="16" y="121.00000000000001" width="343" height="20.666666666666671"/>
+                                <rect key="frame" x="16" y="77" width="343" height="20.666666666666671"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -1278,13 +1269,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="me6-fM-bYo">
-                                                    <rect key="frame" x="0.0" y="0.0" width="100" height="38"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="38" id="px5-IO-reN"/>
-                                                        <constraint firstAttribute="width" constant="100" id="tLa-fP-4qK"/>
-                                                    </constraints>
-                                                </button>
                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="dSm-MU-rdJ">
                                                     <rect key="frame" x="16" y="6" width="84" height="30"/>
                                                     <subviews>
@@ -1303,6 +1287,16 @@
                                                         </label>
                                                     </subviews>
                                                 </stackView>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="me6-fM-bYo">
+                                                    <rect key="frame" x="0.0" y="0.0" width="100" height="38"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="38" id="px5-IO-reN"/>
+                                                        <constraint firstAttribute="width" constant="100" id="tLa-fP-4qK"/>
+                                                    </constraints>
+                                                    <connections>
+                                                        <action selector="logOutPressedWithSender:" destination="XZJ-3G-RvA" eventType="touchUpInside" id="839-L1-huP"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="dSm-MU-rdJ" firstAttribute="leading" secondItem="3fu-V8-6o7" secondAttribute="leading" constant="16" id="J1c-hp-ne6"/>
@@ -1339,7 +1333,4 @@
         <image name="logout" width="200" height="180"/>
         <image name="settings" width="88" height="87"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="tu4-wV-bCw"/>
-    </inferredMetricsTieBreakers>
 </document>

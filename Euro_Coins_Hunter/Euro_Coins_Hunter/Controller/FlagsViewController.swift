@@ -20,7 +20,8 @@ class FlagsViewController: UIViewController {
     self.coinStore.loadCoins()
     
     let nib = UINib(nibName: "FlagsCollectionViewCell", bundle: nil)
-    flagCollectionView.register(nib, forCellWithReuseIdentifier: "FlagsCollectionViewCell")
+    flagCollectionView.register(nib,
+                          forCellWithReuseIdentifier: "FlagsCollectionViewCell")
     
     setupLayoutToCollectionView()
   }
@@ -37,18 +38,6 @@ class FlagsViewController: UIViewController {
     
     flagCollectionView.collectionViewLayout = layout
   }
-  
-  @IBAction func logOutBarButtonItem(_ sender: UIBarButtonItem) {
-    UserDefaults.standard.set(true, forKey: "isUserLoggedIn")
-    UserDefaults.standard.synchronize()
-    
-    self.performSegue(withIdentifier: "goToLogInView", sender: self)
-  }
-  
-  
-  @IBAction func settingsButton(_ sender: UIButton) {
-    
-  }
 }
 
 extension FlagsViewController: UICollectionViewDataSource {
@@ -57,7 +46,8 @@ extension FlagsViewController: UICollectionViewDataSource {
     return 1
   }
   
-  func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+  func collectionView(_ collectionView: UICollectionView,
+                      numberOfItemsInSection section: Int) -> Int {
     return self.coinStore.countries.count
   }
   
@@ -76,7 +66,8 @@ extension FlagsViewController: UICollectionViewDataSource {
 
 extension FlagsViewController: UICollectionViewDelegate {
   
-  func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+  func collectionView(_ collectionView: UICollectionView,
+                      didSelectItemAt indexPath: IndexPath) {
     let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
     if let coinsVC = storyboard.instantiateViewController(withIdentifier: "CoinsViewController")
       as? CoinsViewController

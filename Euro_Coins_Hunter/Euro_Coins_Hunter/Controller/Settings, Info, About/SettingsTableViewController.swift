@@ -73,4 +73,10 @@ class SettingsTableViewController: UITableViewController {
       return 2000.00
     }
   }
+  
+  @IBAction func logOutPressed(sender: UIButton) {
+    let storyboard = UIStoryboard(name: "Main", bundle: nil)
+    let secondVC = storyboard.instantiateViewController(withIdentifier: "LogInViewController") as! LogInViewController
+    self.present(secondVC, animated: true, completion: nil)
+  }
 }

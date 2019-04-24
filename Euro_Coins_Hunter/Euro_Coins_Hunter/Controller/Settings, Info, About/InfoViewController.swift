@@ -39,11 +39,6 @@ In 2005, the European Council decided that the common side of all coin values â€
 
       self.navigationController?.navigationBar.topItem?.title = ""
     }
-
-}
-
-extension InfoViewController: UITableViewDelegate {
-  
 }
 
 extension InfoViewController: UITableViewDataSource {
@@ -60,6 +55,5 @@ extension InfoViewController: UITableViewDataSource {
     
     return cell
   }
-  
   
 }

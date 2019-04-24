@@ -89,7 +89,7 @@ class LogInViewController: UIViewController {
     if let newUserName = userName {
       self.userNameAfterRegisterLabel.text = ("Hi, \(newUserName)")
     }
-   
+    
   }
   
   func setupKeycodes(_ keyCode: UIView, for color: UIColor) {
@@ -155,39 +155,43 @@ class LogInViewController: UIViewController {
   }
   
   func timer() {
-    let timer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(authWithTouchID), userInfo: nil, repeats: false)
+    let _ = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(authWithTouchID), userInfo: nil, repeats: false)
   }
   
   // alert controller
   func showAlertController(_ message: String) {
-
-      let alertController = UIAlertController(title: nil, message: message, preferredStyle: .alert)
-      let okAction = UIAlertAction(title: "ok", style: .default, handler: nil)
-      alertController.addAction(okAction)
-      self.present(alertController, animated: true, completion: nil)
+    
+    let alertController = UIAlertController(title: nil,
+                                            message: message,
+                                            preferredStyle: .alert)
+    let okAction = UIAlertAction(title: "ok", style: .default, handler: nil)
+    alertController.addAction(okAction)
+    self.present(alertController, animated: true, completion: nil)
     
   }
   
   // authorisation with touch id
   @objc func authWithTouchID() {
     
-      let context = LAContext()
-      
-      if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics,
-                                   error: nil) {
-        let reason = "Authenticate with Touch ID"
-        context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics,
-                               localizedReason: reason, reply: { (succes, error) in
-                                if succes {
-                                  
+    let context = LAContext()
+    
+    if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics,
+                                 error: nil) {
+      let reason = "Authenticate with Touch ID"
+      context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics,
+                             localizedReason: reason, reply: { (succes, error) in
+                              if succes {
+                                DispatchQueue.main.async {
                                   self.performSegue(withIdentifier: "goToMainView",
                                                     sender: self)
                                 }
-        }
-        )}
-      else {
-        self.showAlertController("Touch ID not available")
+                                
+                              }
       }
+      )}
+    else {
+      self.showAlertController("Touch ID not available")
+    }
   }
   
   @IBAction func pressedButtotToAuth(_ sender: Any) {

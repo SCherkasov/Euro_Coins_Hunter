@@ -88,7 +88,6 @@ class CoinsCollectionViewCell: UICollectionViewCell {
     self.rightImageView.translatesAutoresizingMaskIntoConstraints = false
     
     self.button.isHidden = true
-    
   }
   
   @IBAction func onButtonTouch(_ sender: UIButton) {

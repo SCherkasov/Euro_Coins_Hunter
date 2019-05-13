@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DetailCoinZoomViewController: UIViewController, UIScrollViewDelegate {
+class DetailCoinZoomViewController: UIViewController {
   
   @IBOutlet var scrollView: UIScrollView!
   @IBOutlet var detailCoinImage: UIImageView!
@@ -20,15 +20,40 @@ class DetailCoinZoomViewController: UIViewController, UIScrollViewDelegate {
     
     detailCoinImage.image = detCoiImage
     
+    scrollView.delegate = self
+    detailCoinImage.frame.size = detailCoinImage.image!.size
+    
+    detailCoinImage.frame = CGRect(x: 0, y: 0, width: detailCoinImage.frame.width / 2, height: detailCoinImage.frame.height / 2)
+    
     detailCoinImage.layer.cornerRadius = detailCoinImage.bounds.size.width / 2
     detailCoinImage.clipsToBounds = true
     
-    scrollView.delegate = self
     scrollView.minimumZoomScale = 1.0
     scrollView.maximumZoomScale = 4.0
     scrollView.zoomScale = 1.0
+    centeredImage()
   }
   
+  func centeredImage() {
+    let scrollViewSize = scrollView.bounds.size
+    let imageSize = detailCoinImage.frame.size
+    
+    let horizontalSpace = imageSize.width < scrollViewSize.width
+      ? (scrollViewSize.width - imageSize.width) / 2
+      : 0
+    
+    let verticalSpace = imageSize.height < scrollViewSize.height
+      ? (scrollViewSize.height - imageSize.height) / 2
+      : 0
+    
+    scrollView.contentInset = UIEdgeInsets(top: verticalSpace,
+                                           left: horizontalSpace,
+                                           bottom: verticalSpace,
+                                           right: horizontalSpace)
+  }
+}
+
+extension DetailCoinZoomViewController: UIScrollViewDelegate {
   func viewForZooming(in scrollView: UIScrollView) -> UIView? {
     return detailCoinImage
   }

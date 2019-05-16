@@ -43,6 +43,7 @@
 		8A8939B922404361008F5A2D /* ThicknessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8939B822404361008F5A2D /* ThicknessCell.swift */; };
 		8A8939BB224043B3008F5A2D /* HerdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8939BA224043B3008F5A2D /* HerdCell.swift */; };
 		8A8939BD2240440A008F5A2D /* DescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8939BC2240440A008F5A2D /* DescriptionCell.swift */; };
+		8A96892E228DB2DB008677B9 /* AboutTheAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A96892D228DB2DB008677B9 /* AboutTheAppViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		8A8939B822404361008F5A2D /* ThicknessCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThicknessCell.swift; sourceTree = "<group>"; };
 		8A8939BA224043B3008F5A2D /* HerdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerdCell.swift; sourceTree = "<group>"; };
 		8A8939BC2240440A008F5A2D /* DescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionCell.swift; sourceTree = "<group>"; };
+		8A96892D228DB2DB008677B9 /* AboutTheAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTheAppViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 			children = (
 				8A6E0AA6225739B200339B9D /* SettingsTableViewController.swift */,
 				8A5E50C9225E254300C7B825 /* InfoViewController.swift */,
+				8A96892D228DB2DB008677B9 /* AboutTheAppViewController.swift */,
 			);
 			path = "Settings, Info, About";
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				8A669FF5223E64E7005423EB /* CoinsViewController.swift in Sources */,
 				8A669FFF223EE42C005423EB /* DetailViewController.swift in Sources */,
 				8A8939BD2240440A008F5A2D /* DescriptionCell.swift in Sources */,
+				8A96892E228DB2DB008677B9 /* AboutTheAppViewController.swift in Sources */,
 				8A5E50CA225E254300C7B825 /* InfoViewController.swift in Sources */,
 				8A669FDC223D4234005423EB /* CoinStore.swift in Sources */,
 				8A5E50CC225E25CD00C7B825 /* InfoTableViewCell.swift in Sources */,

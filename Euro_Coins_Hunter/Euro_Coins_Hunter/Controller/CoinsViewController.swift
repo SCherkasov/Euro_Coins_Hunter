@@ -34,12 +34,15 @@ class CoinsViewController: UIViewController, CoinsCellDelegate {
     navigationItem.rightBarButtonItem?.tintColor = UIColor.white
     
     setupLayoutToCollectionView()
+    
+    
   }
   
   override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(true)
+    // and here
+  UserDefaults.standard.object(forKey: "Open")
     
-    UserDefaults.standard.bool(forKey: "is")
   }
   
   func setupLayoutToCollectionView() {
@@ -102,12 +105,10 @@ extension CoinsViewController: UICollectionViewDataSource {
     cell.button.setTitle(title, for: UIControl.State.normal)
     
     if self.coinStore.coins[indexPath.row].isLocked == true {
-      UserDefaults.standard.set(true, forKey: "is")
-      UserDefaults.standard.synchronize()
+
     } else {
       if self.coinStore.coins[indexPath.row].isLocked == false {
-        UserDefaults.standard.set(false, forKey: "is")
-        UserDefaults.standard.synchronize()
+        
       }
     }
   }
@@ -154,6 +155,11 @@ extension CoinsViewController: UICollectionViewDataSource {
       cell.transition(to: .closed, onCompletion: onCompletion)
     } else {
       cell.transition(to: .opened, onCompletion: onCompletion)
+      
+      // Jenia please help
+      UserDefaults.standard.set(true, forKey: "Open")
+      UserDefaults.standard.synchronize()
+      
     }
   }
 }

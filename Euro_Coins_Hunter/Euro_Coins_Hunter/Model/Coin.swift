@@ -22,6 +22,44 @@ struct Coin {
   var country: Country
   var isLocked = true
   
+  init(with coinDict: [String: Any], country: Country, isLocked: Bool) {
+    self.country = country
+    self.isLocked = isLocked
+    if let name = coinDict["name"] as? String,
+      let image = coinDict["image"] as? String,
+      let year = coinDict["year"] as? String,
+      let designer = coinDict["designer"] as? String,
+      let mint = coinDict["mint"] as? String,
+      let material = coinDict["material"] as? String,
+      let weight = coinDict["weight"] as? String,
+      let diameter = coinDict["diameter"] as? String,
+      let thickness = coinDict["thickness"] as? String,
+      let about = coinDict["about"] as? String
+    {
+      self.name = name
+      self.image = image
+      self.year = year
+      self.designer = designer
+      self.mint = mint
+      self.material = material
+      self.weight = weight
+      self.diameter = diameter
+      self.thickness = thickness
+      self.about = about
+    } else {
+      self.name = ""
+      self.image = ""
+      self.year = ""
+      self.designer = ""
+      self.mint = ""
+      self.material = ""
+      self.weight = ""
+      self.diameter = ""
+      self.thickness = ""
+      self.about = ""
+    }
+  }
+  
   public mutating func setNextState() -> Bool {
     self.isLocked = self.isLocked ? false : true
     return self.isLocked

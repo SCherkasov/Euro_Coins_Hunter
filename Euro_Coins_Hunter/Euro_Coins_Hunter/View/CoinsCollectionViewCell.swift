@@ -69,6 +69,7 @@ class CoinsCollectionViewCell: UICollectionViewCell {
     imageViews[1].alpha = 0.5
     self.coinImage.addSubview(imageViews[0])
     self.coinImage.addSubview(imageViews[1])
+  
     
     NSLayoutConstraint.activate([
       self.leftImageView.leftAnchor.constraint(equalTo: self.coinImage.leftAnchor),
@@ -86,6 +87,8 @@ class CoinsCollectionViewCell: UICollectionViewCell {
       self.rightImageView.widthAnchor.constraint(equalTo: self.coinImage.widthAnchor, multiplier: 0.5)
       ])
     self.rightImageView.translatesAutoresizingMaskIntoConstraints = false
+    
+    
     
     self.button.isHidden = true
   }

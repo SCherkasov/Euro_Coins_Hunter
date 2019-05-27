@@ -10,7 +10,7 @@ import UIKit
 
 class CoinsViewController: UIViewController, CoinsCellDelegate {
   
-  enum EditBarButtonItem {
+  public enum EditBarButtonItem {
     case activate
     case deactivate
   }
@@ -61,6 +61,8 @@ class CoinsViewController: UIViewController, CoinsCellDelegate {
   @objc func editAction() {
     switch self.editBarButtonItemState {
     case .activate:
+      self.coinStore.save()
+      
       self.editBarButtonItemState = .deactivate
       navigationItem.rightBarButtonItem?.title = "Edit"
       self.setCoinCellViewButtonState(true)
@@ -121,11 +123,20 @@ extension CoinsViewController: UICollectionViewDataSource {
     cell.index = indexPath.row
     
     if indexPath.row < self.coinStore.coins.count {
-      cell.coinNameLabel.text = self.coinStore.coins[indexPath.row].name
+      let coin = self.coinStore.coins[indexPath.row]
       
-      let image = UIImage(named: self.coinStore.coins[indexPath.row].image)
+      cell.coinNameLabel.text = coin.name
+      
+      let image = UIImage(named: coin.image)
       cell.coinImage.image = image
       
+      if !coin.isLocked {
+        cell.transition(to: .opened, onCompletion: {
+          cell.doorSate = .opened
+        })
+        
+      }
+    
       self.updateButtonFor(cell: cell, coinAtIndexPath: indexPath)
       
       cell.delegate = self
@@ -155,10 +166,8 @@ extension CoinsViewController: UICollectionViewDataSource {
       cell.transition(to: .closed, onCompletion: onCompletion)
     } else {
       cell.transition(to: .opened, onCompletion: onCompletion)
-      
       // Jenia please help
-      UserDefaults.standard.set(true, forKey: "Open")
-      UserDefaults.standard.synchronize()
+
       
     }
   }

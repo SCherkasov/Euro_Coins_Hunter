@@ -5,6 +5,7 @@
       "flagImageName":"AndorraF.jpg",
       "Coins":[
         {
+          "id": "1",
           "name": "1 euro cent",
           "image": "and_1.jpg",
           "year": "since 2014",
@@ -17,6 +18,7 @@
           "about": "On the background of the mountains - the image of the Pyrenean chamois. In the sky soars bearded. At the bottom left on the diagonal in two lines is the name of the issuing country “ANDORRA” and the year of minting. 12 stars are located along the circumference along the shoulder."
         },
         {
+          "id": "2",
           "name": "2 euro cent",
           "image": "and_2.jpg",
           "year": "since 2014",
@@ -30,6 +32,7 @@
           
         },
         {
+          "id": "3",
           "name": "5 euro cent",
           "image": "and_5.jpg",
           "year": "since 2014",
@@ -42,6 +45,7 @@
           "about": "On the background of the mountains - the image of the Pyrenean chamois. In the sky soars bearded. At the bottom left on the diagonal in two lines is the name of the issuing country “ANDORRA” and the year of minting. 12 stars are located along the circumference along the shoulder."
         },
         {
+          "id": "4",
           "name": "10 euro cent",
           "image": "and_10.jpg",
           "year": "since 2014",
@@ -54,6 +58,7 @@
           "about": "In the central part there is an image of the church of Santa Coloma, in the foreground - a stone arch. On the right, the names of the issuing country “ANDORRA” and the year of minting are vertically indicated in two lines. 12 stars are located along the circumference along the shoulder."
         },
         {
+          "id": "5",
           "name": "20 euro cent",
           "image": "and_20.jpg",
           "year": "since 2014",
@@ -66,6 +71,7 @@
           "about": "In the central part there is an image of the church of Santa Coloma, in the foreground - a stone arch. On the right, the names of the issuing country “ANDORRA” and the year of minting are vertically indicated in two lines. 12 stars are located along the circumference along the shoulder."
         },
         {
+          "id": "6",
           "name": "50 euro cent",
           "image": "and_50.jpg",
           "year": "since 2014",
@@ -78,6 +84,7 @@
           "about": "In the central part there is an image of the church of Santa Coloma, in the foreground - a stone arch. On the right, the names of the issuing country “ANDORRA” and the year of minting are vertically indicated in two lines. 12 stars are located along the circumference along the shoulder."
         },
         {
+          "id": "7",
           "name": "1 euro",
           "image": "and_1e.jpg",
           "year": "since 2014",
@@ -90,6 +97,7 @@
           "about": "In the central part is the building of the old parliament of Andorra, Casa de la Val. Bottom horizontally arranged in two lines the name of the state of the issuer “ANDORRA” and the year of minting In the circle of the outer ring are 12 stars."
         },
         {
+          "id": "8",
           "name": "2 euro",
           "image": "and_2e.jpg",
           "year": "since 2014",
@@ -108,6 +116,7 @@
       "flagImageName": "AustriaF.jpg",
       "Coins": [
         {
+          "id": "9",
           "name": "1 euro cent",
           "image": "aus_1.jpg",
           "year": "since 2002",
@@ -120,6 +129,7 @@
           "about": "Alpine gentian - a flower growing in the Alps at an altitude of 2000-2600 m. The semicircle above indicates the denomination of the coin in German - “EIN EURO CENT”. Bottom shows three alternating stripes (rough-smooth-rough), symbolizing the Austrian flag and the date of issue of the coin."
         },
         {
+          "id": "10",
           "name": "2 euro cent",
           "image": "aus_2.jpg",
           "year": "since 2002",
@@ -132,6 +142,7 @@
           "about": "In the center of the coin is the edelweiss flower. The semicircle above indicates the denomination of the coin in German - “ZWEI EURO CENT”. Bottom shows three alternating stripes (rough-smooth-rough), symbolizing the Austrian flag and the date of issue of the coin."
         },
         {
+          "id": "11",
           "name": "5 euro cent",
           "image": "aus_5.jpg",
           "year": "since 2002",
@@ -144,6 +155,7 @@
           "about": "In the center of the coin is depicted a flower of alpine primrose (primrose). On top of the semicircle is the denomination of the coin in German - “FÜNF EURO CENT”. Bottom shows three alternating stripes (rough-smooth-rough), symbolizing the Austrian flag and the date of issue of the coin."
         },
         {
+          "id": "12",
           "name": "10 euro cent",
           "image": "aus_10.jpg",
           "year": "since 2002",
@@ -156,6 +168,7 @@
           "about": "St. Stephen's Cathedral, which is the main shrine of the Austrian capital. His appearance is sustained in the Gothic spirit. Set the right coin denomination ”10 EURO CENT”, and also shows three alternating strips (rough-smooth, rough) symbolizing Austrian flag. On the left is the date of issue of the coin."
         },
         {
+          "id": "13",
           "name": "20 euro cent",
           "image": "aus_20.jpg",
           "year": "since 2002",
@@ -168,6 +181,7 @@
           "about": "The main gate to the Upper Belvedere with the arms of Prince Eugene of Savoy. The denomination of the coin is divided into two parts: the inscription on top of a semicircle is “EURO CENT”, the bottom value is the numerical value “20”. Also below are three alternating stripes (rough-smooth-rough), symbolizing the Austrian flag and the date of issue of the coin."
         },
         {
+          "id": "14",
           "name": "50 euro cent",
           "image": "aus_50.jpg",
           "year": "since 2002",
@@ -180,6 +194,7 @@
           "about": "The famous Vienna Secession, illustrating the birth of a new art of Austria and a new era, symbolizing the bridge between the old and the new monetary systems. On top of the semicircle is the denomination of the coin - “50 EURO CENT”. On the right are three alternating stripes (rough-smooth-rough), symbolizing the Austrian flag and the date of issue of the coin."
         },
         {
+          "id": "15",
           "name": "1 euro",
           "image": "aus_1e.jpg",
           "year": "since 2002",
@@ -192,6 +207,7 @@
           "about": "Portrait of Wolfgang Mozart, the famous Austrian composer, representing Austria as a great musical state. The design of the coin is based on the portrait of Mozart, written by Barbara Kraft in 1819. To the right of the portrait are three alternating stripes (rough-smooth-rough), symbolizing the Austrian flag. Above them is the nominal value - “1 EURO” in two lines. On the left is the date of issue of the coin."
         },
         {
+          "id": "16",
           "name": "2 euro",
           "image": "aus_2e.jpg",
           "year": "since 2002",
@@ -210,6 +226,7 @@
       "flagImageName":"BelgiumF.jpg",
       "Coins":[
         {
+          "id": "17",
           "name": "1 euro cent",
           "image": "belg_1.jpg",
           "year": "1999—2007",
@@ -222,6 +239,7 @@
           "about": "All Belgian coins of the first series show the profile of the Belgian king Albert II. On the outer ring between the 12 stars of the EU are located the monogram of the king - the crowned letter “A” and the Roman numeral “II” (to the right of the portrait) and the year of coinage."
         },
         {
+          "id": "18",
           "name": "2 euro cent",
           "image": "belg_2.jpg",
           "year": "1999—2007",
@@ -234,6 +252,7 @@
           "about": "All Belgian coins of the first series show the profile of the Belgian king Albert II. On the outer ring between the 12 stars of the EU are located the monogram of the king - the crowned letter “A” and the Roman numeral “II” (to the right of the portrait) and the year of coinage."
         },
         {
+          "id": "19",
           "name": "5 euro cent",
           "image": "belg_5.jpg",
           "year": "1999—2007",
@@ -246,6 +265,7 @@
           "about": "All Belgian coins of the first series show the profile of the Belgian king Albert II. On the outer ring between the 12 stars of the EU are located the monogram of the king - the crowned letter “A” and the Roman numeral “II” (to the right of the portrait) and the year of coinage."
         },
         {
+          "id": "20",
           "name": "10 euro cent",
           "image": "belg_10.jpg",
           "year": "1999—2007",
@@ -258,6 +278,7 @@
           "about": "All Belgian coins of the first series show the profile of the Belgian king Albert II. On the outer ring between the 12 stars of the EU are located the monogram of the king - the crowned letter “A” and the Roman numeral “II” (to the right of the portrait) and the year of coinage."
         },
         {
+          "id": "21",
           "name": "20 euro cent",
           "image": "belg_20.jpg",
           "year": "1999—2007",
@@ -270,6 +291,7 @@
           "about": "All Belgian coins of the first series show the profile of the Belgian king Albert II. On the outer ring between the 12 stars of the EU are located the monogram of the king - the crowned letter “A” and the Roman numeral “II” (to the right of the portrait) and the year of coinage."
         },
         {
+          "id": "22",
           "name": "50 euro cent",
           "image": "belg_50.jpg",
           "year": "1999—2007",

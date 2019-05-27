@@ -10,6 +10,8 @@ import Foundation
 
 class CoinStore {
   
+  static let CoinLockStatesKey = "CoinLockStates"
+  
   var coins = [Coin]()
   private var internalCoins = [Coin]()
   var countries = [Country]()
@@ -17,6 +19,8 @@ class CoinStore {
   func loadCoins() {
     var countries = [Country]()
     var coins = [Coin]()
+    
+    let coinLockStates = UserDefaults.standard.dictionary(forKey: CoinStore.CoinLockStatesKey)
     
     if let path = Bundle.main.path(forResource: "BaseOfCoinCountry",
                                    ofType: "json") {
@@ -40,30 +44,14 @@ class CoinStore {
             var countryCoins = [Coin]()
             
             for coinDict in countryCoinsD {
-              if let name = coinDict["name"],
-                let image = coinDict["image"],
-                let year = coinDict["year"],
-                let designer = coinDict["designer"],
-                let mint = coinDict["mint"],
-                let material = coinDict["material"],
-                let weight = coinDict["weight"],
-                let diameter = coinDict["diameter"],
-                let thickness = coinDict["thickness"],
-                let about = coinDict["about"]
+              var coin = Coin.init(with: coinDict, country: country, isLocked: true)
+              if let dict = coinLockStates,
+                let isLocked = dict[coin.name + coin.image] as? String
               {
-                countryCoins.append(Coin.init(name: name,
-                                              image: image,
-                                              year: year,
-                                              designer: designer,
-                                              mint: mint,
-                                              material: material,
-                                              weight: weight,
-                                              diameter: diameter,
-                                              thickness: thickness,
-                                              about: about,
-                                              country: country,
-                                              isLocked: true))
+                coin.isLocked = isLocked == "true" ? true : false
               }
+              
+              countryCoins.append(coin)
             }
             
             coins = coins + countryCoins
@@ -74,7 +62,6 @@ class CoinStore {
       self.internalCoins = coins
       self.coins = coins
       self.countries = countries
-      
     }
   }
   
@@ -85,5 +72,15 @@ class CoinStore {
         self.coins.append(coin)
       }
     }
+  }
+  
+  func save() {
+    var coinLockStates:[String: String] = [:]
+    _ = self.coins.map { (coin) in
+      coinLockStates[coin.name + coin.image] = coin.isLocked ? "true" : "false"
+    }
+    
+    UserDefaults.standard.set(coinLockStates, forKey: CoinStore.CoinLockStatesKey)
+    UserDefaults.standard.synchronize()
   }
 }
